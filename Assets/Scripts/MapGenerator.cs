@@ -42,6 +42,8 @@ public class MapGenerator : MonoBehaviour
     public float borderOverlapFactor = 0.85f;
     [Tooltip("Randomize border tile position slightly. Keep this small/zero for tiled wall sprites - large jitter causes visible gaps or messy overlap.")]
     public float borderJitter = 0f;
+    [Tooltip("If enabled, the south (bottom) edge of the border ring is left open — useful for turning that side into an ocean/beach entrance.")]
+    public bool openSouthSide = false;
 
     [Header("Scatter - Trees")]
     public GameObject[] treePrefabs;
@@ -176,16 +178,28 @@ public class MapGenerator : MonoBehaviour
             float w = halfW + ring * spacing;
             float h = halfH + ring * spacing;
 
-            // top and bottom edges
+            // top edge (always placed)
             for (float x = -w; x <= w; x += spacing)
             {
                 PlaceBorderRock(new Vector2(x, h));
-                PlaceBorderRock(new Vector2(x, -h));
+            }
+
+            // bottom (south) edge — skipped if openSouthSide is on
+            if (!openSouthSide)
+            {
+                for (float x = -w; x <= w; x += spacing)
+                {
+                    PlaceBorderRock(new Vector2(x, -h));
+                }
             }
 
             // left and right edges
             for (float y = -h; y <= h; y += spacing)
             {
+                // If south is open, stop the side walls short of the bottom row
+                // so they don't cap off the opening you just created.
+                if (openSouthSide && y <= -h + spacing) continue;
+
                 PlaceBorderRock(new Vector2(-w, y));
                 PlaceBorderRock(new Vector2(w, y));
             }
