@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: d9b46b34d3e7d45b394e0bb68e46d8af
+guid: dfa92875a05254bfcb8791f8fdbe5458
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8303560846743895105
-    second: TilesetField_0
-  - first:
-      213: -5280977852008630239
-    second: TilesetField_1
-  - first:
-      213: 9053260140750812927
-    second: TilesetField_2
-  - first:
-      213: 8094654568551728777
-    second: TilesetField_3
-  - first:
-      213: -2842164258401794581
-    second: TilesetField_4
-  - first:
-      213: 7015021583894637166
-    second: TilesetField_5
-  - first:
-      213: -6529562768029158321
-    second: TilesetField_6
-  - first:
-      213: 7959796790533148873
-    second: TilesetField_7
-  - first:
-      213: -5222056081599319547
-    second: TilesetField_8
-  - first:
-      213: -4892229155380162039
-    second: TilesetField_9
+      213: 4035959289877228764
+    second: Walk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -153,221 +113,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TilesetField_0
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 193
-        width: 48
-        height: 47
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14cf201989c2c3370800000000000000
-      internalID: 8303560846743895105
+      spriteID: c123278b27fb54941b569930bec0ac50
+      internalID: 4035959289877228764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_1
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 207
-        width: 33
-        height: 33
+        x: 108
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 128f1589f9236b6b0800000000000000
-      internalID: -5280977852008630239
+      spriteID: 9b8e27825f3aa40f8b8b63b729bad448
+      internalID: 1894180314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_2
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 145
-        width: 48
-        height: 48
+        x: 216
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff6b7acb124a3ad70800000000000000
-      internalID: 9053260140750812927
+      spriteID: c74ea3604909f4ff5a66f5c3fe5216ce
+      internalID: -941997610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_3
+      name: Walk_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 159
-        width: 33
-        height: 34
+        x: 324
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 986c40a517df55070800000000000000
-      internalID: 8094654568551728777
+      spriteID: f3aef684623a44c3cb5bf394fd0339e7
+      internalID: -139041130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 97
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be546a85aaa9e88d0800000000000000
-      internalID: -2842164258401794581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetField_5
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 111
-        width: 33
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6aecbf96fc5a5160800000000000000
-      internalID: 7015021583894637166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetField_6
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 49
-        width: 48
-        height: 48
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f447101f1455265a0800000000000000
-      internalID: -6529562768029158321
+      spriteID: 43afbab2eb03c49098d5fd253c614209
+      internalID: 1453514844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_7
+      name: Walk_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 63
-        width: 33
-        height: 34
+        x: 108
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c0d5081201e67e60800000000000000
-      internalID: 7959796790533148873
+      spriteID: 9471cd20b84c341eaac3783921801e32
+      internalID: -577387378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_8
+      name: Walk_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9752f83826e484938a78282004a3a530
+      internalID: 96333399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdfe3c517b34f6abeb786b317d1b5f
+      internalID: -594808942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 48
-        height: 48
+        y: 170
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 502ba1359a78787b0800000000000000
-      internalID: -5222056081599319547
+      spriteID: 398c705329bfa48e6ae618da94061c3b
+      internalID: -2033900398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetField_9
+      name: Walk_9
       rect:
         serializedVersion: 2
-        x: 47
-        y: 15
-        width: 33
-        height: 34
+        x: 108
+        y: 170
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90291c9d08f4b1cb0800000000000000
-      internalID: -4892229155380162039
+      spriteID: 528f405b2f5c3412fb5213062ff7ebbd
+      internalID: -1531824550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd52695c2853404eb72a01988c3f096
+      internalID: 1192082667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816654406d9ef44da87b9420129e5292
+      internalID: -130097971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426129c3b0c3146aa911bb75686228a1
+      internalID: -878574925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22e2b5ae2c2498a96a61482835c2e1
+      internalID: 1178555914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71f051acd1345a79373f72c3f9e5a4
+      internalID: -1796552202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3779efe2042741089c0a90625cf075a
+      internalID: 91060681
       vertices: []
       indices: 
       edges: []
@@ -376,7 +468,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 832e4ab9ac4294f29a9954880bd87cb1
+    spriteID: d2cc73fb549604dfdb6e7d1c8eefe6fd
     internalID: 0
     vertices: []
     indices: 
@@ -384,18 +476,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      TilesetField_0: 8303560846743895105
-      TilesetField_1: -5280977852008630239
-      TilesetField_2: 9053260140750812927
-      TilesetField_3: 8094654568551728777
-      TilesetField_4: -2842164258401794581
-      TilesetField_5: 7015021583894637166
-      TilesetField_6: -6529562768029158321
-      TilesetField_7: 7959796790533148873
-      TilesetField_8: -5222056081599319547
-      TilesetField_9: -4892229155380162039
+      Walk_0: 4035959289877228764
+      Walk_1: 1894180314
+      Walk_10: 1192082667
+      Walk_11: -130097971
+      Walk_12: -878574925
+      Walk_13: 1178555914
+      Walk_14: -1796552202
+      Walk_15: 91060681
+      Walk_2: -941997610
+      Walk_3: -139041130
+      Walk_4: 1453514844
+      Walk_5: -577387378
+      Walk_6: 96333399
+      Walk_7: -594808942
+      Walk_8: -2033900398
+      Walk_9: -1531824550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
