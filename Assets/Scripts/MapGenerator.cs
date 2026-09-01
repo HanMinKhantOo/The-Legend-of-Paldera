@@ -69,6 +69,10 @@ public class MapGenerator : MonoBehaviour
     [Tooltip("Empty gap kept between the scatter area and the border/wall ring, so resources never spawn inside or touching the walls.")]
     public float scatterMarginFromWalls = 4f;
 
+    [Header("Overlap Prevention")]
+    [Tooltip("Minimum distance kept between ANY two scattered objects (trees, branches, stones, boulders combined), so they never overlap or sit on top of each other.")]
+    public float minSpacingBetweenObjects = 2.5f;
+
     [Header("Randomization")]
     public int seed = 12345;
     [Tooltip("Objects placed within this radius of the spawn point are skipped, to keep the starting area clear.")]
@@ -80,6 +84,7 @@ public class MapGenerator : MonoBehaviour
     private Transform branchRoot;
     private Transform stoneRoot;
     private Transform boulderRoot;
+    private List<Vector2> placedPositions = new List<Vector2>();
 
     public void ClearGenerated()
     {
@@ -118,6 +123,7 @@ public class MapGenerator : MonoBehaviour
         Random.InitState(seed);
 
         ClearGenerated();
+        placedPositions.Clear();
 
         borderRoot = GetOrCreateRoot("Border");
         treeRoot = GetOrCreateRoot("Trees");
@@ -245,6 +251,19 @@ public class MapGenerator : MonoBehaviour
 
                 if (Vector2.Distance(jitteredPos, mapCenter) < spawnClearRadius) continue;
 
+                // Reject if too close to any already-placed object, regardless of type,
+                // so trees/branches/stones/boulders never overlap or stack on each other.
+                bool tooClose = false;
+                foreach (Vector2 existing in placedPositions)
+                {
+                    if (Vector2.Distance(jitteredPos, existing) < minSpacingBetweenObjects)
+                    {
+                        tooClose = true;
+                        break;
+                    }
+                }
+                if (tooClose) continue;
+
                 GameObject prefab = prefabs[Random.Range(0, prefabs.Length)];
                 GameObject obj = InstantiatePrefab(prefab, jitteredPos, root);
                 if (obj == null) continue;
@@ -252,6 +271,8 @@ public class MapGenerator : MonoBehaviour
                 ResourceNode node = obj.GetComponent<ResourceNode>();
                 if (node == null) node = obj.AddComponent<ResourceNode>();
                 node.resourceType = type;
+
+                placedPositions.Add(jitteredPos);
             }
         }
     }
