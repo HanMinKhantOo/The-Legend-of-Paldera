@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 19884ae030053491db5e9e449e0c5dbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8457863143436257836
+    second: VillagePath_0
+  - first:
+      213: -4777272356481947007
+    second: VillagePath_1
+  - first:
+      213: 7923353348357171977
+    second: VillagePath_2
+  - first:
+      213: 51384266185583222
+    second: VillagePath_3
+  - first:
+      213: -5489769991753676009
+    second: VillagePath_4
+  - first:
+      213: -6188937993541387850
+    second: VillagePath_5
+  - first:
+      213: -7899693484256927415
+    second: VillagePath_6
+  - first:
+      213: 591645884485775073
+    second: VillagePath_7
+  - first:
+      213: -6999838514470183819
+    second: VillagePath_8
+  - first:
+      213: -8281823540778894442
+    second: VillagePath_9
+  - first:
+      213: -1391672872916775035
+    second: VillagePath_10
+  - first:
+      213: -4780249089232574207
+    second: VillagePath_11
+  - first:
+      213: 981808158180859127
+    second: VillagePath_12
+  - first:
+      213: 5500693922401760788
+    second: VillagePath_13
+  - first:
+      213: 5347681354706255265
+    second: VillagePath_14
+  - first:
+      213: -3838782691968826933
+    second: VillagePath_15
+  - first:
+      213: -5341811300928568526
+    second: VillagePath_16
+  - first:
+      213: 8339939591093942820
+    second: VillagePath_17
+  - first:
+      213: 3848914159792342830
+    second: VillagePath_18
+  - first:
+      213: -6231399649523073446
+    second: VillagePath_19
+  - first:
+      213: 8311619215326947999
+    second: VillagePath_20
+  - first:
+      213: -8005987260473957943
+    second: VillagePath_21
+  - first:
+      213: 4571821414258272626
+    second: VillagePath_22
+  - first:
+      213: 5157526643028139541
+    second: VillagePath_23
+  - first:
+      213: -5693875156045082631
+    second: VillagePath_24
+  - first:
+      213: 1816689506560179290
+    second: VillagePath_25
+  - first:
+      213: 2532771923177439225
+    second: VillagePath_26
+  - first:
+      213: -2599165529137907649
+    second: VillagePath_27
+  - first:
+      213: -8148640962567282884
+    second: VillagePath_28
+  - first:
+      213: -2787200600167429566
+    second: VillagePath_29
+  - first:
+      213: -4336547472955579297
+    second: VillagePath_30
+  - first:
+      213: -2640537122881649071
+    second: VillagePath_31
+  - first:
+      213: -4284433142368004232
+    second: VillagePath_32
+  - first:
+      213: -2211854948511465706
+    second: VillagePath_33
+  - first:
+      213: -8872425789032469196
+    second: VillagePath_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VillagePath_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 336
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a036f97bd506570800000000000000
+      internalID: 8457863143436257836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 23
+        width: 346
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aa9945a18b3bdb0800000000000000
+      internalID: -4777272356481947007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_2
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 21
+        width: 425
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b2bbef3e765fd60800000000000000
+      internalID: 7923353348357171977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_3
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 31
+        width: 446
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a2905c7bd86b000800000000000000
+      internalID: 51384266185583222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_4
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 237
+        width: 333
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b4cee474b60d3b0800000000000000
+      internalID: -5489769991753676009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_5
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 236
+        width: 351
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9fb0e6fa97c1aa0800000000000000
+      internalID: -6188937993541387850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941e56461a6ae5290800000000000000
+      internalID: -7899693484256927415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eea8991cc2f53800800000000000000
+      internalID: 591645884485775073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 97
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c18e335f39bde90800000000000000
+      internalID: -6999838514470183819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 95
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bf76f5e5d011d80800000000000000
+      internalID: -8281823540778894442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 99
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f8f3e35e8cface0800000000000000
+      internalID: -1391672872916775035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 100
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109686ab7c429adb0800000000000000
+      internalID: -4780249089232574207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_12
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 93
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc53f9615510ad00800000000000000
+      internalID: 981808158180859127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_13
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 112
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41638ee7af3665c40800000000000000
+      internalID: 5500693922401760788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_14
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 101
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adfe3fdbd7c63a40800000000000000
+      internalID: 5347681354706255265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_15
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 97
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1c74bfa77e9bac0800000000000000
+      internalID: -3838782691968826933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_16
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 35
+        width: 418
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2334cf68ce21ed5b0800000000000000
+      internalID: -5341811300928568526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 95
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42afe570fda6db370800000000000000
+      internalID: 8339939591093942820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_18
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 97
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c46139071a6530800000000000000
+      internalID: 3848914159792342830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_19
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 102
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5efeacb80f9589a0800000000000000
+      internalID: -6231399649523073446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_20
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 95
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aafd5b3adc85370800000000000000
+      internalID: 8311619215326947999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_21
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 77
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1a52f010505e090800000000000000
+      internalID: -8005987260473957943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 81
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279636d8a5f527f30800000000000000
+      internalID: 4571821414258272626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e1e45f727339740800000000000000
+      internalID: 5157526643028139541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 47
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffc28886ba4bf0b0800000000000000
+      internalID: -5693875156045082631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cf2b12b7d263910800000000000000
+      internalID: 1816689506560179290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 49
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff21a15a6362320800000000000000
+      internalID: 2532771923177439225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_27
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 47
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f387b43e8b8edebd0800000000000000
+      internalID: -2599165529137907649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_28
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 47
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fdaf7c7363aee80800000000000000
+      internalID: -8148640962567282884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ac34542dfd159d0800000000000000
+      internalID: -2787200600167429566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 49
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f546dd2ac0d71d3c0800000000000000
+      internalID: -4336547472955579297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_31
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 49
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15648661a7dea5bd0800000000000000
+      internalID: -2640537122881649071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_32
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 49
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8779e35c1c2aa84c0800000000000000
+      internalID: -4284433142368004232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_33
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fb84ba4a9ed41e0800000000000000
+      internalID: -2211854948511465706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagePath_34
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 47
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d64b4c0cfced480800000000000000
+      internalID: -8872425789032469196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VillagePath_0: 8457863143436257836
+      VillagePath_1: -4777272356481947007
+      VillagePath_10: -1391672872916775035
+      VillagePath_11: -4780249089232574207
+      VillagePath_12: 981808158180859127
+      VillagePath_13: 5500693922401760788
+      VillagePath_14: 5347681354706255265
+      VillagePath_15: -3838782691968826933
+      VillagePath_16: -5341811300928568526
+      VillagePath_17: 8339939591093942820
+      VillagePath_18: 3848914159792342830
+      VillagePath_19: -6231399649523073446
+      VillagePath_2: 7923353348357171977
+      VillagePath_20: 8311619215326947999
+      VillagePath_21: -8005987260473957943
+      VillagePath_22: 4571821414258272626
+      VillagePath_23: 5157526643028139541
+      VillagePath_24: -5693875156045082631
+      VillagePath_25: 1816689506560179290
+      VillagePath_26: 2532771923177439225
+      VillagePath_27: -2599165529137907649
+      VillagePath_28: -8148640962567282884
+      VillagePath_29: -2787200600167429566
+      VillagePath_3: 51384266185583222
+      VillagePath_30: -4336547472955579297
+      VillagePath_31: -2640537122881649071
+      VillagePath_32: -4284433142368004232
+      VillagePath_33: -2211854948511465706
+      VillagePath_34: -8872425789032469196
+      VillagePath_4: -5489769991753676009
+      VillagePath_5: -6188937993541387850
+      VillagePath_6: -7899693484256927415
+      VillagePath_7: 591645884485775073
+      VillagePath_8: -6999838514470183819
+      VillagePath_9: -8281823540778894442
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

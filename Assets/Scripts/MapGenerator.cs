@@ -78,6 +78,10 @@ public class MapGenerator : MonoBehaviour
     [Tooltip("Objects placed within this radius of the spawn point are skipped, to keep the starting area clear.")]
     public float spawnClearRadius = 8f;
 
+    [Header("Exclusion Zones")]
+    [Tooltip("Rectangular areas (in world space, centered on X/Y with a Width/Height) where NO resources will spawn - use this to reserve space for the village, lake, ruins, ocean/beach, etc. before generating. Reusable and regeneration-safe: unlike manually deleting objects, these zones stay excluded every time you regenerate.")]
+    public List<Rect> exclusionZones = new List<Rect>();
+
     // ---- Internal ----
     private Transform borderRoot;
     private Transform treeRoot;
@@ -250,6 +254,7 @@ public class MapGenerator : MonoBehaviour
                 );
 
                 if (Vector2.Distance(jitteredPos, mapCenter) < spawnClearRadius) continue;
+                if (IsInAnyExclusionZone(jitteredPos)) continue;
 
                 // Reject if too close to any already-placed object, regardless of type,
                 // so trees/branches/stones/boulders never overlap or stack on each other.
@@ -277,6 +282,19 @@ public class MapGenerator : MonoBehaviour
         }
     }
 
+    private bool IsInAnyExclusionZone(Vector2 worldPos)
+    {
+        if (exclusionZones == null) return false;
+        foreach (Rect zone in exclusionZones)
+        {
+            // Rect is defined in world space directly (x/y = center, width/height = size),
+            // not min-corner-based, so convert for the Contains check.
+            Rect worldRect = new Rect(zone.x - zone.width / 2f, zone.y - zone.height / 2f, zone.width, zone.height);
+            if (worldRect.Contains(worldPos)) return true;
+        }
+        return false;
+    }
+
     private GameObject InstantiatePrefab(GameObject prefab, Vector3 position, Transform parent)
     {
         if (prefab == null) return null;
@@ -288,6 +306,18 @@ public class MapGenerator : MonoBehaviour
 #else
         return Instantiate(prefab, position, Quaternion.identity, parent);
 #endif
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (exclusionZones == null) return;
+        Gizmos.color = new Color(1f, 0.3f, 0.3f, 0.8f);
+        foreach (Rect zone in exclusionZones)
+        {
+            Vector3 center = new Vector3(zone.x, zone.y, 0f);
+            Vector3 size = new Vector3(zone.width, zone.height, 0f);
+            Gizmos.DrawWireCube(center, size);
+        }
     }
 }
 
