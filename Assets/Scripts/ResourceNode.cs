@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class ResourceNode : MonoBehaviour
 {
-    public enum ResourceType { Tree, Stone, Boulder, Branch }
+    public enum ResourceType { Tree, Stone, Boulder, Branch, Iron }
 
     [Header("Identity")]
     public ResourceType resourceType;
