@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 4957e39ca28a444e2b4beab41dfc4d6a
+guid: 427a774f83b4b4f22bf41da2df2888ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5725184139431673129
-    second: stone_0
+      213: -7516342049021962738
+    second: Dialogue_0
   - first:
-      213: 368061591710823274
-    second: stone_1
+      213: -172192467049273162
+    second: Dialogue_1
+  - first:
+      213: -7002591632548783677
+    second: Dialogue_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 450
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone_0
+      name: Dialogue_0
       rect:
         serializedVersion: 2
-        x: 688
-        y: 663
-        width: 651
-        height: 341
+        x: 28
+        y: 23
+        width: 1390
+        height: 1045
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92d768834a0f37f40800000000000000
-      internalID: 5725184139431673129
+      spriteID: e06d6bdcab690b790800000000000000
+      internalID: -7516342049021962738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone_1
+      name: Dialogue_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 71
-        width: 526
-        height: 495
+        x: 481
+        y: 54
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +156,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a63736d411e9b1500800000000000000
-      internalID: 368061591710823274
+      spriteID: 6b8a7801ddf3c9df0800000000000000
+      internalID: -172192467049273162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 50
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c99ec2f20cc1de90800000000000000
+      internalID: -7002591632548783677
       vertices: []
       indices: 
       edges: []
@@ -186,8 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stone_0: 5725184139431673129
-      stone_1: 368061591710823274
+      Dialogue_0: -7516342049021962738
+      Dialogue_1: -172192467049273162
+      Dialogue_2: -7002591632548783677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
