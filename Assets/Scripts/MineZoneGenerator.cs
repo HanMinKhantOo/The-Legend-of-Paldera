@@ -51,6 +51,11 @@ public class MineZoneGenerator : MonoBehaviour
     public float minNodeSpacing = 2f;
     [Tooltip("Empty margin kept clear of nodes near the border/entrance, in world units.")]
     public float nodeMarginFromEdge = 1.5f;
+    [Tooltip("If true, each iron/stone node gets a BoxCollider2D sized to its sprite, so the player physically bumps into it instead of walking through.")]
+    public bool blockPlayerAtNodes = true;
+    [Range(0.1f, 1f)]
+    [Tooltip("Shrinks the node's collider relative to its full sprite size, so the player can walk close enough to mine it without the hitbox feeling oversized. 1 = full sprite size.")]
+    public float nodeColliderScale = 0.6f;
 
     private Transform root;
     private Transform groundRoot;
@@ -83,6 +88,39 @@ public class MineZoneGenerator : MonoBehaviour
             else DestroyImmediate(existing.gameObject);
         }
         placedNodePositions.Clear();
+    }
+
+    [ContextMenu("Add Missing Colliders (Fix Existing Quarry)")]
+    public void AddMissingColliders()
+    {
+        Transform existing = transform.Find("QuarryZone");
+        if (existing == null)
+        {
+            Debug.LogWarning("[MineZoneGenerator] No generated quarry found - generate first.");
+            return;
+        }
+
+        int added = 0;
+
+        foreach (Transform child in existing.GetComponentsInChildren<Transform>(true))
+        {
+            if (child == existing) continue;
+            bool isBorderPiece = child.parent != null && child.parent.name == "QuarryBorder";
+            bool isNode = child.parent != null && child.parent.name == "QuarryNodes";
+            if (!isBorderPiece && !isNode) continue;
+
+            if (child.GetComponent<Collider2D>() != null) continue;
+
+            SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+            if (sr == null || sr.sprite == null) continue;
+
+            BoxCollider2D col = child.gameObject.AddComponent<BoxCollider2D>();
+            float scale = isNode ? nodeColliderScale : 1f;
+            col.size = sr.sprite.bounds.size * scale;
+            added++;
+        }
+
+        Debug.Log($"[MineZoneGenerator] Added {added} missing colliders to existing quarry objects.");
     }
 
     private Transform GetOrCreateRoot(string name, Transform parent = null)
@@ -278,6 +316,16 @@ public class MineZoneGenerator : MonoBehaviour
             ResourceNode resNode = node.GetComponent<ResourceNode>();
             if (resNode == null) resNode = node.AddComponent<ResourceNode>();
             resNode.resourceType = useIron ? ResourceNode.ResourceType.Iron : ResourceNode.ResourceType.Stone;
+
+            if (blockPlayerAtNodes && node.GetComponent<Collider2D>() == null)
+            {
+                BoxCollider2D col = node.AddComponent<BoxCollider2D>();
+                SpriteRenderer sr = node.GetComponent<SpriteRenderer>();
+                if (sr != null && sr.sprite != null)
+                {
+                    col.size = sr.sprite.bounds.size * nodeColliderScale;
+                }
+            }
 
             placedNodePositions.Add(candidate);
             placed++;
