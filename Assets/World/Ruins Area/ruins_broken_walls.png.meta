@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: a41dce6d7357f45a59942128f37796a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4400384475877499937
+    second: ruins_broken_walls_0
+  - first:
+      213: -4430163208177572433
+    second: ruins_broken_walls_1
+  - first:
+      213: 5180345524271185289
+    second: ruins_broken_walls_2
+  - first:
+      213: 6025063826318945187
+    second: ruins_broken_walls_3
+  - first:
+      213: -2269997918734932635
+    second: ruins_broken_walls_4
+  - first:
+      213: 4190325678772841533
+    second: ruins_broken_walls_5
+  - first:
+      213: -7977696400241091780
+    second: ruins_broken_walls_6
+  - first:
+      213: -3715054451739670419
+    second: ruins_broken_walls_7
+  - first:
+      213: -7991484296698073216
+    second: ruins_broken_walls_8
+  - first:
+      213: 8300870702528183193
+    second: ruins_broken_walls_9
+  - first:
+      213: 6119429373000962650
+    second: ruins_broken_walls_10
+  - first:
+      213: -8817896653208187483
+    second: ruins_broken_walls_11
+  - first:
+      213: -2988817076702386046
+    second: ruins_broken_walls_12
+  - first:
+      213: 2684158575637943283
+    second: ruins_broken_walls_13
+  - first:
+      213: -4472895503828815696
+    second: ruins_broken_walls_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruins_broken_walls_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 1604
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12462d7dd5e411d30800000000000000
+      internalID: 4400384475877499937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_1
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 782
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5229fb806e482c0800000000000000
+      internalID: -4430163208177572433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_2
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 757
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df7f3cec844e740800000000000000
+      internalID: 5180345524271185289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_3
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 727
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abebccb0a35d9350800000000000000
+      internalID: 6025063826318945187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 676
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565adec7be85f70e0800000000000000
+      internalID: -2269997918734932635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_5
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 676
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ce378e007072a30800000000000000
+      internalID: 4190325678772841533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 608
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b97b14467894190800000000000000
+      internalID: -7977696400241091780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_7
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 508
+        width: 114
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68c2dac8a9717cc0800000000000000
+      internalID: -3715054451739670419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_8
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 299
+        width: 78
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fe2337f5b881190800000000000000
+      internalID: -7991484296698073216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_9
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bb3ae8ced923370800000000000000
+      internalID: 8300870702528183193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_10
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 65
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5250d5b7949ce450800000000000000
+      internalID: 6119429373000962650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_11
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 74
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8b6f86b980a580800000000000000
+      internalID: -8817896653208187483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_12
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 74
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288688444b69586d0800000000000000
+      internalID: -2988817076702386046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_13
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 51
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3d7b5d00c004520800000000000000
+      internalID: 2684158575637943283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_broken_walls_14
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 55
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b077d8dc351de1c0800000000000000
+      internalID: -4472895503828815696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ruins_broken_walls_0: 4400384475877499937
+      ruins_broken_walls_1: -4430163208177572433
+      ruins_broken_walls_10: 6119429373000962650
+      ruins_broken_walls_11: -8817896653208187483
+      ruins_broken_walls_12: -2988817076702386046
+      ruins_broken_walls_13: 2684158575637943283
+      ruins_broken_walls_14: -4472895503828815696
+      ruins_broken_walls_2: 5180345524271185289
+      ruins_broken_walls_3: 6025063826318945187
+      ruins_broken_walls_4: -2269997918734932635
+      ruins_broken_walls_5: 4190325678772841533
+      ruins_broken_walls_6: -7977696400241091780
+      ruins_broken_walls_7: -3715054451739670419
+      ruins_broken_walls_8: -7991484296698073216
+      ruins_broken_walls_9: 8300870702528183193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

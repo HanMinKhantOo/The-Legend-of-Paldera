@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: cc7be6c0b5a2f4e88a391f6f7952aa19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5422049096208135129
+    second: ruins_summon_alter_0
+  - first:
+      213: 9116032013941207069
+    second: ruins_summon_alter_1
+  - first:
+      213: -7238619611770506568
+    second: ruins_summon_alter_2
+  - first:
+      213: -2243335039854668719
+    second: ruins_summon_alter_3
+  - first:
+      213: 4998781599207686152
+    second: ruins_summon_alter_4
+  - first:
+      213: -3673608280023914816
+    second: ruins_summon_alter_5
+  - first:
+      213: -7458044465014104824
+    second: ruins_summon_alter_6
+  - first:
+      213: -4681312998553237810
+    second: ruins_summon_alter_7
+  - first:
+      213: -6622031953072799425
+    second: ruins_summon_alter_8
+  - first:
+      213: 3841831076250742065
+    second: ruins_summon_alter_9
+  - first:
+      213: -6922942163264136514
+    second: ruins_summon_alter_10
+  - first:
+      213: -5806348565606075708
+    second: ruins_summon_alter_11
+  - first:
+      213: -1632714905655391729
+    second: ruins_summon_alter_12
+  - first:
+      213: -6119858538701285867
+    second: ruins_summon_alter_13
+  - first:
+      213: 7444101635005347585
+    second: ruins_summon_alter_14
+  - first:
+      213: -5661904311124126818
+    second: ruins_summon_alter_15
+  - first:
+      213: -7880909860715863141
+    second: ruins_summon_alter_16
+  - first:
+      213: 3701595905848459772
+    second: ruins_summon_alter_17
+  - first:
+      213: -6248360029147516960
+    second: ruins_summon_alter_18
+  - first:
+      213: 6055900226677061696
+    second: ruins_summon_alter_19
+  - first:
+      213: 1499226343640277214
+    second: ruins_summon_alter_20
+  - first:
+      213: 4364202690998521333
+    second: ruins_summon_alter_21
+  - first:
+      213: -4691764677261369205
+    second: ruins_summon_alter_22
+  - first:
+      213: 3915420068418821796
+    second: ruins_summon_alter_23
+  - first:
+      213: 6732012110155548804
+    second: ruins_summon_alter_24
+  - first:
+      213: 8715468853399870621
+    second: ruins_summon_alter_25
+  - first:
+      213: 7208462070279909583
+    second: ruins_summon_alter_26
+  - first:
+      213: -7931468058145819010
+    second: ruins_summon_alter_27
+  - first:
+      213: -6680888662264412041
+    second: ruins_summon_alter_28
+  - first:
+      213: 6181846850734173779
+    second: ruins_summon_alter_29
+  - first:
+      213: 8349851932459556309
+    second: ruins_summon_alter_30
+  - first:
+      213: -54024454674896218
+    second: ruins_summon_alter_31
+  - first:
+      213: -3521793560258214755
+    second: ruins_summon_alter_32
+  - first:
+      213: -2145128200430429434
+    second: ruins_summon_alter_33
+  - first:
+      213: -8041346447674474570
+    second: ruins_summon_alter_34
+  - first:
+      213: 1560070614681771360
+    second: ruins_summon_alter_35
+  - first:
+      213: -4457402009194395038
+    second: ruins_summon_alter_36
+  - first:
+      213: -3731869842600630799
+    second: ruins_summon_alter_37
+  - first:
+      213: 3431995800305617753
+    second: ruins_summon_alter_38
+  - first:
+      213: -2804126524752407550
+    second: ruins_summon_alter_39
+  - first:
+      213: -1437011246376839614
+    second: ruins_summon_alter_40
+  - first:
+      213: -2856980959001254698
+    second: ruins_summon_alter_41
+  - first:
+      213: -2841601215752065433
+    second: ruins_summon_alter_42
+  - first:
+      213: 8792095271293878240
+    second: ruins_summon_alter_43
+  - first:
+      213: 1789370222156442533
+    second: ruins_summon_alter_44
+  - first:
+      213: -1287616926937146701
+    second: ruins_summon_alter_45
+  - first:
+      213: -4888170247693094675
+    second: ruins_summon_alter_46
+  - first:
+      213: -6242766785686253137
+    second: ruins_summon_alter_47
+  - first:
+      213: -1475862196983887420
+    second: ruins_summon_alter_48
+  - first:
+      213: -9073639074322143418
+    second: ruins_summon_alter_49
+  - first:
+      213: 1096573641912420094
+    second: ruins_summon_alter_50
+  - first:
+      213: -428335533525820017
+    second: ruins_summon_alter_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruins_summon_alter_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 1145
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c49c1031301c4b0800000000000000
+      internalID: -5422049096208135129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1197
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10fd0061d6a28e70800000000000000
+      internalID: 9116032013941207069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1209
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b23e30a0d14b8b90800000000000000
+      internalID: -7238619611770506568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1213
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154964dbaa21ed0e0800000000000000
+      internalID: -2243335039854668719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1205
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800888a316d3f5540800000000000000
+      internalID: 4998781599207686152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1157
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6ad31abb8b40dc0800000000000000
+      internalID: -3673608280023914816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_6
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1156
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d14cfc214bf7890800000000000000
+      internalID: -7458044465014104824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1159
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6c0d661a2a80fb0800000000000000
+      internalID: -4681312998553237810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_8
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1164
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f314fc11601d914a0800000000000000
+      internalID: -6622031953072799425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d6bfa420de05530800000000000000
+      internalID: 3841831076250742065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_10
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1138
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba111628c4ccef90800000000000000
+      internalID: -6922942163264136514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 907
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c273f03eb4bb6fa0800000000000000
+      internalID: -5806348565606075708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_12
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 779
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0accec917e6759e0800000000000000
+      internalID: -1632714905655391729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 5
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516911d5515e11ba0800000000000000
+      internalID: -6119858538701285867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_14
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 505
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107f56a1ff2ce4760800000000000000
+      internalID: 7444101635005347585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_15
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 552
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93913fe600ec61b0800000000000000
+      internalID: -5661904311124126818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_16
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 554
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93682d8c3261a290800000000000000
+      internalID: -7880909860715863141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_17
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 498
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1432e4dd5be5330800000000000000
+      internalID: 3701595905848459772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 375
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efa9e1a8ad5949a0800000000000000
+      internalID: -6248360029147516960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 339
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0483b4eab21ea0450800000000000000
+      internalID: 6055900226677061696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 337
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed026929a625ec410800000000000000
+      internalID: 1499226343640277214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 327
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd45c49933c09c30800000000000000
+      internalID: 4364202690998521333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 302
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b806c1252e083eeb0800000000000000
+      internalID: -4691764677261369205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 300
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae1a84becd565630800000000000000
+      internalID: 3915420068418821796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_24
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 152
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4880371b859ec6d50800000000000000
+      internalID: 6732012110155548804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_25
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c51e1eeb093f870800000000000000
+      internalID: 8715468853399870621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_26
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 144
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc039e39f0a990460800000000000000
+      internalID: 7208462070279909583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e767cd6e2d3cde190800000000000000
+      internalID: -7931468058145819010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7788bc59827b843a0800000000000000
+      internalID: -6680888662264412041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_29
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ea0e935f45ac550800000000000000
+      internalID: 6181846850734173779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_30
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 112
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd5c59d712a0e370800000000000000
+      internalID: 8349851932459556309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_31
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 95
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2be17b01104ff0800000000000000
+      internalID: -54024454674896218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 97
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d940d8c8a63102fc0800000000000000
+      internalID: -3521793560258214755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_33
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 95
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bdbaf5449fa32e0800000000000000
+      internalID: -2145128200430429434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 81
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf738eb206676090800000000000000
+      internalID: -8041346447674474570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dd1ac55fb76a510800000000000000
+      internalID: 1560070614681771360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 65
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a0bdc2d702422c0800000000000000
+      internalID: -4457402009194395038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 61
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5ebc3862cb53cc0800000000000000
+      internalID: -3731869842600630799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_38
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b49d33ff5e0af20800000000000000
+      internalID: 3431995800305617753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_39
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d1ea58cdb519d0800000000000000
+      internalID: -2804126524752407550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_40
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 47
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246977192e5be0ce0800000000000000
+      internalID: -1437011246376839614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 55
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4eca864f6f958d0800000000000000
+      internalID: -2856980959001254698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_42
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 55
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ea7cdefba9098d0800000000000000
+      internalID: -2841601215752065433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 25
+        width: 76
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0effcd4111cc30a70800000000000000
+      internalID: 8792095271293878240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_44
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 41
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abeb4f8cbe15d810800000000000000
+      internalID: 1789370222156442533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_45
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 59
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba912f1a37712ee0800000000000000
+      internalID: -1287616926937146701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_46
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 47
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0be90fe0bb92cb0800000000000000
+      internalID: -4888170247693094675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_47
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 117
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1509b1fac3d59a0800000000000000
+      internalID: -6242766785686253137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_48
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 17
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9095bb62fa48be0800000000000000
+      internalID: -1475862196983887420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_49
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 31
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647acea0655f31280800000000000000
+      internalID: -9073639074322143418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_50
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 15
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60f3cdaefc73f00800000000000000
+      internalID: 1096573641912420094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_summon_alter_51
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 15
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d14870a1f3e0af0800000000000000
+      internalID: -428335533525820017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ruins_summon_alter_0: -5422049096208135129
+      ruins_summon_alter_1: 9116032013941207069
+      ruins_summon_alter_10: -6922942163264136514
+      ruins_summon_alter_11: -5806348565606075708
+      ruins_summon_alter_12: -1632714905655391729
+      ruins_summon_alter_13: -6119858538701285867
+      ruins_summon_alter_14: 7444101635005347585
+      ruins_summon_alter_15: -5661904311124126818
+      ruins_summon_alter_16: -7880909860715863141
+      ruins_summon_alter_17: 3701595905848459772
+      ruins_summon_alter_18: -6248360029147516960
+      ruins_summon_alter_19: 6055900226677061696
+      ruins_summon_alter_2: -7238619611770506568
+      ruins_summon_alter_20: 1499226343640277214
+      ruins_summon_alter_21: 4364202690998521333
+      ruins_summon_alter_22: -4691764677261369205
+      ruins_summon_alter_23: 3915420068418821796
+      ruins_summon_alter_24: 6732012110155548804
+      ruins_summon_alter_25: 8715468853399870621
+      ruins_summon_alter_26: 7208462070279909583
+      ruins_summon_alter_27: -7931468058145819010
+      ruins_summon_alter_28: -6680888662264412041
+      ruins_summon_alter_29: 6181846850734173779
+      ruins_summon_alter_3: -2243335039854668719
+      ruins_summon_alter_30: 8349851932459556309
+      ruins_summon_alter_31: -54024454674896218
+      ruins_summon_alter_32: -3521793560258214755
+      ruins_summon_alter_33: -2145128200430429434
+      ruins_summon_alter_34: -8041346447674474570
+      ruins_summon_alter_35: 1560070614681771360
+      ruins_summon_alter_36: -4457402009194395038
+      ruins_summon_alter_37: -3731869842600630799
+      ruins_summon_alter_38: 3431995800305617753
+      ruins_summon_alter_39: -2804126524752407550
+      ruins_summon_alter_4: 4998781599207686152
+      ruins_summon_alter_40: -1437011246376839614
+      ruins_summon_alter_41: -2856980959001254698
+      ruins_summon_alter_42: -2841601215752065433
+      ruins_summon_alter_43: 8792095271293878240
+      ruins_summon_alter_44: 1789370222156442533
+      ruins_summon_alter_45: -1287616926937146701
+      ruins_summon_alter_46: -4888170247693094675
+      ruins_summon_alter_47: -6242766785686253137
+      ruins_summon_alter_48: -1475862196983887420
+      ruins_summon_alter_49: -9073639074322143418
+      ruins_summon_alter_5: -3673608280023914816
+      ruins_summon_alter_50: 1096573641912420094
+      ruins_summon_alter_51: -428335533525820017
+      ruins_summon_alter_6: -7458044465014104824
+      ruins_summon_alter_7: -4681312998553237810
+      ruins_summon_alter_8: -6622031953072799425
+      ruins_summon_alter_9: 3841831076250742065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
