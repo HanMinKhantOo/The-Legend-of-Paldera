@@ -9,7 +9,9 @@ public class InventoryController : MonoBehaviour
     public int slotCount = 40;
 
     [Header("Item Prefabs")]
-    public GameObject[] itemPrefabs;
+    public GameObject branchItemPrefab;
+    public GameObject stoneItemPrefab;
+    public GameObject logItemPrefab;
 
     private List<Slot> slots = new List<Slot>();
 
@@ -17,7 +19,6 @@ public class InventoryController : MonoBehaviour
     {
         CreateSlots();
     }
-
 
     private void CreateSlots()
     {
@@ -41,6 +42,7 @@ public class InventoryController : MonoBehaviour
 
     public bool AddItem(ItemType itemType, int amount = 1)
     {
+        SyncSlotItemReferences();
         // First try to add to an existing stack.
         foreach (Slot slot in slots)
         {
@@ -63,6 +65,7 @@ public class InventoryController : MonoBehaviour
                     Mathf.Min(amount, availableSpace);
 
                 existingItem.AddQuantity(amountToAdd);
+
                 amount -= amountToAdd;
 
                 if (amount <= 0)
@@ -72,7 +75,7 @@ public class InventoryController : MonoBehaviour
             }
         }
 
-        // If there are items remaining, create new stacks.
+        // Create new stacks if items are still remaining.
         while (amount > 0)
         {
             Slot emptySlot = FindEmptySlot();
@@ -88,7 +91,7 @@ public class InventoryController : MonoBehaviour
             if (prefab == null)
             {
                 Debug.LogError(
-                    "No inventory prefab found for: " + itemType
+                    "No inventory prefab assigned for: " + itemType
                 );
 
                 return false;
@@ -103,10 +106,22 @@ public class InventoryController : MonoBehaviour
             if (rect != null)
             {
                 rect.anchoredPosition = Vector2.zero;
+                rect.localScale = Vector3.one;
             }
 
             InventoryItem inventoryItem =
                 newItem.GetComponent<InventoryItem>();
+
+            if (inventoryItem == null)
+            {
+                Debug.LogError(
+                    prefab.name +
+                    " does not contain an InventoryItem component!"
+                );
+
+                Destroy(newItem);
+                return false;
+            }
 
             int amountForThisStack =
                 Mathf.Min(amount, inventoryItem.maxStack);
@@ -133,24 +148,47 @@ public class InventoryController : MonoBehaviour
 
         return null;
     }
+    private void SyncSlotItemReferences()
+    {
+        foreach (Slot slot in slots)
+        {
+            if (slot == null)
+                continue;
+
+            // Already connected correctly.
+            if (slot.currentItem != null)
+                continue;
+
+            // Check whether an item already exists visually inside this slot.
+            InventoryItem existingItem =
+                slot.GetComponentInChildren<InventoryItem>(true);
+
+            if (existingItem != null)
+            {
+                slot.currentItem = existingItem.gameObject;
+            }
+        }
+    }
 
     private GameObject GetItemPrefab(ItemType itemType)
     {
-        foreach (GameObject prefab in itemPrefabs)
+        switch (itemType)
         {
-            if (prefab == null)
-                continue;
+            case ItemType.Branch:
+                return branchItemPrefab;
 
-            InventoryItem inventoryItem =
-                prefab.GetComponent<InventoryItem>();
+            case ItemType.Stone:
+                return stoneItemPrefab;
 
-            if (inventoryItem != null &&
-                inventoryItem.itemType == itemType)
-            {
-                return prefab;
-            }
+            case ItemType.Log:
+                return logItemPrefab;
+
+            default:
+                Debug.LogError(
+                    "Unsupported ItemType: " + itemType
+                );
+
+                return null;
         }
-
-        return null;
     }
 }

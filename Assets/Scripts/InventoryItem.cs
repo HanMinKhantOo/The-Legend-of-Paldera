@@ -4,7 +4,8 @@ using TMPro;
 public enum ItemType
 {
     Branch,
-    Stone
+    Stone,
+    Log
 }
 
 public class InventoryItem : MonoBehaviour

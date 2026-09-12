@@ -104,3 +104,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 .DS_Store
+
+# Unity recovery files
+Assets/_Recovery/
+Assets/_Recovery.meta
