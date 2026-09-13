@@ -1,0 +1,953 @@
+fileFormatVersion: 2
+guid: 8f9a50cf958084edc8fe061e61a7b0fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1010776733179056793
+    second: lake_transparent_0
+  - first:
+      213: 5823569662772214421
+    second: lake_transparent_1
+  - first:
+      213: 8499047716827855977
+    second: lake_transparent_2
+  - first:
+      213: -7206843615749788813
+    second: lake_transparent_3
+  - first:
+      213: -4199689809362953715
+    second: lake_transparent_4
+  - first:
+      213: -6871963914626429861
+    second: lake_transparent_5
+  - first:
+      213: -1262955060632088754
+    second: lake_transparent_6
+  - first:
+      213: -3452660303166072715
+    second: lake_transparent_7
+  - first:
+      213: 4623419396408244275
+    second: lake_transparent_8
+  - first:
+      213: 5846835865627437699
+    second: lake_transparent_9
+  - first:
+      213: -4647134583511157446
+    second: lake_transparent_10
+  - first:
+      213: -1715308834190896144
+    second: lake_transparent_11
+  - first:
+      213: 7822012299053555814
+    second: lake_transparent_12
+  - first:
+      213: 5775890166378070386
+    second: lake_transparent_13
+  - first:
+      213: 2671417471075552697
+    second: lake_transparent_14
+  - first:
+      213: -4274908834047574120
+    second: lake_transparent_15
+  - first:
+      213: -9028991183839238694
+    second: lake_transparent_16
+  - first:
+      213: 179366209937438348
+    second: lake_transparent_17
+  - first:
+      213: 6736791318571894440
+    second: lake_transparent_18
+  - first:
+      213: -6002012534723314042
+    second: lake_transparent_19
+  - first:
+      213: -4882299226040298636
+    second: lake_transparent_20
+  - first:
+      213: -1519425271624263925
+    second: lake_transparent_21
+  - first:
+      213: -5072247847522380464
+    second: lake_transparent_22
+  - first:
+      213: -8118253788975300952
+    second: lake_transparent_23
+  - first:
+      213: 3588872773059785175
+    second: lake_transparent_24
+  - first:
+      213: -2743429443461526335
+    second: lake_transparent_25
+  - first:
+      213: 5748933872074870894
+    second: lake_transparent_26
+  - first:
+      213: 2966688527449176316
+    second: lake_transparent_27
+  - first:
+      213: -3464020274028193336
+    second: lake_transparent_28
+  - first:
+      213: 8992879970427148590
+    second: lake_transparent_29
+  - first:
+      213: 8592366489045401859
+    second: lake_transparent_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lake_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1399
+        height: 1121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de1af9aeff8f1f0800000000000000
+      internalID: -1010776733179056793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1108
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a7742f0c971d050800000000000000
+      internalID: 5823569662772214421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 995
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c7e9a5edea2f570800000000000000
+      internalID: 8499047716827855977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 961
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b217b3ae52cfb90800000000000000
+      internalID: -7206843615749788813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 941
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ad71a8e54b7b5c0800000000000000
+      internalID: -4199689809362953715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 871
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c83679a31e1a0a0800000000000000
+      internalID: -6871963914626429861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 905
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f0eb35015197ee0800000000000000
+      internalID: -1262955060632088754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 885
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57891bb4fbfa510d0800000000000000
+      internalID: -3452660303166072715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 824
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3387092f17fa92040800000000000000
+      internalID: 4623419396408244275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 862
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aacbeed32242150800000000000000
+      internalID: 5846835865627437699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a357266c7bf028fb0800000000000000
+      internalID: -4647134583511157446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 818
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f356f114bff138e0800000000000000
+      internalID: -1715308834190896144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 781
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660e2d14ebe5d8c60800000000000000
+      internalID: 7822012299053555814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 778
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27103ac1185182050800000000000000
+      internalID: 5775890166378070386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 772
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd0b324908c21520800000000000000
+      internalID: 2671417471075552697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 758
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3a6b90197ca4c0800000000000000
+      internalID: -4274908834047574120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 760
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5e02f1b5492b280800000000000000
+      internalID: -9028991183839238694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 718
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86770c1e9c3d7200800000000000000
+      internalID: 179366209937438348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 690
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6c96dd204ed7d50800000000000000
+      internalID: 6736791318571894440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 698
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eff52566194bca0800000000000000
+      internalID: -6002012534723314042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 674
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47314b0b8b69e3cb0800000000000000
+      internalID: -4882299226040298636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 678
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07951604cae9eae0800000000000000
+      internalID: -1519425271624263925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 326
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05550b3e471cb99b0800000000000000
+      internalID: -5072247847522380464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 301
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae78a7f03b265f80800000000000000
+      internalID: -8118253788975300952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 255
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1bc4eb5cc3ec130800000000000000
+      internalID: 3588872773059785175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 273
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc02cd4716de9d0800000000000000
+      internalID: -2743429443461526335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60db32c5e058cf40800000000000000
+      internalID: 5748933872074870894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 231
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8b5dd5f7bcb2920800000000000000
+      internalID: 2966688527449176316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 199
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c95cc7f9e35defc0800000000000000
+      internalID: -3464020274028193336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 183
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e291901dfa02dcc70800000000000000
+      internalID: 8992879970427148590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lake_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30185872cc73e3770800000000000000
+      internalID: 8592366489045401859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape:
+    - - {x: 630, y: -22}
+      - {x: 459, y: 259}
+      - {x: 350.38916, y: 322.29382}
+      - {x: -226, y: 425}
+      - {x: -474.30634, y: 311.99377}
+      - {x: -604, y: -104}
+      - {x: -409, y: -433}
+      - {x: 437, y: -425}
+    - - {x: 368, y: 331}
+      - {x: 369, y: 333}
+      - {x: 370, y: 338}
+      - {x: 371, y: 342}
+      - {x: 374, y: 338}
+      - {x: 377, y: 337}
+      - {x: 372, y: 335}
+      - {x: 372, y: 333}
+      - {x: 373, y: 327}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lake_transparent_0: -1010776733179056793
+      lake_transparent_1: 5823569662772214421
+      lake_transparent_10: -4647134583511157446
+      lake_transparent_11: -1715308834190896144
+      lake_transparent_12: 7822012299053555814
+      lake_transparent_13: 5775890166378070386
+      lake_transparent_14: 2671417471075552697
+      lake_transparent_15: -4274908834047574120
+      lake_transparent_16: -9028991183839238694
+      lake_transparent_17: 179366209937438348
+      lake_transparent_18: 6736791318571894440
+      lake_transparent_19: -6002012534723314042
+      lake_transparent_2: 8499047716827855977
+      lake_transparent_20: -4882299226040298636
+      lake_transparent_21: -1519425271624263925
+      lake_transparent_22: -5072247847522380464
+      lake_transparent_23: -8118253788975300952
+      lake_transparent_24: 3588872773059785175
+      lake_transparent_25: -2743429443461526335
+      lake_transparent_26: 5748933872074870894
+      lake_transparent_27: 2966688527449176316
+      lake_transparent_28: -3464020274028193336
+      lake_transparent_29: 8992879970427148590
+      lake_transparent_3: -7206843615749788813
+      lake_transparent_30: 8592366489045401859
+      lake_transparent_4: -4199689809362953715
+      lake_transparent_5: -6871963914626429861
+      lake_transparent_6: -1262955060632088754
+      lake_transparent_7: -3452660303166072715
+      lake_transparent_8: 4623419396408244275
+      lake_transparent_9: 5846835865627437699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
