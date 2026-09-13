@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 2a5bfa1f8459e48d7ae06b29b76f15f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6748390193327741120
+    second: yellowfilled_bar_0
+  - first:
+      213: -2895023045720161520
+    second: yellowfilled_bar_1
+  - first:
+      213: -6515290257517749259
+    second: yellowfilled_bar_2
+  - first:
+      213: 515521202814629479
+    second: yellowfilled_bar_3
+  - first:
+      213: 7451853799417945953
+    second: yellowfilled_bar_4
+  - first:
+      213: 5138041587632594922
+    second: yellowfilled_bar_5
+  - first:
+      213: -2429923505256142058
+    second: yellowfilled_bar_6
+  - first:
+      213: -3084698715657312652
+    second: yellowfilled_bar_7
+  - first:
+      213: -2845709357348901154
+    second: yellowfilled_bar_8
+  - first:
+      213: 3181360471482060157
+    second: yellowfilled_bar_9
+  - first:
+      213: 2600270075232704536
+    second: yellowfilled_bar_10
+  - first:
+      213: -6195515724236077836
+    second: yellowfilled_bar_11
+  - first:
+      213: 7469350353533803961
+    second: yellowfilled_bar_12
+  - first:
+      213: -3940082728267306457
+    second: yellowfilled_bar_13
+  - first:
+      213: -195299526090150078
+    second: yellowfilled_bar_14
+  - first:
+      213: 4119785005410830104
+    second: yellowfilled_bar_15
+  - first:
+      213: -1185096706177016988
+    second: yellowfilled_bar_16
+  - first:
+      213: -4075550438721125253
+    second: yellowfilled_bar_17
+  - first:
+      213: 5343996857927263276
+    second: yellowfilled_bar_18
+  - first:
+      213: -6387942265479277948
+    second: yellowfilled_bar_19
+  - first:
+      213: -7517983701621808976
+    second: yellowfilled_bar_20
+  - first:
+      213: -8735153325806819557
+    second: yellowfilled_bar_21
+  - first:
+      213: 2186800125643391179
+    second: yellowfilled_bar_22
+  - first:
+      213: -6364210882824754222
+    second: yellowfilled_bar_23
+  - first:
+      213: 2235511047788023195
+    second: yellowfilled_bar_24
+  - first:
+      213: -8750276926610529325
+    second: yellowfilled_bar_25
+  - first:
+      213: 8111531956400279270
+    second: yellowfilled_bar_26
+  - first:
+      213: 6758990966566368224
+    second: yellowfilled_bar_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yellowfilled_bar_0
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 570
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c89707502917ad50800000000000000
+      internalID: 6748390193327741120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 540
+        width: 11
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013c74fd0efc2d7d0800000000000000
+      internalID: -2895023045720161520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 564
+        width: 67
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb5710c70a0595a0800000000000000
+      internalID: -6515290257517749259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 562
+        width: 164
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766b2f77dcf772700800000000000000
+      internalID: 515521202814629479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_4
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 558
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f93788c8d4a6760800000000000000
+      internalID: 7451853799417945953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_5
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef5608f99dfd4740800000000000000
+      internalID: 5138041587632594922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_6
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 592
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61be5dd327d274ed0800000000000000
+      internalID: -2429923505256142058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_7
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 580
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476642e8cd2f035d0800000000000000
+      internalID: -3084698715657312652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_8
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 554
+        width: 182
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edea63daa620288d0800000000000000
+      internalID: -2845709357348901154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 2026
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d48254e76762c20800000000000000
+      internalID: 3181360471482060157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 576
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818d25a4bd3061420800000000000000
+      internalID: 2600270075232704536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 564
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4cf88264b150aa0800000000000000
+      internalID: -6195515724236077836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 555
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd125d729678a760800000000000000
+      internalID: 7469350353533803961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_13
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 560
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa9f352a30259c0800000000000000
+      internalID: -3940082728267306457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_14
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 564
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f2892ad182a4df0800000000000000
+      internalID: -195299526090150078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_15
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 552
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8174e7682aa6c2930800000000000000
+      internalID: 4119785005410830104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_16
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 564
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b55db13d0bd8fe0800000000000000
+      internalID: -1185096706177016988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_17
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 554
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7407db187cb077c0800000000000000
+      internalID: -4075550438721125253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_18
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 559
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24ee8d14d0b92a40800000000000000
+      internalID: 5343996857927263276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_19
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 562
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4825764ba587957a0800000000000000
+      internalID: -6387942265479277948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_20
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 543
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0e7a5c7a1caa790800000000000000
+      internalID: -7517983701621808976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_21
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 554
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1766bcb45086c680800000000000000
+      internalID: -8735153325806819557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_22
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 548
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc001cbc023195e10800000000000000
+      internalID: 2186800125643391179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_23
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 500
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db2e8dcbe7cda7a0800000000000000
+      internalID: -6364210882824754222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_24
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 532
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dcdd62471260f10800000000000000
+      internalID: 2235511047788023195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_25
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 530
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d325170f75c09680800000000000000
+      internalID: -8750276926610529325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_26
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 216
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eec77d6653f19070800000000000000
+      internalID: 8111531956400279270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowfilled_bar_27
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 87
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e333423972cccd50800000000000000
+      internalID: 6758990966566368224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yellowfilled_bar_0: 6748390193327741120
+      yellowfilled_bar_1: -2895023045720161520
+      yellowfilled_bar_10: 2600270075232704536
+      yellowfilled_bar_11: -6195515724236077836
+      yellowfilled_bar_12: 7469350353533803961
+      yellowfilled_bar_13: -3940082728267306457
+      yellowfilled_bar_14: -195299526090150078
+      yellowfilled_bar_15: 4119785005410830104
+      yellowfilled_bar_16: -1185096706177016988
+      yellowfilled_bar_17: -4075550438721125253
+      yellowfilled_bar_18: 5343996857927263276
+      yellowfilled_bar_19: -6387942265479277948
+      yellowfilled_bar_2: -6515290257517749259
+      yellowfilled_bar_20: -7517983701621808976
+      yellowfilled_bar_21: -8735153325806819557
+      yellowfilled_bar_22: 2186800125643391179
+      yellowfilled_bar_23: -6364210882824754222
+      yellowfilled_bar_24: 2235511047788023195
+      yellowfilled_bar_25: -8750276926610529325
+      yellowfilled_bar_26: 8111531956400279270
+      yellowfilled_bar_27: 6758990966566368224
+      yellowfilled_bar_3: 515521202814629479
+      yellowfilled_bar_4: 7451853799417945953
+      yellowfilled_bar_5: 5138041587632594922
+      yellowfilled_bar_6: -2429923505256142058
+      yellowfilled_bar_7: -3084698715657312652
+      yellowfilled_bar_8: -2845709357348901154
+      yellowfilled_bar_9: 3181360471482060157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

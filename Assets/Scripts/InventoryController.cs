@@ -12,6 +12,7 @@ public class InventoryController : MonoBehaviour
     public GameObject branchItemPrefab;
     public GameObject stoneItemPrefab;
     public GameObject logItemPrefab;
+    public GameObject foodItemPrefab;
 
     private List<Slot> slots = new List<Slot>();
 
@@ -183,12 +184,35 @@ public class InventoryController : MonoBehaviour
             case ItemType.Log:
                 return logItemPrefab;
 
+            case ItemType.Food:
+                return foodItemPrefab;
+
             default:
                 Debug.LogError(
                     "Unsupported ItemType: " + itemType
                 );
 
                 return null;
+        }
+    }
+
+    /// <summary>
+    /// Removes one item instance (a whole slot's stack, or a single unit off
+    /// a stack) - used by FoodConsumable when the player eats. Kept here
+    /// since InventoryController already owns slot bookkeeping.
+    /// </summary>
+    public void ConsumeOneFromSlot(Slot slot, InventoryItem item)
+    {
+        if (slot == null || item == null) return;
+
+        if (item.quantity > 1)
+        {
+            item.SetQuantity(item.quantity - 1);
+        }
+        else
+        {
+            slot.currentItem = null;
+            Destroy(item.gameObject);
         }
     }
 }

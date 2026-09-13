@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 577fff2d2f3474875ba7bf4dea96c09c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5517897961386476804
+    second: Respawn_Button_0
+  - first:
+      213: -5023288248396595496
+    second: Respawn_Button_1
+  - first:
+      213: -1765751992497278161
+    second: Respawn_Button_2
+  - first:
+      213: 5917244433496794022
+    second: Respawn_Button_3
+  - first:
+      213: -5013845775776497674
+    second: Respawn_Button_4
+  - first:
+      213: 2905201765343189101
+    second: Respawn_Button_5
+  - first:
+      213: -4053049951917582515
+    second: Respawn_Button_6
+  - first:
+      213: 8842695538530963420
+    second: Respawn_Button_7
+  - first:
+      213: -7007654807710115377
+    second: Respawn_Button_8
+  - first:
+      213: 6143720263418800528
+    second: Respawn_Button_9
+  - first:
+      213: 3890750367321040553
+    second: Respawn_Button_10
+  - first:
+      213: 4168673490493499836
+    second: Respawn_Button_11
+  - first:
+      213: -3639554718723137526
+    second: Respawn_Button_12
+  - first:
+      213: -5559968414881179352
+    second: Respawn_Button_13
+  - first:
+      213: 5170532750247490469
+    second: Respawn_Button_14
+  - first:
+      213: 2929247482232181513
+    second: Respawn_Button_15
+  - first:
+      213: -6315424181487924993
+    second: Respawn_Button_16
+  - first:
+      213: 4849221624083435888
+    second: Respawn_Button_17
+  - first:
+      213: 1787913758164325237
+    second: Respawn_Button_18
+  - first:
+      213: -4708392671155284806
+    second: Respawn_Button_19
+  - first:
+      213: -8311478275496563477
+    second: Respawn_Button_20
+  - first:
+      213: -3330273096800724052
+    second: Respawn_Button_21
+  - first:
+      213: 4613029885712161611
+    second: Respawn_Button_22
+  - first:
+      213: -1532556630120255854
+    second: Respawn_Button_23
+  - first:
+      213: 2631826649706377939
+    second: Respawn_Button_24
+  - first:
+      213: 8164999039541983468
+    second: Respawn_Button_25
+  - first:
+      213: 9059539211772504855
+    second: Respawn_Button_26
+  - first:
+      213: 3888425227704162005
+    second: Respawn_Button_27
+  - first:
+      213: 8090885774994180973
+    second: Respawn_Button_28
+  - first:
+      213: 4437061785727293768
+    second: Respawn_Button_29
+  - first:
+      213: 9117189630567850202
+    second: Respawn_Button_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Respawn_Button_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 2020
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf4b80a0d7c63b0800000000000000
+      internalID: -5517897961386476804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_1
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 648
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de3dedd3f1b94ab0800000000000000
+      internalID: -5023288248396595496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_2
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23f2cd0be9ce77e0800000000000000
+      internalID: -1765751992497278161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_3
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 628
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3ebbb16764e1250800000000000000
+      internalID: 5917244433496794022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 225
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffbf38d4dd3b6ab0800000000000000
+      internalID: -5013845775776497674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 65
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d685e18fc99515820800000000000000
+      internalID: 2905201765343189101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_6
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 93
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d90fea8ca0c7c0800000000000000
+      internalID: -4053049951917582515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 93
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfc11fddb097ba70800000000000000
+      internalID: 8842695538530963420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 77
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc951ed941fcfbe90800000000000000
+      internalID: -7007654807710115377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_9
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 81
+        width: 84
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099627c5701e24550800000000000000
+      internalID: 6143720263418800528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_10
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 94
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a624e158d8bef530800000000000000
+      internalID: 3890750367321040553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_11
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 93
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9e379f37a1ad930800000000000000
+      internalID: 4168673490493499836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_12
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 94
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0029e93444bd7dc0800000000000000
+      internalID: -3639554718723137526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 84
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299d944f2607d2b0800000000000000
+      internalID: -5559968414881179352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_14
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a37606442c61c740800000000000000
+      internalID: 5170532750247490469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_15
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 71
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90318a5b017c6a820800000000000000
+      internalID: 2929247482232181513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_16
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 65
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff80080ea2b1b58a0800000000000000
+      internalID: -6315424181487924993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_17
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071d2a4ff55eb4340800000000000000
+      internalID: 4849221624083435888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_18
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 79
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5731b6c1712ffc810800000000000000
+      internalID: 1787913758164325237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_19
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 81
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49cbccfcd68aeb0800000000000000
+      internalID: -4708392671155284806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_20
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beca6a66b82b7ac80800000000000000
+      internalID: -8311478275496563477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_21
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 79
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab1724534e78c1d0800000000000000
+      internalID: -3330273096800724052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_22
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 81
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b522c7d36c40040800000000000000
+      internalID: 4613029885712161611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_23
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 66
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e238f5dd34bbae0800000000000000
+      internalID: -1532556630120255854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_24
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 61
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2b726d460268420800000000000000
+      internalID: 2631826649706377939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_25
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 63
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce83e4fcd57ef4170800000000000000
+      internalID: 8164999039541983468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_26
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 69
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b2c62e9e2f9bd70800000000000000
+      internalID: 9059539211772504855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_27
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d659f0942676f530800000000000000
+      internalID: 3888425227704162005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_28
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 49
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b0ac8beb9984070800000000000000
+      internalID: 8090885774994180973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_29
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 57
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495cb08f2c939d30800000000000000
+      internalID: 4437061785727293768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Button_30
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 23
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad02fdff9a3c68e70800000000000000
+      internalID: 9117189630567850202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Respawn_Button_0: -5517897961386476804
+      Respawn_Button_1: -5023288248396595496
+      Respawn_Button_10: 3890750367321040553
+      Respawn_Button_11: 4168673490493499836
+      Respawn_Button_12: -3639554718723137526
+      Respawn_Button_13: -5559968414881179352
+      Respawn_Button_14: 5170532750247490469
+      Respawn_Button_15: 2929247482232181513
+      Respawn_Button_16: -6315424181487924993
+      Respawn_Button_17: 4849221624083435888
+      Respawn_Button_18: 1787913758164325237
+      Respawn_Button_19: -4708392671155284806
+      Respawn_Button_2: -1765751992497278161
+      Respawn_Button_20: -8311478275496563477
+      Respawn_Button_21: -3330273096800724052
+      Respawn_Button_22: 4613029885712161611
+      Respawn_Button_23: -1532556630120255854
+      Respawn_Button_24: 2631826649706377939
+      Respawn_Button_25: 8164999039541983468
+      Respawn_Button_26: 9059539211772504855
+      Respawn_Button_27: 3888425227704162005
+      Respawn_Button_28: 8090885774994180973
+      Respawn_Button_29: 4437061785727293768
+      Respawn_Button_3: 5917244433496794022
+      Respawn_Button_30: 9117189630567850202
+      Respawn_Button_4: -5013845775776497674
+      Respawn_Button_5: 2905201765343189101
+      Respawn_Button_6: -4053049951917582515
+      Respawn_Button_7: 8842695538530963420
+      Respawn_Button_8: -7007654807710115377
+      Respawn_Button_9: 6143720263418800528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

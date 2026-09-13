@@ -5,7 +5,8 @@ public enum ItemType
 {
     Branch,
     Stone,
-    Log
+    Log,
+    Food
 }
 
 public class InventoryItem : MonoBehaviour
@@ -18,6 +19,12 @@ public class InventoryItem : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI quantityText;
+
+    [Header("Food Settings (only used when Item Type = Food)")]
+    [Tooltip("Hunger restored per item eaten.")]
+    public float hungerRestore = 25f;
+    [Tooltip("HP restored per item eaten. Leave at 0 for food that only restores Hunger.")]
+    public float hpRestore = 0f;
 
     private void Awake()
     {
