@@ -14,6 +14,9 @@ public class InventoryController : MonoBehaviour
     public GameObject logItemPrefab;
     public GameObject foodItemPrefab;
 
+    public GameObject plankItemPrefab;
+    public GameObject stickItemPrefab;
+
     private List<Slot> slots = new List<Slot>();
 
     private void Start()
@@ -187,11 +190,16 @@ public class InventoryController : MonoBehaviour
             case ItemType.Food:
                 return foodItemPrefab;
 
+            case ItemType.Plank:
+                return plankItemPrefab;
+
+            case ItemType.Stick:
+                return stickItemPrefab;
+
             default:
                 Debug.LogError(
                     "Unsupported ItemType: " + itemType
                 );
-
                 return null;
         }
     }
@@ -214,5 +222,90 @@ public class InventoryController : MonoBehaviour
             slot.currentItem = null;
             Destroy(item.gameObject);
         }
+    }
+    public int GetItemCount(ItemType itemType)
+    {
+        SyncSlotItemReferences();
+
+        int total = 0;
+
+        foreach (Slot slot in slots)
+        {
+            if (slot == null || slot.currentItem == null)
+                continue;
+
+            InventoryItem item =
+                slot.currentItem.GetComponent<InventoryItem>();
+
+            if (item == null)
+                continue;
+
+            if (item.itemType == itemType)
+            {
+                total += item.quantity;
+            }
+        }
+        return total;
+    }
+
+    public bool TryRemoveItem(ItemType itemType, int amount = 1)
+    {
+        if (amount <= 0)
+            return true;
+
+        SyncSlotItemReferences();
+
+        // First make sure we actually own enough.
+        if (GetItemCount(itemType) < amount)
+        {
+            Debug.Log(
+                "Not enough " + itemType +
+                " in inventory."
+            );
+
+            return false;
+        }
+
+        int remaining = amount;
+
+        foreach (Slot slot in slots)
+        {
+            if (slot == null || slot.currentItem == null)
+                continue;
+
+            InventoryItem item =
+                slot.currentItem.GetComponent<InventoryItem>();
+
+            if (item == null)
+                continue;
+
+            if (item.itemType != itemType)
+                continue;
+
+            int removeFromThisStack =
+                Mathf.Min(remaining, item.quantity);
+
+            int newQuantity =
+                item.quantity - removeFromThisStack;
+
+            if (newQuantity > 0)
+            {
+                item.SetQuantity(newQuantity);
+            }
+            else
+            {
+                GameObject itemObject = slot.currentItem;
+
+                slot.currentItem = null;
+
+                Destroy(itemObject);
+            }
+
+            remaining -= removeFromThisStack;
+
+            if (remaining <= 0)
+                return true;
+        }
+        return false;
     }
 }

@@ -6,7 +6,9 @@ public enum ItemType
     Branch,
     Stone,
     Log,
-    Food
+    Food,
+    Plank,
+    Stick
 }
 
 public class InventoryItem : MonoBehaviour
