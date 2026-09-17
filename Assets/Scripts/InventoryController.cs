@@ -17,6 +17,10 @@ public class InventoryController : MonoBehaviour
     public GameObject plankItemPrefab;
     public GameObject stickItemPrefab;
 
+    public GameObject woodenSwordItemPrefab;
+    public GameObject woodenPickaxeItemPrefab;
+    public GameObject woodenAxeItemPrefab;
+
     private List<Slot> slots = new List<Slot>();
 
     private void Start()
@@ -195,6 +199,15 @@ public class InventoryController : MonoBehaviour
 
             case ItemType.Stick:
                 return stickItemPrefab;
+
+            case ItemType.WoodenSword:
+                return woodenSwordItemPrefab;
+
+            case ItemType.WoodenPickaxe:
+                return woodenPickaxeItemPrefab;
+
+            case ItemType.WoodenAxe:
+                return woodenAxeItemPrefab;
 
             default:
                 Debug.LogError(

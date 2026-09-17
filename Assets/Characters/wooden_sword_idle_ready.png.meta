@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: d45f221aea5d04e31be599ff5710c069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7206955120337777708
+    second: wooden_sword_idle_ready_0
+  - first:
+      213: 6107086593632541557
+    second: wooden_sword_idle_ready_1
+  - first:
+      213: 8095677684162156083
+    second: wooden_sword_idle_ready_2
+  - first:
+      213: 1588056769315647718
+    second: wooden_sword_idle_ready_3
+  - first:
+      213: 4068848311632993913
+    second: wooden_sword_idle_ready_4
+  - first:
+      213: 4519813156736429882
+    second: wooden_sword_idle_ready_5
+  - first:
+      213: -5471202969435924919
+    second: wooden_sword_idle_ready_6
+  - first:
+      213: -5892241741648897711
+    second: wooden_sword_idle_ready_7
+  - first:
+      213: -9166727416582020535
+    second: wooden_sword_idle_ready_8
+  - first:
+      213: 1591586383555512662
+    second: wooden_sword_idle_ready_9
+  - first:
+      213: 3953788242910516552
+    second: wooden_sword_idle_ready_10
+  - first:
+      213: 354370719233846437
+    second: wooden_sword_idle_ready_11
+  - first:
+      213: -2996063782396000226
+    second: wooden_sword_idle_ready_12
+  - first:
+      213: 7539102102513999603
+    second: wooden_sword_idle_ready_13
+  - first:
+      213: 1194058468872618046
+    second: wooden_sword_idle_ready_14
+  - first:
+      213: 4764004602287522381
+    second: wooden_sword_idle_ready_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c247ae37f7f340460800000000000000
+      internalID: 7206955120337777708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b940276eab0c450800000000000000
+      internalID: 6107086593632541557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336da8406ff995070800000000000000
+      internalID: 8095677684162156083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0b632c739e90610800000000000000
+      internalID: 1588056769315647718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e15d35bf3777830800000000000000
+      internalID: 4068848311632993913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f696a7e1a99be30800000000000000
+      internalID: 4519813156736429882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94695b013e16214b0800000000000000
+      internalID: -5471202969435924919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159d94aba5d8a3ea0800000000000000
+      internalID: -5892241741648897711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9426bc56bfd39c080800000000000000
+      internalID: -9166727416582020535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659cc2d1263761610800000000000000
+      internalID: 1591586383555512662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8451cc7757daed630800000000000000
+      internalID: 3953788242910516552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acabb6aa4afae400800000000000000
+      internalID: 354370719233846437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e188fdd1dd7db66d0800000000000000
+      internalID: -2996063782396000226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe5fb91b6540a860800000000000000
+      internalID: 7539102102513999603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30033ed9d5229010800000000000000
+      internalID: 1194058468872618046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_sword_idle_ready_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d428cabe1f42d1240800000000000000
+      internalID: 4764004602287522381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c427129538174e9fabbdde2a44b0857
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      wooden_sword_idle_ready_0: 7206955120337777708
+      wooden_sword_idle_ready_1: 6107086593632541557
+      wooden_sword_idle_ready_10: 3953788242910516552
+      wooden_sword_idle_ready_11: 354370719233846437
+      wooden_sword_idle_ready_12: -2996063782396000226
+      wooden_sword_idle_ready_13: 7539102102513999603
+      wooden_sword_idle_ready_14: 1194058468872618046
+      wooden_sword_idle_ready_15: 4764004602287522381
+      wooden_sword_idle_ready_2: 8095677684162156083
+      wooden_sword_idle_ready_3: 1588056769315647718
+      wooden_sword_idle_ready_4: 4068848311632993913
+      wooden_sword_idle_ready_5: 4519813156736429882
+      wooden_sword_idle_ready_6: -5471202969435924919
+      wooden_sword_idle_ready_7: -5892241741648897711
+      wooden_sword_idle_ready_8: -9166727416582020535
+      wooden_sword_idle_ready_9: 1591586383555512662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

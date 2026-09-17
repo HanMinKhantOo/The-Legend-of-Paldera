@@ -8,12 +8,27 @@ public enum ItemType
     Log,
     Food,
     Plank,
-    Stick
+    Stick,
+
+    WoodenSword,
+    WoodenPickaxe,
+    WoodenAxe
+}
+
+public enum ItemCategory
+{
+    Resource,
+    Food,
+    Sword,
+    Pickaxe,
+    Axe,
+    Armor
 }
 
 public class InventoryItem : MonoBehaviour
 {
     public ItemType itemType;
+    public ItemCategory itemCategory;
 
     [Header("Stack Settings")]
     public int quantity = 1;
@@ -54,7 +69,9 @@ public class InventoryItem : MonoBehaviour
     {
         if (quantityText != null)
         {
-            quantityText.text = quantity.ToString();
+            quantityText.text = quantity > 1
+                ? quantity.ToString()
+                : "";
         }
     }
 }

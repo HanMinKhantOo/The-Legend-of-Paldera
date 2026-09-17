@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WoodenPickaxeOverride
+  m_Controller: {fileID: 9100000, guid: 2ea21d0d2443c4f30946f20fa3550b63, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c8e99c9fce7ce439fa84df81efe7fa07, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 91421bb3d5deb4f78bcb952e5b788a07, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bdb541bc2ad92433b90523d17ff0dbf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4eea292b656ec45e2b7480cd37ebdbbf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5cb953adbfd0e448494fb1753070e80d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8ff5191aa675346cba003db8d0b7bfc8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2479d393898ed4e99a499f2d72964869, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d15577e484ba144769717304b2edc445, type: 2}

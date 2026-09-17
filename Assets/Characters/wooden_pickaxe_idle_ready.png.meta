@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 2e41cff0708c74b67914c48ae50eb528
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8436033566473591288
+    second: wooden_pickaxe_idle_ready_0
+  - first:
+      213: 8978459369507880470
+    second: wooden_pickaxe_idle_ready_1
+  - first:
+      213: 1439730830299118792
+    second: wooden_pickaxe_idle_ready_2
+  - first:
+      213: -7978423776246847698
+    second: wooden_pickaxe_idle_ready_3
+  - first:
+      213: 2668030414065853668
+    second: wooden_pickaxe_idle_ready_4
+  - first:
+      213: 667058194844540765
+    second: wooden_pickaxe_idle_ready_5
+  - first:
+      213: -4640184086219493776
+    second: wooden_pickaxe_idle_ready_6
+  - first:
+      213: 6976260345866993687
+    second: wooden_pickaxe_idle_ready_7
+  - first:
+      213: -2362306658363729878
+    second: wooden_pickaxe_idle_ready_8
+  - first:
+      213: -5493820579633470096
+    second: wooden_pickaxe_idle_ready_9
+  - first:
+      213: -4427724784784605425
+    second: wooden_pickaxe_idle_ready_10
+  - first:
+      213: 3067142133865479102
+    second: wooden_pickaxe_idle_ready_11
+  - first:
+      213: -4490246792802453188
+    second: wooden_pickaxe_idle_ready_12
+  - first:
+      213: 4846837031668602175
+    second: wooden_pickaxe_idle_ready_13
+  - first:
+      213: 7360379046878982020
+    second: wooden_pickaxe_idle_ready_14
+  - first:
+      213: -6599094215403464996
+    second: wooden_pickaxe_idle_ready_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f91eea25dfc21570800000000000000
+      internalID: 8436033566473591288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e7bc50a35e99c70800000000000000
+      internalID: 8978459369507880470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc3828ef83faf310800000000000000
+      internalID: 1439730830299118792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 510
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27a645d8d1f64190800000000000000
+      internalID: -7978423776246847698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e46558968fb60520800000000000000
+      internalID: 2668030414065853668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fd83cd4edd14900800000000000000
+      internalID: 667058194844540765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e67788821ca9fb0800000000000000
+      internalID: -4640184086219493776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710cb00a2d7a0d060800000000000000
+      internalID: 6976260345866993687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2890b93c96673fd0800000000000000
+      internalID: -2362306658363729878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07567335a4702c3b0800000000000000
+      internalID: -5493820579633470096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f78bf64cf8d82c0800000000000000
+      internalID: -4427724784784605425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 170
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7fa4358da09a20800000000000000
+      internalID: 3067142133865479102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c393c2115507fa1c0800000000000000
+      internalID: -4490246792802453188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35d0d4c99c634340800000000000000
+      internalID: 4846837031668602175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f23750fb1552660800000000000000
+      internalID: 7360379046878982020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pickaxe_idle_ready_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd69a8b46ce4b64a0800000000000000
+      internalID: -6599094215403464996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 010be89fc85884005af014f33ec2afaa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      wooden_pickaxe_idle_ready_0: 8436033566473591288
+      wooden_pickaxe_idle_ready_1: 8978459369507880470
+      wooden_pickaxe_idle_ready_10: -4427724784784605425
+      wooden_pickaxe_idle_ready_11: 3067142133865479102
+      wooden_pickaxe_idle_ready_12: -4490246792802453188
+      wooden_pickaxe_idle_ready_13: 4846837031668602175
+      wooden_pickaxe_idle_ready_14: 7360379046878982020
+      wooden_pickaxe_idle_ready_15: -6599094215403464996
+      wooden_pickaxe_idle_ready_2: 1439730830299118792
+      wooden_pickaxe_idle_ready_3: -7978423776246847698
+      wooden_pickaxe_idle_ready_4: 2668030414065853668
+      wooden_pickaxe_idle_ready_5: 667058194844540765
+      wooden_pickaxe_idle_ready_6: -4640184086219493776
+      wooden_pickaxe_idle_ready_7: 6976260345866993687
+      wooden_pickaxe_idle_ready_8: -2362306658363729878
+      wooden_pickaxe_idle_ready_9: -5493820579633470096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
