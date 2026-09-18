@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5572906609068717710}
   - component: {fileID: 83551273459878388}
   - component: {fileID: 7427632010329575173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StoneBoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

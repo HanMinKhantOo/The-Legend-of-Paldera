@@ -1,38 +1,61 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
 /// Place one of these at each designated spawn location in the scene and
-/// assign the Wolf or Boar prefab. Spawns one enemy at Start, and respawns
-/// it at this same location after respawnDelay once it dies - the enemy
-/// instance is reused (EnemyHealth.ResetHealth + EnemyAI.Initialize) rather
-/// than destroyed/reinstantiated, so no pooling system was needed.
+/// assign the Wolf or Boar prefab. Spawns `enemyCount` enemies at Start,
+/// scattered a little around this point so they don't stack exactly on top
+/// of each other, and respawns each one independently at its own original
+/// position after respawnDelay once it dies - each enemy instance is reused
+/// (EnemyHealth.ResetHealth + EnemyAI.Initialize) rather than destroyed and
+/// reinstantiated, so no pooling system was needed.
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Spawn Setup")]
     public GameObject enemyPrefab;
-    [Tooltip("Seconds after death before the mob reappears here.")]
+    [Tooltip("How many of this enemy this spawner keeps alive at this location.")]
+    [Range(1, 10)]
+    public int enemyCount = 3;
+    [Tooltip("Random scatter radius around this spawner's position so multiple enemies don't spawn stacked on top of each other.")]
+    public float spawnScatterRadius = 1.5f;
+    [Tooltip("Seconds after death before that specific mob reappears at its own spot.")]
     public float respawnDelay = 30f;
-    [Tooltip("If true, uses this spawner's own position. Otherwise assign spawnPointOverride.")]
+    [Tooltip("If true, uses this spawner's own position as the center. Otherwise assign spawnPointOverride.")]
     public bool useOwnTransform = true;
     public Transform spawnPointOverride;
 
-    private GameObject currentInstance;
-    private EnemyHealth currentHealth;
-    private EnemyAI currentAI;
+    private class Slot
+    {
+        public Vector3 spawnPosition;
+        public GameObject instance;
+        public EnemyHealth health;
+        public EnemyAI ai;
+    }
 
-    private Vector3 SpawnPosition =>
+    private readonly List<Slot> slots = new List<Slot>();
+
+    private Vector3 CenterPosition =>
         useOwnTransform || spawnPointOverride == null
             ? transform.position
             : spawnPointOverride.position;
 
     private void Start()
     {
-        SpawnEnemy();
+        for (int i = 0; i < enemyCount; i++)
+        {
+            Vector2 offset = Random.insideUnitCircle * spawnScatterRadius;
+            Vector3 slotPosition = CenterPosition + new Vector3(offset.x, offset.y, 0f);
+
+            var slot = new Slot { spawnPosition = slotPosition };
+            slots.Add(slot);
+
+            SpawnEnemy(slot);
+        }
     }
 
-    private void SpawnEnemy()
+    private void SpawnEnemy(Slot slot)
     {
         if (enemyPrefab == null)
         {
@@ -40,18 +63,18 @@ public class EnemySpawner : MonoBehaviour
             return;
         }
 
-        currentInstance = Instantiate(enemyPrefab, SpawnPosition, Quaternion.identity);
-        currentHealth = currentInstance.GetComponent<EnemyHealth>();
-        currentAI = currentInstance.GetComponent<EnemyAI>();
+        slot.instance = Instantiate(enemyPrefab, slot.spawnPosition, Quaternion.identity);
+        slot.health = slot.instance.GetComponent<EnemyHealth>();
+        slot.ai = slot.instance.GetComponent<EnemyAI>();
 
-        if (currentAI != null)
+        if (slot.ai != null)
         {
-            currentAI.Initialize(SpawnPosition);
+            slot.ai.Initialize(slot.spawnPosition);
         }
 
-        if (currentHealth != null)
+        if (slot.health != null)
         {
-            currentHealth.OnDeath += HandleEnemyDeath;
+            slot.health.OnDeath += (deadHealth) => HandleEnemyDeath(slot, deadHealth);
         }
         else
         {
@@ -59,31 +82,31 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    private void HandleEnemyDeath(EnemyHealth deadHealth)
+    private void HandleEnemyDeath(Slot slot, EnemyHealth deadHealth)
     {
-        deadHealth.OnDeath -= HandleEnemyDeath;
-        StartCoroutine(RespawnAfterDelay());
+        StartCoroutine(RespawnAfterDelay(slot));
     }
 
-    private IEnumerator RespawnAfterDelay()
+    private IEnumerator RespawnAfterDelay(Slot slot)
     {
         yield return new WaitForSeconds(respawnDelay);
 
-        if (currentInstance == null)
+        if (slot.instance == null)
         {
-            // Instance was destroyed some other way - spawn a fresh one.
-            SpawnEnemy();
+            // Instance was destroyed some other way - spawn a fresh one in its slot.
+            SpawnEnemy(slot);
             yield break;
         }
 
-        currentHealth.ResetHealth();
-        currentAI.Initialize(SpawnPosition);
-        currentHealth.OnDeath += HandleEnemyDeath;
+        slot.health.ResetHealth();
+        slot.ai.Initialize(slot.spawnPosition);
+        slot.health.OnDeath += (deadHealth) => HandleEnemyDeath(slot, deadHealth);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireCube(SpawnPosition, Vector3.one * 0.5f);
+        Gizmos.DrawWireSphere(CenterPosition, spawnScatterRadius);
+        Gizmos.DrawWireCube(CenterPosition, Vector3.one * 0.3f);
     }
 }

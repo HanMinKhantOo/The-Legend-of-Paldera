@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8947997818321431074}
   - component: {fileID: 2610798989864615140}
   - component: {fileID: 1950650356156275061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ruins_vertical_walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

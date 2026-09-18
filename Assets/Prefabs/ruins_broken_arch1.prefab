@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2831914140718221460}
   - component: {fileID: -1867312936130170227}
   - component: {fileID: 3181628792668092731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ruins_broken_arch1
   m_TagString: RuinsFixedOrientation
   m_Icon: {fileID: 0}

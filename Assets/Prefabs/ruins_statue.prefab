@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8981876546102819799}
   - component: {fileID: 1293597451581594635}
   - component: {fileID: 7505342792779709801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ruins_statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3401658909881899699}
   - component: {fileID: 483331580975064526}
   - component: {fileID: 1908224884751438276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ruins_broken_walls_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

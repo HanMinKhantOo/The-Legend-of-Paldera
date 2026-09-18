@@ -211,7 +211,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -225,7 +225,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -290,12 +290,12 @@ TextureImporter:
       name: wolf_hurt_0
       rect:
         serializedVersion: 2
-        x: 344
-        y: 1529
-        width: 8
-        height: 7
+        x: 0
+        y: 1152
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: wolf_hurt_1
       rect:
         serializedVersion: 2
-        x: 510
-        y: 1498
-        width: 53
-        height: 38
+        x: 512
+        y: 1152
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: wolf_hurt_2
       rect:
         serializedVersion: 2
-        x: 566
-        y: 1071
-        width: 365
-        height: 459
+        x: 0
+        y: 768
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: wolf_hurt_3
       rect:
         serializedVersion: 2
-        x: 830
-        y: 1501
-        width: 48
-        height: 35
+        x: 512
+        y: 768
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,11 +379,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 573
-        height: 1528
+        y: 384
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,12 +400,12 @@ TextureImporter:
       name: wolf_hurt_5
       rect:
         serializedVersion: 2
-        x: 134
-        y: 1437
-        width: 41
-        height: 85
+        x: 512
+        y: 384
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -422,12 +422,12 @@ TextureImporter:
       name: wolf_hurt_6
       rect:
         serializedVersion: 2
-        x: 536
-        y: 1501
-        width: 9
-        height: 15
+        x: 0
+        y: 0
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,12 +444,12 @@ TextureImporter:
       name: wolf_hurt_7
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1469
-        width: 37
-        height: 39
+        x: 512
+        y: 0
+        width: 512
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,1133 +462,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_8
-      rect:
-        serializedVersion: 2
-        x: 838
-        y: 1261
-        width: 171
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cda45b6dd6ca3fe10800000000000000
-      internalID: 2230315828232145628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_9
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 1436
-        width: 41
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24c3273fe5b189070800000000000000
-      internalID: 8113264823333174338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_10
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 1411
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f487f38dafb4c2d60800000000000000
-      internalID: 7866746189851359311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_11
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1385
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83d006f8949c0c370800000000000000
-      internalID: 8340887827665390904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_12
-      rect:
-        serializedVersion: 2
-        x: 958
-        y: 1358
-        width: 13
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9e527ede79fd9f0800000000000000
-      internalID: -441467190417954345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_13
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 1354
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13785e72d6d8c7370800000000000000
-      internalID: 8321681711434139441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_14
-      rect:
-        serializedVersion: 2
-        x: 944
-        y: 1317
-        width: 31
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 437d7e253431fb130800000000000000
-      internalID: 3584605008284866356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_15
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 1325
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 285642336b2d1ee10800000000000000
-      internalID: 2225291370881639810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_16
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 1327
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3976c22d8df198320800000000000000
-      internalID: 2560612879236360083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_17
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 1301
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26b07574ec38dfdf0800000000000000
-      internalID: -144814691022599326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_18
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 1286
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b853afb484103bba0800000000000000
-      internalID: -6074510062368705141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_19
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 1285
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bce6bd88f39bc080800000000000000
-      internalID: -9166069920843764559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_20
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 1239
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00c66da36b258abd0800000000000000
-      internalID: -2618752240691287040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_21
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 1215
-        width: 33
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72a3c1267de484e40800000000000000
-      internalID: 5640845220252498471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_22
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 1169
-        width: 35
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bed705a8a8c6a7bb0800000000000000
-      internalID: -4937514699176509973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_23
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 1130
-        width: 49
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29f62b9587e2510c0800000000000000
-      internalID: -4605723949480644718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_24
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 1105
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0935a8e80c31d08e0800000000000000
-      internalID: -1725701364466953328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_25
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 339
-        width: 445
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9487f08df2c420ea0800000000000000
-      internalID: -5908075992784603063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_26
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 1116
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 407509b5c20db9500800000000000000
-      internalID: 404145480513115908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_27
-      rect:
-        serializedVersion: 2
-        x: 980
-        y: 1057
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66dafa99f160ec1d0800000000000000
-      internalID: -3328716341788037786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_28
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 999
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43c7ea04353f5b560800000000000000
-      internalID: 7329031507508362292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_29
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 755
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 425672acae1d395e0800000000000000
-      internalID: -1903947411103455964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_30
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 719
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e364c86c456f717e0800000000000000
-      internalID: -1794695082515085762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_31
-      rect:
-        serializedVersion: 2
-        x: 998
-        y: 695
-        width: 7
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 017807ee5131f68a0800000000000000
-      internalID: -6309803568007182576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_32
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 651
-        width: 13
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83a00648bcf4563e0800000000000000
-      internalID: -2061153518934291912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_33
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 673
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 753625f4cb0f9c890800000000000000
-      internalID: -7437148618050346153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_34
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 497
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9490f93455aed7050800000000000000
-      internalID: 5800049547050682697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_35
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 351
-        width: 30
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa58ef54e3a7c3040800000000000000
-      internalID: 4628708924910896559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_36
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 375
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e3fc315ee1eb0750800000000000000
-      internalID: 6272355319724962784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_37
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 375
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71a222a5f4b880120800000000000000
-      internalID: 2380305575996172823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_38
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 369
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b160bbf40f997e960800000000000000
-      internalID: 7631237351011452443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_39
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 363
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d410c96d4efca7d60800000000000000
-      internalID: 7888846279052886349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_40
-      rect:
-        serializedVersion: 2
-        x: 728
-        y: 351
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0503012e0072b3470800000000000000
-      internalID: 8375330816771764304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_41
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 359
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db5753642a912a330800000000000000
-      internalID: 3720564426914756029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_42
-      rect:
-        serializedVersion: 2
-        x: 838
-        y: 353
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5e8a00f551827c20800000000000000
-      internalID: 3202764491113270876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_43
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 0
-        width: 363
-        height: 338
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc7e80689382deca0800000000000000
-      internalID: -5986084102178543668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_44
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 327
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cf82a0e21a9cd280800000000000000
-      internalID: -9017162948033736759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_45
-      rect:
-        serializedVersion: 2
-        x: 918
-        y: 330
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbfd34e1b043704a0800000000000000
-      internalID: -6627271104295346243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_46
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 247
-        width: 75
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d169444e442adfa70800000000000000
-      internalID: 8862418058506180125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_47
-      rect:
-        serializedVersion: 2
-        x: 946
-        y: 249
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d47e30de27606100800000000000000
-      internalID: 99192642562061524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_48
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 165
-        width: 59
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fb099c733b0f7cf0800000000000000
-      internalID: -252470738347815948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_49
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 156
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c5a98f4db3f92660800000000000000
-      internalID: 7361683060322575809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_50
-      rect:
-        serializedVersion: 2
-        x: 888
-        y: 53
-        width: 83
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46ba4553f21ea7500800000000000000
-      internalID: 394875510222793572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_51
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 7
-        width: 85
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d755fc5090513470800000000000000
-      internalID: 8372561763223558097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_52
-      rect:
-        serializedVersion: 2
-        x: 958
-        y: 135
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 967e01c41dcb701b0800000000000000
-      internalID: -5690371997048969367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_53
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 83
-        width: 17
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19b1ff6341df85f20800000000000000
-      internalID: 3411754980997012369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_54
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 37
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a56b0d5540ba4cb00800000000000000
-      internalID: 847990664960456282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_55
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 71
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a67574e52c2e4620800000000000000
-      internalID: 2760192162883008166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_56
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 10
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b0b707f901a0b310800000000000000
-      internalID: 1418810946792960177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_57
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 0
-        width: 113
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d93b90e0d4de53d50800000000000000
-      internalID: 6716535334496744349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wolf_hurt_58
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 0
-        width: 141
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af769ee729f9ba270800000000000000
-      internalID: 8262873392884574202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 180445335709b43b7935488c7303c323
     internalID: 0
     vertices: []
     indices: 
@@ -1596,67 +474,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":4.0},"gridSpriteSize":{"x":512.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       wolf_hurt_0: -2443138263462990872
       wolf_hurt_1: 4430583998361965628
-      wolf_hurt_10: 7866746189851359311
-      wolf_hurt_11: 8340887827665390904
-      wolf_hurt_12: -441467190417954345
-      wolf_hurt_13: 8321681711434139441
-      wolf_hurt_14: 3584605008284866356
-      wolf_hurt_15: 2225291370881639810
-      wolf_hurt_16: 2560612879236360083
-      wolf_hurt_17: -144814691022599326
-      wolf_hurt_18: -6074510062368705141
-      wolf_hurt_19: -9166069920843764559
       wolf_hurt_2: 1539216556202241182
-      wolf_hurt_20: -2618752240691287040
-      wolf_hurt_21: 5640845220252498471
-      wolf_hurt_22: -4937514699176509973
-      wolf_hurt_23: -4605723949480644718
-      wolf_hurt_24: -1725701364466953328
-      wolf_hurt_25: -5908075992784603063
-      wolf_hurt_26: 404145480513115908
-      wolf_hurt_27: -3328716341788037786
-      wolf_hurt_28: 7329031507508362292
-      wolf_hurt_29: -1903947411103455964
       wolf_hurt_3: -6558066520407039915
-      wolf_hurt_30: -1794695082515085762
-      wolf_hurt_31: -6309803568007182576
-      wolf_hurt_32: -2061153518934291912
-      wolf_hurt_33: -7437148618050346153
-      wolf_hurt_34: 5800049547050682697
-      wolf_hurt_35: 4628708924910896559
-      wolf_hurt_36: 6272355319724962784
-      wolf_hurt_37: 2380305575996172823
-      wolf_hurt_38: 7631237351011452443
-      wolf_hurt_39: 7888846279052886349
       wolf_hurt_4: -826124700266025675
-      wolf_hurt_40: 8375330816771764304
-      wolf_hurt_41: 3720564426914756029
-      wolf_hurt_42: 3202764491113270876
-      wolf_hurt_43: -5986084102178543668
-      wolf_hurt_44: -9017162948033736759
-      wolf_hurt_45: -6627271104295346243
-      wolf_hurt_46: 8862418058506180125
-      wolf_hurt_47: 99192642562061524
-      wolf_hurt_48: -252470738347815948
-      wolf_hurt_49: 7361683060322575809
       wolf_hurt_5: 3696755802272891304
-      wolf_hurt_50: 394875510222793572
-      wolf_hurt_51: 8372561763223558097
-      wolf_hurt_52: -5690371997048969367
-      wolf_hurt_53: 3411754980997012369
-      wolf_hurt_54: 847990664960456282
-      wolf_hurt_55: 2760192162883008166
-      wolf_hurt_56: 1418810946792960177
-      wolf_hurt_57: 6716535334496744349
-      wolf_hurt_58: 8262873392884574202
       wolf_hurt_6: -3691932889055555891
       wolf_hurt_7: -8435851997013051582
-      wolf_hurt_8: 2230315828232145628
-      wolf_hurt_9: 8113264823333174338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

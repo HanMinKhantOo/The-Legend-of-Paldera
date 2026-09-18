@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,9 +117,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 844
+        y: 820
         width: 162
-        height: 316
+        height: 340
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 716
-        y: 855
+        y: 840
         width: 188
-        height: 294
+        height: 309
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1072
-        y: 859
-        width: 164
-        height: 281
+        y: 837
+        width: 170
+        height: 303
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: wolf_attack_4
       rect:
         serializedVersion: 2
-        x: 87
-        y: 574
-        width: 176
-        height: 235
+        x: 73
+        y: 515
+        width: 203
+        height: 286
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       name: wolf_attack_5
       rect:
         serializedVersion: 2
-        x: 401
-        y: 576
+        x: 405
+        y: 549
         width: 186
         height: 272
       alignment: 0
@@ -249,9 +249,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 722
-        y: 576
+        y: 538
         width: 202
-        height: 283
+        height: 294
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,9 +271,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1056
-        y: 570
-        width: 169
-        height: 263
+        y: 524
+        width: 173
+        height: 286
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,9 +293,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 302
+        y: 270
         width: 293
-        height: 222
+        height: 225
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: wolf_attack_9
       rect:
         serializedVersion: 2
-        x: 344
-        y: 301
-        width: 312
-        height: 214
+        x: 336
+        y: 269
+        width: 320
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: wolf_attack_10
       rect:
         serializedVersion: 2
-        x: 667
-        y: 302
-        width: 317
-        height: 224
+        x: 662
+        y: 275
+        width: 322
+        height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,9 +359,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1010
-        y: 302
+        y: 249
         width: 294
-        height: 213
+        height: 252
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,7 +382,7 @@ TextureImporter:
         serializedVersion: 2
         x: 20
         y: 27
-        width: 297
+        width: 309
         height: 232
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -403,9 +403,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 346
-        y: 32
+        y: 25
         width: 315
-        height: 227
+        height: 234
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,9 +425,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 679
-        y: 42
+        y: 29
         width: 314
-        height: 229
+        height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: wolf_attack_15
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 32
-        width: 286
-        height: 205
+        x: 997
+        y: 22
+        width: 295
+        height: 215
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

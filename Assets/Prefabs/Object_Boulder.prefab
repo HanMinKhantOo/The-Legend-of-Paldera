@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 446503078761618463}
   - component: {fileID: 31733593040790700}
   - component: {fileID: 8393810197558971984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_Boulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

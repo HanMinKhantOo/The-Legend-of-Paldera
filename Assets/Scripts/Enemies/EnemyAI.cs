@@ -43,6 +43,14 @@ public class EnemyAI : MonoBehaviour
     [Tooltip("Attacks per second.")]
     public float attackSpeed = 1f;
 
+    [Header("Obstacle Avoidance")]
+    [Tooltip("Layers that block movement (ground obstacles, trees, rocks, etc). Leave empty to disable avoidance.")]
+    public LayerMask obstacleMask;
+    [Tooltip("How far ahead to check for something blocking the path.")]
+    public float avoidanceLookAhead = 0.6f;
+    [Tooltip("Angle (degrees) to try steering away from a blocked path.")]
+    public float avoidanceSteerAngle = 45f;
+
     private Rigidbody2D rb;
     private Animator animator;
     private EnemyHealth health;
@@ -52,12 +60,26 @@ public class EnemyAI : MonoBehaviour
     private float roamWaitTimer;
     private float attackCooldownTimer;
     private State state = State.Roam;
+    private bool initializedBySpawner;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         health = GetComponent<EnemyHealth>();
+    }
+
+    private void Start()
+    {
+        // Safety net: if nothing called Initialize() (e.g. this instance was
+        // placed directly in a scene rather than spawned by EnemySpawner),
+        // use wherever it actually starts as its spawn point instead of
+        // silently defaulting to world origin (0,0,0), which previously
+        // caused roaming/leashing to reference the wrong location entirely.
+        if (!initializedBySpawner)
+        {
+            Initialize(transform.position);
+        }
     }
 
     private void OnEnable()
@@ -75,6 +97,7 @@ public class EnemyAI : MonoBehaviour
     /// <summary>Called by EnemySpawner right after Instantiate/on respawn.</summary>
     public void Initialize(Vector3 spawnPosition)
     {
+        initializedBySpawner = true;
         spawnPoint = spawnPosition;
         transform.position = spawnPosition;
         state = State.Roam;
@@ -180,11 +203,37 @@ public class EnemyAI : MonoBehaviour
     private void MoveToward(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
+        direction = AvoidObstacles(direction);
 
         rb.MovePosition(rb.position + direction * moveSpeed * Time.deltaTime);
 
         SetMoving(true);
         FaceDirection(direction);
+    }
+
+    /// <summary>
+    /// Basic steering avoidance: if something's directly ahead on
+    /// obstacleMask, try angling left or right around it instead of
+    /// walking straight into it and stalling. If both sides are also
+    /// blocked, falls back to the original direction (better to nudge
+    /// against it than freeze completely).
+    /// </summary>
+    private Vector2 AvoidObstacles(Vector2 desiredDirection)
+    {
+        if (obstacleMask.value == 0) return desiredDirection;
+
+        if (!Physics2D.Raycast(transform.position, desiredDirection, avoidanceLookAhead, obstacleMask))
+            return desiredDirection;
+
+        Vector2 left = Quaternion.Euler(0, 0, avoidanceSteerAngle) * desiredDirection;
+        if (!Physics2D.Raycast(transform.position, left, avoidanceLookAhead, obstacleMask))
+            return left.normalized;
+
+        Vector2 right = Quaternion.Euler(0, 0, -avoidanceSteerAngle) * desiredDirection;
+        if (!Physics2D.Raycast(transform.position, right, avoidanceLookAhead, obstacleMask))
+            return right.normalized;
+
+        return desiredDirection;
     }
 
     private void SetMoving(bool moving)
