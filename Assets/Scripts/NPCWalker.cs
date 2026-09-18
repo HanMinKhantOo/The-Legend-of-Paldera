@@ -54,8 +54,13 @@ public class NPCWalker : MonoBehaviour
         currentTarget = pointB;
     }
 
+    private Vector2 pendingDir = Vector2.zero;
+    private bool hasPendingMove = false;
+
     private void Update()
     {
+        hasPendingMove = false;
+
         if (paused || moveSpeed <= 0f)
         {
             SetMoving(false, Vector2.zero);
@@ -82,12 +87,25 @@ public class NPCWalker : MonoBehaviour
         }
 
         Vector2 dir = toTarget.normalized;
-        Vector2 newPos = currentPos + dir * moveSpeed * Time.deltaTime;
+        SetMoving(true, dir);
+
+        // Actual position change happens in FixedUpdate (see below) so it
+        // stays in sync with the physics step - calling rb.MovePosition
+        // from Update() while Interpolate is on causes visible jitter,
+        // since Update() and the physics step run at different rates.
+        pendingDir = dir;
+        hasPendingMove = true;
+    }
+
+    private void FixedUpdate()
+    {
+        if (!hasPendingMove) return;
+
+        Vector2 currentPos = rb != null ? rb.position : (Vector2)transform.position;
+        Vector2 newPos = currentPos + pendingDir * moveSpeed * Time.fixedDeltaTime;
 
         if (rb != null) rb.MovePosition(newPos);
         else transform.position = newPos;
-
-        SetMoving(true, dir);
     }
 
     private void SetMoving(bool moving, Vector2 dir)
@@ -102,6 +120,9 @@ public class NPCWalker : MonoBehaviour
             animator.SetFloat("LastMoveX", dir.x);
             animator.SetFloat("LastMoveY", dir.y);
         }
+        // When stopping, deliberately do NOT zero MoveX/MoveY - leave them at
+        // their last nonzero value so direction-aware Idle states (which key
+        // off MoveX/MoveY + isMoving==false) know which way she was facing.
     }
 
     /// <summary>Called by NPCInteractable when dialogue starts/ends.</summary>

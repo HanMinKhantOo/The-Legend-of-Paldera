@@ -114,15 +114,20 @@ public class NPCInteractable : MonoBehaviour
 
         Vector2 dir = (player.position - transform.position).normalized;
 
-        // Mirrors the MoveX/MoveY/LastMoveX/LastMoveY pattern used by
-        // PlayerMovement's Animator, so idle-facing works the same way.
-        // Guarded with HasParameter so simple/static NPCs (e.g. the
-        // stationary chief, whose Animator has no movement params)
-        // don't spam console warnings.
-        SetFloatIfExists("MoveX", 0f);
-        SetFloatIfExists("MoveY", 0f);
-        SetFloatIfExists("LastMoveX", dir.x);
-        SetFloatIfExists("LastMoveY", dir.y);
+        // Snap to the dominant axis so it maps cleanly onto the 4-way
+        // Down/Up/Left/Right Idle states (diagonal-ish angles still pick
+        // whichever direction is more prominent).
+        Vector2 snapped = Mathf.Abs(dir.x) > Mathf.Abs(dir.y)
+            ? new Vector2(Mathf.Sign(dir.x), 0f)
+            : new Vector2(0f, Mathf.Sign(dir.y));
+
+        // Setting real MoveX/MoveY (not just Last) is what actually drives
+        // the direction-aware Idle transitions - isMoving stays false so
+        // she doesn't play a walk cycle while standing still and talking.
+        SetFloatIfExists("MoveX", snapped.x);
+        SetFloatIfExists("MoveY", snapped.y);
+        SetFloatIfExists("LastMoveX", snapped.x);
+        SetFloatIfExists("LastMoveY", snapped.y);
         SetBoolIfExists("isMoving", false);
     }
 
