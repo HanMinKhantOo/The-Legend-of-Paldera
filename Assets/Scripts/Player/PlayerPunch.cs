@@ -8,7 +8,8 @@ public class PlayerPunch : MonoBehaviour
     [Header("Punch Hit Detection")]
     [SerializeField] private float hitDistance = 0.65f;
     [SerializeField] private float hitRadius = 0.35f;
-    [SerializeField] private int damagePerPunch = 1;
+    [SerializeField] private int damageVsTrees = 1;
+    [SerializeField] private int damageVsEnemies = 5;
 
     private void Awake()
     {
@@ -47,9 +48,23 @@ public class PlayerPunch : MonoBehaviour
 
             if (tree != null)
             {
-                tree.TakeHit(damagePerPunch);
+                tree.TakeHit(damageVsTrees);
 
                 // Only hit one tree per punch.
+                break;
+            }
+
+            // Enemies (Magical Wolf, Boar, etc.) use the same punch hitbox.
+            EnemyHealth enemy = hit.GetComponent<EnemyHealth>();
+
+            if (enemy == null)
+                enemy = hit.GetComponentInParent<EnemyHealth>();
+
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damageVsEnemies);
+
+                // Only hit one enemy per punch.
                 break;
             }
         }

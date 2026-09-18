@@ -32,6 +32,12 @@ public class PlayerVitals : MonoBehaviour
     [Tooltip("How much HP drains per second once Hunger has hit 0.")]
     public float starvationDamagePerSecond = 2f;
 
+    [Header("Passive Regen (Well-Fed)")]
+    [Tooltip("HP regenerates automatically while Hunger is at or above this amount.")]
+    public float wellFedHungerThreshold = 60f;
+    [Tooltip("HP regenerated per second while Hunger is above the threshold above.")]
+    public float hpRegenPerSecond = 1f;
+
     public float CurrentHP => currentHP;
     public float CurrentHunger => currentHunger;
     public bool IsDead { get; private set; }
@@ -71,6 +77,15 @@ public class PlayerVitals : MonoBehaviour
         {
             currentHunger = Mathf.Max(0f, currentHunger - hungerDrainPerSecond * deltaTime);
             changed = true;
+
+            // Well-fed passive healing: only while Hunger is comfortably
+            // high, separate from starvation damage below, and only up to
+            // maxHP (never overheals).
+            if (currentHunger >= wellFedHungerThreshold && currentHP < maxHP)
+            {
+                currentHP = Mathf.Min(maxHP, currentHP + hpRegenPerSecond * deltaTime);
+                changed = true;
+            }
         }
         else
         {

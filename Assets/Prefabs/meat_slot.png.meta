@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 51fe0476369fe4677a3d0e2dd2187882
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3930630695871694373
+    second: meat_slot_0
+  - first:
+      213: -342003246820651401
+    second: meat_slot_1
+  - first:
+      213: 6537019071816589694
+    second: meat_slot_2
+  - first:
+      213: -2768916637302569542
+    second: meat_slot_3
+  - first:
+      213: -490355186923900983
+    second: meat_slot_4
+  - first:
+      213: 2752818427799674004
+    second: meat_slot_5
+  - first:
+      213: -1603157917732325665
+    second: meat_slot_6
+  - first:
+      213: -5040584051640513160
+    second: meat_slot_7
+  - first:
+      213: 5248312916852080199
+    second: meat_slot_8
+  - first:
+      213: 2773257529220807509
+    second: meat_slot_9
+  - first:
+      213: -3861521725386749161
+    second: meat_slot_10
+  - first:
+      213: -136319098923181545
+    second: meat_slot_11
+  - first:
+      213: 4303200001915973591
+    second: meat_slot_12
+  - first:
+      213: -5360878275309955697
+    second: meat_slot_13
+  - first:
+      213: -1653375747136489044
+    second: meat_slot_14
+  - first:
+      213: 3986354316347618863
+    second: meat_slot_15
+  - first:
+      213: 4112740456120237804
+    second: meat_slot_16
+  - first:
+      213: 1133459705882875262
+    second: meat_slot_17
+  - first:
+      213: 4407983432999594287
+    second: meat_slot_18
+  - first:
+      213: 2322560503270096154
+    second: meat_slot_19
+  - first:
+      213: -7650189249760108068
+    second: meat_slot_20
+  - first:
+      213: 4857518726889215258
+    second: meat_slot_21
+  - first:
+      213: 308679270494677381
+    second: meat_slot_22
+  - first:
+      213: -2951273832500823623
+    second: meat_slot_23
+  - first:
+      213: -2610196138832339931
+    second: meat_slot_24
+  - first:
+      213: -2354131063855467274
+    second: meat_slot_25
+  - first:
+      213: -3052651371265804886
+    second: meat_slot_26
+  - first:
+      213: 6900636629449967578
+    second: meat_slot_27
+  - first:
+      213: 8029989402923057536
+    second: meat_slot_28
+  - first:
+      213: -59106252324757223
+    second: meat_slot_29
+  - first:
+      213: 8559426757183690499
+    second: meat_slot_30
+  - first:
+      213: -8278052062253870316
+    second: meat_slot_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meat_slot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1237
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526cda2eac76c8630800000000000000
+      internalID: 3930630695871694373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 714
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e8939ebd5f04bf0800000000000000
+      internalID: -342003246820651401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_2
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 622
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71e491163828ba50800000000000000
+      internalID: 6537019071816589694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_3
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 629
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab549ec1df4d299d0800000000000000
+      internalID: -2768916637302569542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_4
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 593
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf61a53e88e139f0800000000000000
+      internalID: -490355186923900983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 449
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c162866c9f33620800000000000000
+      internalID: 2752818427799674004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_6
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 419
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6b5b22e5070c9e0800000000000000
+      internalID: -1603157917732325665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 389
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dc77dd28f3c0ab0800000000000000
+      internalID: -5040584051640513160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 373
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eff078ac0c5d840800000000000000
+      internalID: 5248312916852080199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 385
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b32eb87079c7620800000000000000
+      internalID: 2773257529220807509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 360
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b8ed1337e196ac0800000000000000
+      internalID: -3861521725386749161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 353
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a15947082bb1ef0800000000000000
+      internalID: -136319098923181545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 357
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df69a73a9908bb30800000000000000
+      internalID: 4303200001915973591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 328
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f859a0c9c955a95b0800000000000000
+      internalID: -5360878275309955697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 329
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9fea794870e09e0800000000000000
+      internalID: -1653375747136489044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 345
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26bebe4120625730800000000000000
+      internalID: 3986354316347618863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 285
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceebc6497a3631930800000000000000
+      internalID: 4112740456120237804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 308
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e751e50e89bdabf00800000000000000
+      internalID: 1133459705882875262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_18
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 290
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f296fbbe39d4c2d30800000000000000
+      internalID: 4407983432999594287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 294
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d34c6e8746b3020800000000000000
+      internalID: 2322560503270096154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 294
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd16987e86115d590800000000000000
+      internalID: -7650189249760108068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_21
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 280
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a151a0ebb8f596340800000000000000
+      internalID: 4857518726889215258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 216
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589ac5b3926a84400800000000000000
+      internalID: 308679270494677381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 166
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9f1eaf518fa07d0800000000000000
+      internalID: -2951273832500823623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c5dcee078b6cbd0800000000000000
+      internalID: -2610196138832339931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 66
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4be282542745fd0800000000000000
+      internalID: -2354131063855467274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 38
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b79060cdc2a5d0800000000000000
+      internalID: -3052651371265804886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_27
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 35
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad70a6e047cf3cf50800000000000000
+      internalID: 6900636629449967578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_28
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 29
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081416731d0407f60800000000000000
+      internalID: 8029989402923057536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911ad2a3d230e2ff0800000000000000
+      internalID: -59106252324757223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_30
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 17
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30758ee294139c670800000000000000
+      internalID: 8559426757183690499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat_slot_31
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 25
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4131b2522837e1d80800000000000000
+      internalID: -8278052062253870316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      meat_slot_0: 3930630695871694373
+      meat_slot_1: -342003246820651401
+      meat_slot_10: -3861521725386749161
+      meat_slot_11: -136319098923181545
+      meat_slot_12: 4303200001915973591
+      meat_slot_13: -5360878275309955697
+      meat_slot_14: -1653375747136489044
+      meat_slot_15: 3986354316347618863
+      meat_slot_16: 4112740456120237804
+      meat_slot_17: 1133459705882875262
+      meat_slot_18: 4407983432999594287
+      meat_slot_19: 2322560503270096154
+      meat_slot_2: 6537019071816589694
+      meat_slot_20: -7650189249760108068
+      meat_slot_21: 4857518726889215258
+      meat_slot_22: 308679270494677381
+      meat_slot_23: -2951273832500823623
+      meat_slot_24: -2610196138832339931
+      meat_slot_25: -2354131063855467274
+      meat_slot_26: -3052651371265804886
+      meat_slot_27: 6900636629449967578
+      meat_slot_28: 8029989402923057536
+      meat_slot_29: -59106252324757223
+      meat_slot_3: -2768916637302569542
+      meat_slot_30: 8559426757183690499
+      meat_slot_31: -8278052062253870316
+      meat_slot_4: -490355186923900983
+      meat_slot_5: 2752818427799674004
+      meat_slot_6: -1603157917732325665
+      meat_slot_7: -5040584051640513160
+      meat_slot_8: 5248312916852080199
+      meat_slot_9: 2773257529220807509
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
