@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 3bd6c85d184804281b883c17a6c3b7b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -133712972720176415
+    second: WoodPickaxe_Idle_0
+  - first:
+      213: -6925095266359626541
+    second: WoodPickaxe_Idle_1
+  - first:
+      213: 5683633270751603463
+    second: WoodPickaxe_Idle_2
+  - first:
+      213: 3051830120220543460
+    second: WoodPickaxe_Idle_3
+  - first:
+      213: 3769345165768653743
+    second: WoodPickaxe_Idle_4
+  - first:
+      213: 8473631742605800776
+    second: WoodPickaxe_Idle_5
+  - first:
+      213: 44816483447197329
+    second: WoodPickaxe_Idle_6
+  - first:
+      213: -8004870363104870109
+    second: WoodPickaxe_Idle_7
+  - first:
+      213: 3720140097725619530
+    second: WoodPickaxe_Idle_8
+  - first:
+      213: -8471833094771520006
+    second: WoodPickaxe_Idle_9
+  - first:
+      213: -4023524635125817890
+    second: WoodPickaxe_Idle_10
+  - first:
+      213: -3828890812018758539
+    second: WoodPickaxe_Idle_11
+  - first:
+      213: 3778693647554350912
+    second: WoodPickaxe_Idle_12
+  - first:
+      213: -3634964549042108451
+    second: WoodPickaxe_Idle_13
+  - first:
+      213: -5077950036315117200
+    second: WoodPickaxe_Idle_14
+  - first:
+      213: -2698104630476934435
+    second: WoodPickaxe_Idle_15
+  - first:
+      213: -9195011697509703099
+    second: WoodPickaxe_Idle_16
+  - first:
+      213: -6967636662383431853
+    second: WoodPickaxe_Idle_17
+  - first:
+      213: -630513855293789773
+    second: WoodPickaxe_Idle_18
+  - first:
+      213: -4102826299709134149
+    second: WoodPickaxe_Idle_19
+  - first:
+      213: 1498118840481912655
+    second: WoodPickaxe_Idle_20
+  - first:
+      213: 2325472374736289258
+    second: WoodPickaxe_Idle_21
+  - first:
+      213: 2158595862064943207
+    second: WoodPickaxe_Idle_22
+  - first:
+      213: 338690345939137770
+    second: WoodPickaxe_Idle_23
+  - first:
+      213: -2438980569912128807
+    second: WoodPickaxe_Idle_24
+  - first:
+      213: 47236529558175623
+    second: WoodPickaxe_Idle_25
+  - first:
+      213: 2497381213200860003
+    second: WoodPickaxe_Idle_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1199
+        width: 213
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2072f72c4f42ef0800000000000000
+      internalID: -133712972720176415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 755
+        width: 234
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d435e4cb8e15ef90800000000000000
+      internalID: -6925095266359626541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1128
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70badb8b85250ee40800000000000000
+      internalID: 5683633270751603463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1139
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9459633574a5a20800000000000000
+      internalID: 3051830120220543460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1142
+        width: 243
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf97915776f4430800000000000000
+      internalID: 3769345165768653743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1155
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8453e77bc23689570800000000000000
+      internalID: 8473631742605800776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1155
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ec3ffaa583f9000800000000000000
+      internalID: 44816483447197329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1159
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321051ef0dcf8e090800000000000000
+      internalID: -8004870363104870109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1155
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d5f9f65b790a330800000000000000
+      internalID: 3720140097725619530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1131
+        width: 233
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdcebd9fa00e6a80800000000000000
+      internalID: -8471833094771520006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1153
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddda4279a19928c0800000000000000
+      internalID: -4023524635125817890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1143
+        width: 245
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c6dd1c71c0ddac0800000000000000
+      internalID: -3828890812018758539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1156
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f80812add907430800000000000000
+      internalID: 3778693647554350912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 745
+        width: 247
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7053360030e8dc0800000000000000
+      internalID: -3634964549042108451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 761
+        width: 260
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079614a985f7789b0800000000000000
+      internalID: -5077950036315117200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 775
+        width: 231
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2f59d32286e8ad0800000000000000
+      internalID: -2698104630476934435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 219
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5426f501491c46080800000000000000
+      internalID: -9195011697509703099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 368
+        width: 230
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa5a62f5bfd4f90800000000000000
+      internalID: -6967636662383431853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 665
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9604d3df6ff37f0800000000000000
+      internalID: -630513855293789773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 382
+        width: 250
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbae4b6d735df07c0800000000000000
+      internalID: -4102826299709134149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 376
+        width: 241
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f479e36e5236ac410800000000000000
+      internalID: 1498118840481912655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 418
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedf32fcdccb54020800000000000000
+      internalID: 2325472374736289258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 408
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605204ff7fd4fd10800000000000000
+      internalID: 2158595862064943207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 45
+        width: 239
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae47e8e331543b400800000000000000
+      internalID: 338690345939137770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 247
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dace4c0810072ed0800000000000000
+      internalID: -2438980569912128807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 23
+        width: 265
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fbcb49f51d7a000800000000000000
+      internalID: 47236529558175623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPickaxe_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 59
+        width: 234
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36342915bfa78a220800000000000000
+      internalID: 2497381213200860003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WoodPickaxe_Idle_0: -133712972720176415
+      WoodPickaxe_Idle_1: -6925095266359626541
+      WoodPickaxe_Idle_10: -4023524635125817890
+      WoodPickaxe_Idle_11: -3828890812018758539
+      WoodPickaxe_Idle_12: 3778693647554350912
+      WoodPickaxe_Idle_13: -3634964549042108451
+      WoodPickaxe_Idle_14: -5077950036315117200
+      WoodPickaxe_Idle_15: -2698104630476934435
+      WoodPickaxe_Idle_16: -9195011697509703099
+      WoodPickaxe_Idle_17: -6967636662383431853
+      WoodPickaxe_Idle_18: -630513855293789773
+      WoodPickaxe_Idle_19: -4102826299709134149
+      WoodPickaxe_Idle_2: 5683633270751603463
+      WoodPickaxe_Idle_20: 1498118840481912655
+      WoodPickaxe_Idle_21: 2325472374736289258
+      WoodPickaxe_Idle_22: 2158595862064943207
+      WoodPickaxe_Idle_23: 338690345939137770
+      WoodPickaxe_Idle_24: -2438980569912128807
+      WoodPickaxe_Idle_25: 47236529558175623
+      WoodPickaxe_Idle_26: 2497381213200860003
+      WoodPickaxe_Idle_3: 3051830120220543460
+      WoodPickaxe_Idle_4: 3769345165768653743
+      WoodPickaxe_Idle_5: 8473631742605800776
+      WoodPickaxe_Idle_6: 44816483447197329
+      WoodPickaxe_Idle_7: -8004870363104870109
+      WoodPickaxe_Idle_8: 3720140097725619530
+      WoodPickaxe_Idle_9: -8471833094771520006
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
