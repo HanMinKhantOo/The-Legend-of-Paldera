@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 67251a86911fe49918146296584baf29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8197031225650743270
+    second: punching_sprites_432x680.png.meta_0
+  - first:
+      213: -2199955328232304175
+    second: punching_sprites_432x680.png.meta_1
+  - first:
+      213: 319376478249385945
+    second: punching_sprites_432x680.png.meta_2
+  - first:
+      213: -2674682657860965845
+    second: punching_sprites_432x680.png.meta_3
+  - first:
+      213: 5894091612073492013
+    second: punching_sprites_432x680.png.meta_4
+  - first:
+      213: -5026390259040651581
+    second: punching_sprites_432x680.png.meta_5
+  - first:
+      213: 9149886971151990548
+    second: punching_sprites_432x680.png.meta_6
+  - first:
+      213: -1291608310765621586
+    second: punching_sprites_432x680.png.meta_7
+  - first:
+      213: 5183950562572776365
+    second: punching_sprites_432x680.png.meta_8
+  - first:
+      213: -969548336913615780
+    second: punching_sprites_432x680.png.meta_9
+  - first:
+      213: 5270044838555797851
+    second: punching_sprites_432x680.png.meta_10
+  - first:
+      213: -5363227731731568764
+    second: punching_sprites_432x680.png.meta_11
+  - first:
+      213: -350598768202712896
+    second: punching_sprites_432x680.png.meta_12
+  - first:
+      213: 6691319092888382970
+    second: punching_sprites_432x680.png.meta_13
+  - first:
+      213: -8930898402980993311
+    second: punching_sprites_432x680.png.meta_14
+  - first:
+      213: -1248031635337052951
+    second: punching_sprites_432x680.png.meta_15
+  - first:
+      213: 4660743636134852236
+    second: punching_sprites_432x680.png.meta_16
+  - first:
+      213: 1378330525035894789
+    second: punching_sprites_432x680.png.meta_17
+  - first:
+      213: 5940875022165729590
+    second: punching_sprites_432x680.png.meta_18
+  - first:
+      213: -1120651685360321323
+    second: punching_sprites_432x680.png.meta_19
+  - first:
+      213: -3803194359667600368
+    second: punching_sprites_432x680.png.meta_20
+  - first:
+      213: -8747712255437876466
+    second: punching_sprites_432x680.png.meta_21
+  - first:
+      213: -3158851943954636243
+    second: punching_sprites_432x680.png.meta_22
+  - first:
+      213: -7169769648130053698
+    second: punching_sprites_432x680.png.meta_23
+  - first:
+      213: -8702161671327763777
+    second: punching_sprites_432x680.png.meta_24
+  - first:
+      213: -1257101427357599745
+    second: punching_sprites_432x680.png.meta_25
+  - first:
+      213: 5592923093149462560
+    second: punching_sprites_432x680.png.meta_26
+  - first:
+      213: 7081981470007052527
+    second: punching_sprites_432x680.png.meta_27
+  - first:
+      213: -5689694555904371581
+    second: punching_sprites_432x680.png.meta_28
+  - first:
+      213: -721426766225459497
+    second: punching_sprites_432x680.png.meta_29
+  - first:
+      213: 6298897177163977401
+    second: punching_sprites_432x680.png.meta_30
+  - first:
+      213: -7067863426825254316
+    second: punching_sprites_432x680.png.meta_31
+  - first:
+      213: 4979180805594960564
+    second: punching_sprites_432x680.png.meta_32
+  - first:
+      213: -4278291179571520058
+    second: punching_sprites_432x680.png.meta_33
+  - first:
+      213: -8548937682575776332
+    second: punching_sprites_432x680.png.meta_34
+  - first:
+      213: -5230871008647767530
+    second: punching_sprites_432x680.png.meta_35
+  - first:
+      213: 3199819012929185165
+    second: punching_sprites_432x680.png.meta_36
+  - first:
+      213: -6239641606484300721
+    second: punching_sprites_432x680.png.meta_37
+  - first:
+      213: -1230162552998209673
+    second: punching_sprites_432x680.png.meta_38
+  - first:
+      213: -1355209759561544107
+    second: punching_sprites_432x680.png.meta_39
+  - first:
+      213: 4622724830759193282
+    second: punching_sprites_432x680.png.meta_40
+  - first:
+      213: 6061279406824868599
+    second: punching_sprites_432x680.png.meta_41
+  - first:
+      213: 7283379106205126211
+    second: punching_sprites_432x680.png.meta_42
+  - first:
+      213: -663436243707601194
+    second: punching_sprites_432x680.png.meta_43
+  - first:
+      213: 6986718102138189568
+    second: punching_sprites_432x680.png.meta_44
+  - first:
+      213: -9124873770769163033
+    second: punching_sprites_432x680.png.meta_45
+  - first:
+      213: -2172687080577860705
+    second: punching_sprites_432x680.png.meta_46
+  - first:
+      213: 8435997002758224848
+    second: punching_sprites_432x680.png.meta_47
+  - first:
+      213: 4783915855871032928
+    second: punching_sprites_432x680.png.meta_48
+  - first:
+      213: 8460718198295367388
+    second: punching_sprites_432x680.png.meta_49
+  - first:
+      213: -1383936767270200154
+    second: punching_sprites_432x680.png.meta_50
+  - first:
+      213: 6962401395548394557
+    second: punching_sprites_432x680.png.meta_51
+  - first:
+      213: -2464444759137501222
+    second: punching_sprites_432x680.png.meta_52
+  - first:
+      213: -429969372375759386
+    second: punching_sprites_432x680.png.meta_53
+  - first:
+      213: -350938088933674563
+    second: punching_sprites_432x680.png.meta_54
+  - first:
+      213: -3327027595310897905
+    second: punching_sprites_432x680.png.meta_55
+  - first:
+      213: 2958522052653560008
+    second: punching_sprites_432x680.png.meta_56
+  - first:
+      213: -5249675496168326052
+    second: punching_sprites_432x680.png.meta_57
+  - first:
+      213: -6972836685373086291
+    second: punching_sprites_432x680.png.meta_58
+  - first:
+      213: -7677818475679960909
+    second: punching_sprites_432x680.png.meta_59
+  - first:
+      213: 4529842478225834866
+    second: punching_sprites_432x680.png.meta_60
+  - first:
+      213: -9004517794450271333
+    second: punching_sprites_432x680.png.meta_61
+  - first:
+      213: 7795087654619005657
+    second: punching_sprites_432x680.png.meta_62
+  - first:
+      213: -7251192339155501965
+    second: punching_sprites_432x680.png.meta_63
+  - first:
+      213: -8316969214735055425
+    second: punching_sprites_432x680.png.meta_64
+  - first:
+      213: -8113859863263728821
+    second: punching_sprites_432x680.png.meta_65
+  - first:
+      213: 4492120855504860172
+    second: punching_sprites_432x680.png.meta_66
+  - first:
+      213: 8321993011697069466
+    second: punching_sprites_432x680.png.meta_67
+  - first:
+      213: -7228112211007304490
+    second: punching_sprites_432x680.png.meta_68
+  - first:
+      213: 3808848616814080637
+    second: punching_sprites_432x680.png.meta_69
+  - first:
+      213: 5504992748251050798
+    second: punching_sprites_432x680.png.meta_70
+  - first:
+      213: 5745361457344612759
+    second: punching_sprites_432x680.png.meta_71
+  - first:
+      213: -2399364249634796625
+    second: punching_sprites_432x680.png.meta_72
+  - first:
+      213: -4369656182228567271
+    second: punching_sprites_432x680.png.meta_73
+  - first:
+      213: 4684687617009316255
+    second: punching_sprites_432x680.png.meta_74
+  - first:
+      213: -3117754373980237042
+    second: punching_sprites_432x680.png.meta_75
+  - first:
+      213: 7896785370990193345
+    second: punching_sprites_432x680.png.meta_76
+  - first:
+      213: 3920311066091448048
+    second: punching_sprites_432x680.png.meta_77
+  - first:
+      213: 333545603233829441
+    second: punching_sprites_432x680.png.meta_78
+  - first:
+      213: -502242138034011822
+    second: punching_sprites_432x680.png.meta_79
+  - first:
+      213: -3500825335454428227
+    second: punching_sprites_432x680.png.meta_80
+  - first:
+      213: 2778301591486302860
+    second: punching_sprites_432x680.png.meta_81
+  - first:
+      213: 2296893261230801915
+    second: punching_sprites_432x680.png.meta_82
+  - first:
+      213: 2574084282849652393
+    second: punching_sprites_432x680.png.meta_83
+  - first:
+      213: -846611693538035273
+    second: punching_sprites_432x680.png.meta_84
+  - first:
+      213: -1099038344136848412
+    second: punching_sprites_432x680.png.meta_85
+  - first:
+      213: 3126330810171243842
+    second: punching_sprites_432x680.png.meta_86
+  - first:
+      213: 2744016531928015848
+    second: punching_sprites_432x680.png.meta_87
+  - first:
+      213: -4020568861383869353
+    second: punching_sprites_432x680.png.meta_88
+  - first:
+      213: -5724991628546050232
+    second: punching_sprites_432x680.png.meta_89
+  - first:
+      213: -6210895415686544319
+    second: punching_sprites_432x680.png.meta_90
+  - first:
+      213: -8113512256238655450
+    second: punching_sprites_432x680.png.meta_91
+  - first:
+      213: -8545018219555507493
+    second: punching_sprites_432x680.png.meta_92
+  - first:
+      213: 4346854417895883192
+    second: punching_sprites_432x680.png.meta_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a187d4ea78b4e3e80800000000000000
+      internalID: -8197031225650743270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d15cfae8403871e0800000000000000
+      internalID: -2199955328232304175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df7baff637ae6400800000000000000
+      internalID: 319376478249385945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aac433b4e91ead0800000000000000
+      internalID: -2674682657860965845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eff3bc7150cc150800000000000000
+      internalID: 5894091612073492013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6f56bb0bcae3ab0800000000000000
+      internalID: -5026390259040651581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f3d7ad8bdeafe70800000000000000
+      internalID: 9149886971151990548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae6fd7a519431ee0800000000000000
+      internalID: -1291608310765621586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da33657229711f740800000000000000
+      internalID: 5183950562572776365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5471b9ace87b82f0800000000000000
+      internalID: -969548336913615780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59cf78dbd5f22940800000000000000
+      internalID: 5270044838555797851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487ad982bccf195b0800000000000000
+      internalID: -5363227731731568764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c87692274c622bf0800000000000000
+      internalID: -350598768202712896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afda66a43475cdc50800000000000000
+      internalID: 6691319092888382970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e63d68331f0480800000000000000
+      internalID: -8930898402980993311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecf84b07d91eaee0800000000000000
+      internalID: -1248031635337052951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86faf4b4a94ea040800000000000000
+      internalID: 4660743636134852236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punching_sprites_432x680.png.meta_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50897df4f40d02310800000000000000
+      internalID: 1378330525035894789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 197eb1ee86278466b8b0e2a588f30363
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":3.0},"gridSpriteSize":{"x":256.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      punching_sprites_432x680.png.meta_0: -8197031225650743270
+      punching_sprites_432x680.png.meta_1: -2199955328232304175
+      punching_sprites_432x680.png.meta_10: 5270044838555797851
+      punching_sprites_432x680.png.meta_11: -5363227731731568764
+      punching_sprites_432x680.png.meta_12: -350598768202712896
+      punching_sprites_432x680.png.meta_13: 6691319092888382970
+      punching_sprites_432x680.png.meta_14: -8930898402980993311
+      punching_sprites_432x680.png.meta_15: -1248031635337052951
+      punching_sprites_432x680.png.meta_16: 4660743636134852236
+      punching_sprites_432x680.png.meta_17: 1378330525035894789
+      punching_sprites_432x680.png.meta_2: 319376478249385945
+      punching_sprites_432x680.png.meta_3: -2674682657860965845
+      punching_sprites_432x680.png.meta_4: 5894091612073492013
+      punching_sprites_432x680.png.meta_5: -5026390259040651581
+      punching_sprites_432x680.png.meta_6: 9149886971151990548
+      punching_sprites_432x680.png.meta_7: -1291608310765621586
+      punching_sprites_432x680.png.meta_8: 5183950562572776365
+      punching_sprites_432x680.png.meta_9: -969548336913615780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
