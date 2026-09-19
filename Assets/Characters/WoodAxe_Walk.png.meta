@@ -1,55 +1,61 @@
 fileFormatVersion: 2
-guid: 2e41cff0708c74b67914c48ae50eb528
+guid: 8672c7bbe9d3e4ca2888555bdd55ee7e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8436033566473591288
-    second: wooden_pickaxe_idle_ready_0
+      213: 8894506997216025107
+    second: WoodAxe_Walk_0
   - first:
-      213: 8978459369507880470
-    second: wooden_pickaxe_idle_ready_1
+      213: 1003963759697692196
+    second: WoodAxe_Walk_1
   - first:
-      213: 1439730830299118792
-    second: wooden_pickaxe_idle_ready_2
+      213: -6491829746767610150
+    second: WoodAxe_Walk_2
   - first:
-      213: -7978423776246847698
-    second: wooden_pickaxe_idle_ready_3
+      213: -3021718741067729855
+    second: WoodAxe_Walk_3
   - first:
-      213: 2668030414065853668
-    second: wooden_pickaxe_idle_ready_4
+      213: -7452794961497713527
+    second: WoodAxe_Walk_4
   - first:
-      213: 667058194844540765
-    second: wooden_pickaxe_idle_ready_5
+      213: -1687817146451017540
+    second: WoodAxe_Walk_5
   - first:
-      213: -4640184086219493776
-    second: wooden_pickaxe_idle_ready_6
+      213: -2661552926414792580
+    second: WoodAxe_Walk_6
   - first:
-      213: 6976260345866993687
-    second: wooden_pickaxe_idle_ready_7
+      213: 5553577586617482808
+    second: WoodAxe_Walk_7
   - first:
-      213: -2362306658363729878
-    second: wooden_pickaxe_idle_ready_8
+      213: -681989597911315025
+    second: WoodAxe_Walk_8
   - first:
-      213: -5493820579633470096
-    second: wooden_pickaxe_idle_ready_9
+      213: 2409987575676995108
+    second: WoodAxe_Walk_9
   - first:
-      213: -4427724784784605425
-    second: wooden_pickaxe_idle_ready_10
+      213: 2065320212092439150
+    second: WoodAxe_Walk_10
   - first:
-      213: 3067142133865479102
-    second: wooden_pickaxe_idle_ready_11
+      213: -6630512026094215551
+    second: WoodAxe_Walk_11
   - first:
-      213: -4490246792802453188
-    second: wooden_pickaxe_idle_ready_12
+      213: -4161250434460317040
+    second: WoodAxe_Walk_12
   - first:
-      213: 4846837031668602175
-    second: wooden_pickaxe_idle_ready_13
+      213: -4683531572341260481
+    second: WoodAxe_Walk_13
   - first:
-      213: 7360379046878982020
-    second: wooden_pickaxe_idle_ready_14
+      213: -110250569156946629
+    second: WoodAxe_Walk_14
   - first:
-      213: -6599094215403464996
-    second: wooden_pickaxe_idle_ready_15
+      213: 9208330603898573570
+    second: WoodAxe_Walk_15
+  - first:
+      213: -3599834141812509214
+    second: WoodAxe_Walk_16
+  - first:
+      213: -6415303295126988266
+    second: WoodAxe_Walk_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,353 +164,397 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_0
+      name: WoodAxe_Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 510
-        width: 108
-        height: 170
+        y: 1181
+        width: 229
+        height: 323
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f91eea25dfc21570800000000000000
-      internalID: 8436033566473591288
+      spriteID: 31a99452df2af6b70800000000000000
+      internalID: 8894506997216025107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_1
+      name: WoodAxe_Walk_1
       rect:
         serializedVersion: 2
-        x: 108
-        y: 510
-        width: 108
-        height: 170
+        x: 232
+        y: 1149
+        width: 238
+        height: 402
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61e7bc50a35e99c70800000000000000
-      internalID: 8978459369507880470
+      spriteID: 426852068bbceed00800000000000000
+      internalID: 1003963759697692196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_2
+      name: WoodAxe_Walk_2
       rect:
         serializedVersion: 2
-        x: 216
-        y: 510
-        width: 108
-        height: 170
+        x: 474
+        y: 1178
+        width: 238
+        height: 324
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cc3828ef83faf310800000000000000
-      internalID: 1439730830299118792
+      spriteID: ade3a919d3368e5a0800000000000000
+      internalID: -6491829746767610150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_3
+      name: WoodAxe_Walk_3
       rect:
         serializedVersion: 2
-        x: 324
-        y: 510
-        width: 108
-        height: 170
+        x: 730
+        y: 1177
+        width: 241
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e27a645d8d1f64190800000000000000
-      internalID: -7978423776246847698
+      spriteID: 144748390d2b016d0800000000000000
+      internalID: -3021718741067729855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_4
+      name: WoodAxe_Walk_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 340
-        width: 108
-        height: 170
+        x: 32
+        y: 775
+        width: 245
+        height: 363
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e46558968fb60520800000000000000
-      internalID: 2668030414065853668
+      spriteID: 9849b18187a529890800000000000000
+      internalID: -7452794961497713527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_5
+      name: WoodAxe_Walk_5
       rect:
         serializedVersion: 2
-        x: 108
-        y: 340
-        width: 108
-        height: 170
+        x: 272
+        y: 779
+        width: 247
+        height: 351
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5fd83cd4edd14900800000000000000
-      internalID: 667058194844540765
+      spriteID: cb049fb6f3ba398e0800000000000000
+      internalID: -1687817146451017540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_6
+      name: WoodAxe_Walk_6
       rect:
         serializedVersion: 2
-        x: 216
-        y: 340
-        width: 108
-        height: 170
+        x: 522
+        y: 807
+        width: 251
+        height: 323
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07e67788821ca9fb0800000000000000
-      internalID: -4640184086219493776
+      spriteID: c78152607b3401bd0800000000000000
+      internalID: -2661552926414792580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_7
+      name: WoodAxe_Walk_7
       rect:
         serializedVersion: 2
-        x: 324
-        y: 340
-        width: 108
-        height: 170
+        x: 771
+        y: 815
+        width: 229
+        height: 314
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 710cb00a2d7a0d060800000000000000
-      internalID: 6976260345866993687
+      spriteID: 83ef7e21465421d40800000000000000
+      internalID: 5553577586617482808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 170
-        width: 108
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2890b93c96673fd0800000000000000
-      internalID: -2362306658363729878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_9
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 170
-        width: 108
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07567335a4702c3b0800000000000000
-      internalID: -5493820579633470096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_10
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 170
-        width: 108
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0f78bf64cf8d82c0800000000000000
-      internalID: -4427724784784605425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_11
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 170
-        width: 108
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebb7fa4358da09a20800000000000000
-      internalID: 3067142133865479102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_12
+      name: WoodAxe_Walk_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 108
-        height: 170
+        y: 444
+        width: 229
+        height: 322
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c393c2115507fa1c0800000000000000
-      internalID: -4490246792802453188
+      spriteID: fad0cf3f2161986f0800000000000000
+      internalID: -681989597911315025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_13
+      name: WoodAxe_Walk_9
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
-        width: 108
-        height: 170
+        x: 239
+        y: 463
+        width: 230
+        height: 304
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f35d0d4c99c634340800000000000000
-      internalID: 4846837031668602175
+      spriteID: 42605517eeef17120800000000000000
+      internalID: 2409987575676995108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_14
+      name: WoodAxe_Walk_10
       rect:
         serializedVersion: 2
-        x: 216
-        y: 0
-        width: 108
-        height: 170
+        x: 480
+        y: 464
+        width: 232
+        height: 299
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48f23750fb1552660800000000000000
-      internalID: 7360379046878982020
+      spriteID: e6a44355acd79ac10800000000000000
+      internalID: 2065320212092439150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_pickaxe_idle_ready_15
+      name: WoodAxe_Walk_11
       rect:
         serializedVersion: 2
-        x: 324
-        y: 0
-        width: 108
-        height: 170
+        x: 732
+        y: 464
+        width: 229
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd69a8b46ce4b64a0800000000000000
-      internalID: -6599094215403464996
+      spriteID: 18ed2b53170bbf3a0800000000000000
+      internalID: -6630512026094215551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 41
+        width: 251
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8d80f6c44046c0800000000000000
+      internalID: -4161250434460317040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 19
+        width: 239
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fb54079d0c00fb0800000000000000
+      internalID: -4683531572341260481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 59
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b359d1501bf487ef0800000000000000
+      internalID: -110250569156946629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 61
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2039bbb75ef8acf70800000000000000
+      internalID: 9208330603898573570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 31
+        width: 281
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e531f6bbe1da0ec0800000000000000
+      internalID: -3599834141812509214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodAxe_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 33
+        width: 234
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a109f84a348f6a0800000000000000
+      internalID: -6415303295126988266
       vertices: []
       indices: 
       edges: []
@@ -513,7 +563,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 010be89fc85884005af014f33ec2afaa
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -521,26 +571,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      wooden_pickaxe_idle_ready_0: 8436033566473591288
-      wooden_pickaxe_idle_ready_1: 8978459369507880470
-      wooden_pickaxe_idle_ready_10: -4427724784784605425
-      wooden_pickaxe_idle_ready_11: 3067142133865479102
-      wooden_pickaxe_idle_ready_12: -4490246792802453188
-      wooden_pickaxe_idle_ready_13: 4846837031668602175
-      wooden_pickaxe_idle_ready_14: 7360379046878982020
-      wooden_pickaxe_idle_ready_15: -6599094215403464996
-      wooden_pickaxe_idle_ready_2: 1439730830299118792
-      wooden_pickaxe_idle_ready_3: -7978423776246847698
-      wooden_pickaxe_idle_ready_4: 2668030414065853668
-      wooden_pickaxe_idle_ready_5: 667058194844540765
-      wooden_pickaxe_idle_ready_6: -4640184086219493776
-      wooden_pickaxe_idle_ready_7: 6976260345866993687
-      wooden_pickaxe_idle_ready_8: -2362306658363729878
-      wooden_pickaxe_idle_ready_9: -5493820579633470096
+      WoodAxe_Walk_0: 8894506997216025107
+      WoodAxe_Walk_1: 1003963759697692196
+      WoodAxe_Walk_10: 2065320212092439150
+      WoodAxe_Walk_11: -6630512026094215551
+      WoodAxe_Walk_12: -4161250434460317040
+      WoodAxe_Walk_13: -4683531572341260481
+      WoodAxe_Walk_14: -110250569156946629
+      WoodAxe_Walk_15: 9208330603898573570
+      WoodAxe_Walk_16: -3599834141812509214
+      WoodAxe_Walk_17: -6415303295126988266
+      WoodAxe_Walk_2: -6491829746767610150
+      WoodAxe_Walk_3: -3021718741067729855
+      WoodAxe_Walk_4: -7452794961497713527
+      WoodAxe_Walk_5: -1687817146451017540
+      WoodAxe_Walk_6: -2661552926414792580
+      WoodAxe_Walk_7: 5553577586617482808
+      WoodAxe_Walk_8: -681989597911315025
+      WoodAxe_Walk_9: 2409987575676995108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

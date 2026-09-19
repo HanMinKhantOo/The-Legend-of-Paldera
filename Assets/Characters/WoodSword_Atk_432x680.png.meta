@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: a0839edd0f6514b97bab07e32734daf1
+guid: b689e18c91543412fbf3b572857fb351
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1543333523729428770
-    second: wooden_axe_idle_ready_0
+      213: 299991592176128394
+    second: WoodSword_Atk_432x680_0
   - first:
-      213: 3979310076539962241
-    second: wooden_axe_idle_ready_1
+      213: 1360970740400406789
+    second: WoodSword_Atk_432x680_1
   - first:
-      213: 8838503823681107593
-    second: wooden_axe_idle_ready_2
+      213: -1395589677160808735
+    second: WoodSword_Atk_432x680_2
   - first:
-      213: -4772494213364420306
-    second: wooden_axe_idle_ready_3
+      213: -5088792271763260619
+    second: WoodSword_Atk_432x680_3
   - first:
-      213: -6130497296504130753
-    second: wooden_axe_idle_ready_4
+      213: 5780546816005753244
+    second: WoodSword_Atk_432x680_4
   - first:
-      213: -3775179444456431823
-    second: wooden_axe_idle_ready_5
+      213: 5975057605277977177
+    second: WoodSword_Atk_432x680_5
   - first:
-      213: 7404095411997118558
-    second: wooden_axe_idle_ready_6
+      213: 2969619717057894871
+    second: WoodSword_Atk_432x680_6
   - first:
-      213: -72043784836009998
-    second: wooden_axe_idle_ready_7
+      213: -6611621970424355157
+    second: WoodSword_Atk_432x680_7
   - first:
-      213: -1719120399987692255
-    second: wooden_axe_idle_ready_8
+      213: 5464872570024440050
+    second: WoodSword_Atk_432x680_8
   - first:
-      213: -5692788551018323324
-    second: wooden_axe_idle_ready_9
+      213: 4348237534421722666
+    second: WoodSword_Atk_432x680_9
   - first:
-      213: -8232812786559986995
-    second: wooden_axe_idle_ready_10
+      213: -4879015117869265739
+    second: WoodSword_Atk_432x680_10
   - first:
-      213: 2936032076982149670
-    second: wooden_axe_idle_ready_11
+      213: -4954674594496192642
+    second: WoodSword_Atk_432x680_11
   - first:
-      213: 5367527413282961165
-    second: wooden_axe_idle_ready_12
+      213: -6151915631623781258
+    second: WoodSword_Atk_432x680_12
   - first:
-      213: 2022459080358087764
-    second: wooden_axe_idle_ready_13
+      213: 8686549759013110652
+    second: WoodSword_Atk_432x680_13
   - first:
-      213: -5838292295572016127
-    second: wooden_axe_idle_ready_14
+      213: 4720573945880678
+    second: WoodSword_Atk_432x680_14
   - first:
-      213: -6908660567877469443
-    second: wooden_axe_idle_ready_15
+      213: -8054403198484068724
+    second: WoodSword_Atk_432x680_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_0
+      name: WoodSword_Atk_432x680_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 510
+        y: 502
         width: 108
-        height: 170
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edec72c465af49ae0800000000000000
-      internalID: -1543333523729428770
+      spriteID: a81134f73c8c92400800000000000000
+      internalID: 299991592176128394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_1
+      name: WoodSword_Atk_432x680_1
       rect:
         serializedVersion: 2
         x: 108
@@ -195,18 +195,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1830c4b6e69593730800000000000000
-      internalID: 3979310076539962241
+      spriteID: 501444b7da323e210800000000000000
+      internalID: 1360970740400406789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_2
+      name: WoodSword_Atk_432x680_2
       rect:
         serializedVersion: 2
         x: 216
-        y: 510
+        y: 496
         width: 108
         height: 170
       alignment: 0
@@ -217,14 +217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 986b174366ca8aa70800000000000000
-      internalID: 8838503823681107593
+      spriteID: 1eeb0a0359ed1ace0800000000000000
+      internalID: -1395589677160808735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_3
+      name: WoodSword_Atk_432x680_3
       rect:
         serializedVersion: 2
         x: 324
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e217ec77cc1b4cdb0800000000000000
-      internalID: -4772494213364420306
+      spriteID: 53b3cc1f36af069b0800000000000000
+      internalID: -5088792271763260619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_4
+      name: WoodSword_Atk_432x680_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 340
+        y: 333
         width: 108
-        height: 170
+        height: 165
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,18 +261,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f33f06980391ceaa0800000000000000
-      internalID: -6130497296504130753
+      spriteID: c99c987d3b0a83050800000000000000
+      internalID: 5780546816005753244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_5
+      name: WoodSword_Atk_432x680_5
       rect:
         serializedVersion: 2
         x: 108
-        y: 340
+        y: 332
         width: 108
         height: 170
       alignment: 0
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13f51d90c4edb9bc0800000000000000
-      internalID: -3775179444456431823
+      spriteID: 95a071b1c3babe250800000000000000
+      internalID: 5975057605277977177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_6
+      name: WoodSword_Atk_432x680_6
       rect:
         serializedVersion: 2
         x: 216
-        y: 340
+        y: 333
         width: 108
-        height: 170
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5010337c81a0c660800000000000000
-      internalID: 7404095411997118558
+      spriteID: 7d95b312665363920800000000000000
+      internalID: 2969619717057894871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_7
+      name: WoodSword_Atk_432x680_7
       rect:
         serializedVersion: 2
         x: 324
-        y: 340
+        y: 332
         width: 108
-        height: 170
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,42 +327,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff23943f8c000ff0800000000000000
-      internalID: -72043784836009998
+      spriteID: ba620b709dcce34a0800000000000000
+      internalID: -6611621970424355157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_8
+      name: WoodSword_Atk_432x680_8
       rect:
         serializedVersion: 2
         x: 0
         y: 170
         width: 108
-        height: 170
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 2, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12d2b90ca157428e0800000000000000
-      internalID: -1719120399987692255
+      spriteID: 2f03517f5a027db40800000000000000
+      internalID: 5464872570024440050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_9
+      name: WoodSword_Atk_432x680_9
       rect:
         serializedVersion: 2
-        x: 108
+        x: 105
         y: 170
-        width: 108
-        height: 170
+        width: 90
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 482642b79f62ff0b0800000000000000
-      internalID: -5692788551018323324
+      spriteID: a262a36effa085c30800000000000000
+      internalID: 4348237534421722666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_10
+      name: WoodSword_Atk_432x680_10
       rect:
         serializedVersion: 2
-        x: 216
-        y: 170
-        width: 108
-        height: 170
+        x: 198
+        y: 169
+        width: 123
+        height: 163
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc25cc2d36c2fbd80800000000000000
-      internalID: -8232812786559986995
+      spriteID: 5bc44a5b9914a4cb0800000000000000
+      internalID: -4879015117869265739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_11
+      name: WoodSword_Atk_432x680_11
       rect:
         serializedVersion: 2
         x: 324
         y: 170
         width: 108
-        height: 170
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6226ca54e91eeb820800000000000000
-      internalID: 2936032076982149670
+      spriteID: e7fd66115b57d3bb0800000000000000
+      internalID: -4954674594496192642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_12
+      name: WoodSword_Atk_432x680_12
       rect:
         serializedVersion: 2
         x: 0
@@ -437,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d07f6e67eb94d7a40800000000000000
-      internalID: 5367527413282961165
+      spriteID: 67444e8c35100aaa0800000000000000
+      internalID: -6151915631623781258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_13
+      name: WoodSword_Atk_432x680_13
       rect:
         serializedVersion: 2
         x: 108
@@ -459,19 +459,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45cc18171d7311c10800000000000000
-      internalID: 2022459080358087764
+      spriteID: c734bb58bf2dc8870800000000000000
+      internalID: 8686549759013110652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_14
+      name: WoodSword_Atk_432x680_14
       rect:
         serializedVersion: 2
         x: 216
         y: 0
-        width: 108
+        width: 125
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -481,19 +481,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 104b78bf6183afea0800000000000000
-      internalID: -5838292295572016127
+      spriteID: 6602e254655c01000800000000000000
+      internalID: 4720573945880678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_axe_idle_ready_15
+      name: WoodSword_Atk_432x680_15
       rect:
         serializedVersion: 2
-        x: 324
+        x: 341
         y: 0
-        width: 108
+        width: 91
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -503,8 +503,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfa3ae131d18f10a0800000000000000
-      internalID: -6908660567877469443
+      spriteID: c86469c07f2093090800000000000000
+      internalID: -8054403198484068724
       vertices: []
       indices: 
       edges: []
@@ -513,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3bb8da678d2304beda6838ca4268d0ab
+    spriteID: 94f7004ef0a5d4569b7db70c1dccebfe
     internalID: 0
     vertices: []
     indices: 
@@ -523,24 +523,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      wooden_axe_idle_ready_0: -1543333523729428770
-      wooden_axe_idle_ready_1: 3979310076539962241
-      wooden_axe_idle_ready_10: -8232812786559986995
-      wooden_axe_idle_ready_11: 2936032076982149670
-      wooden_axe_idle_ready_12: 5367527413282961165
-      wooden_axe_idle_ready_13: 2022459080358087764
-      wooden_axe_idle_ready_14: -5838292295572016127
-      wooden_axe_idle_ready_15: -6908660567877469443
-      wooden_axe_idle_ready_2: 8838503823681107593
-      wooden_axe_idle_ready_3: -4772494213364420306
-      wooden_axe_idle_ready_4: -6130497296504130753
-      wooden_axe_idle_ready_5: -3775179444456431823
-      wooden_axe_idle_ready_6: 7404095411997118558
-      wooden_axe_idle_ready_7: -72043784836009998
-      wooden_axe_idle_ready_8: -1719120399987692255
-      wooden_axe_idle_ready_9: -5692788551018323324
+      WoodSword_Atk_432x680_0: 299991592176128394
+      WoodSword_Atk_432x680_1: 1360970740400406789
+      WoodSword_Atk_432x680_10: -4879015117869265739
+      WoodSword_Atk_432x680_11: -4954674594496192642
+      WoodSword_Atk_432x680_12: -6151915631623781258
+      WoodSword_Atk_432x680_13: 8686549759013110652
+      WoodSword_Atk_432x680_14: 4720573945880678
+      WoodSword_Atk_432x680_15: -8054403198484068724
+      WoodSword_Atk_432x680_2: -1395589677160808735
+      WoodSword_Atk_432x680_3: -5088792271763260619
+      WoodSword_Atk_432x680_4: 5780546816005753244
+      WoodSword_Atk_432x680_5: 5975057605277977177
+      WoodSword_Atk_432x680_6: 2969619717057894871
+      WoodSword_Atk_432x680_7: -6611621970424355157
+      WoodSword_Atk_432x680_8: 5464872570024440050
+      WoodSword_Atk_432x680_9: 4348237534421722666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

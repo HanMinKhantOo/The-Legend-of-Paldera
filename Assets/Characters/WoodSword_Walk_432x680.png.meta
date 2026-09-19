@@ -1,55 +1,73 @@
 fileFormatVersion: 2
-guid: d45f221aea5d04e31be599ff5710c069
+guid: ca7b7ddf41d28442399eea2a0c11e1c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7206955120337777708
-    second: wooden_sword_idle_ready_0
+      213: -2905253880341240962
+    second: WoodSword_Walk_432x680_0
   - first:
-      213: 6107086593632541557
-    second: wooden_sword_idle_ready_1
+      213: 9209594084341330505
+    second: WoodSword_Walk_432x680_1
   - first:
-      213: 8095677684162156083
-    second: wooden_sword_idle_ready_2
+      213: -5840243288530246444
+    second: WoodSword_Walk_432x680_2
   - first:
-      213: 1588056769315647718
-    second: wooden_sword_idle_ready_3
+      213: -7834448261273423934
+    second: WoodSword_Walk_432x680_3
   - first:
-      213: 4068848311632993913
-    second: wooden_sword_idle_ready_4
+      213: 3233679640201419890
+    second: WoodSword_Walk_432x680_4
   - first:
-      213: 4519813156736429882
-    second: wooden_sword_idle_ready_5
+      213: -6098018736731780007
+    second: WoodSword_Walk_432x680_5
   - first:
-      213: -5471202969435924919
-    second: wooden_sword_idle_ready_6
+      213: -2515237933567676371
+    second: WoodSword_Walk_432x680_6
   - first:
-      213: -5892241741648897711
-    second: wooden_sword_idle_ready_7
+      213: 5271733607575333173
+    second: WoodSword_Walk_432x680_7
   - first:
-      213: -9166727416582020535
-    second: wooden_sword_idle_ready_8
+      213: 5681804996848908727
+    second: WoodSword_Walk_432x680_8
   - first:
-      213: 1591586383555512662
-    second: wooden_sword_idle_ready_9
+      213: -7672366062316793062
+    second: WoodSword_Walk_432x680_9
   - first:
-      213: 3953788242910516552
-    second: wooden_sword_idle_ready_10
+      213: 8439635175663376109
+    second: WoodSword_Walk_432x680_10
   - first:
-      213: 354370719233846437
-    second: wooden_sword_idle_ready_11
+      213: -571432559349100897
+    second: WoodSword_Walk_432x680_11
   - first:
-      213: -2996063782396000226
-    second: wooden_sword_idle_ready_12
+      213: -82240928972333244
+    second: WoodSword_Walk_432x680_12
   - first:
-      213: 7539102102513999603
-    second: wooden_sword_idle_ready_13
+      213: 5312023720503172976
+    second: WoodSword_Walk_432x680_13
   - first:
-      213: 1194058468872618046
-    second: wooden_sword_idle_ready_14
+      213: -4306824229970446817
+    second: WoodSword_Walk_432x680_14
   - first:
-      213: 4764004602287522381
-    second: wooden_sword_idle_ready_15
+      213: -803895277061331050
+    second: WoodSword_Walk_432x680_15
+  - first:
+      213: -9219689910739055185
+    second: WoodSword_Walk_432x680_16
+  - first:
+      213: 4369163059098706214
+    second: WoodSword_Walk_432x680_17
+  - first:
+      213: -2545092875657179520
+    second: WoodSword_Walk_432x680_18
+  - first:
+      213: 1303441526009385376
+    second: WoodSword_Walk_432x680_19
+  - first:
+      213: -198763520271710982
+    second: WoodSword_Walk_432x680_20
+  - first:
+      213: -418505624060293490
+    second: WoodSword_Walk_432x680_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +111,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 130
@@ -158,7 +176,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_0
+      name: WoodSword_Walk_432x680_0
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c247ae37f7f340460800000000000000
-      internalID: 7206955120337777708
+      spriteID: e736fef0df67ea7d0800000000000000
+      internalID: -2905253880341240962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_1
+      name: WoodSword_Walk_432x680_1
       rect:
         serializedVersion: 2
         x: 108
@@ -195,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57b940276eab0c450800000000000000
-      internalID: 6107086593632541557
+      spriteID: 94234b2760d0fcf70800000000000000
+      internalID: 9209594084341330505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_2
+      name: WoodSword_Walk_432x680_2
       rect:
         serializedVersion: 2
         x: 216
@@ -217,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 336da8406ff995070800000000000000
-      internalID: 8095677684162156083
+      spriteID: 4d4ab490ca943fea0800000000000000
+      internalID: -5840243288530246444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_3
+      name: WoodSword_Walk_432x680_3
       rect:
         serializedVersion: 2
         x: 324
@@ -239,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e0b632c739e90610800000000000000
-      internalID: 1588056769315647718
+      spriteID: 2cfee97a0d2764390800000000000000
+      internalID: -7834448261273423934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_4
+      name: WoodSword_Walk_432x680_4
       rect:
         serializedVersion: 2
         x: 0
@@ -261,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97e15d35bf3777830800000000000000
-      internalID: 4068848311632993913
+      spriteID: 27c5e9fff7650ec20800000000000000
+      internalID: 3233679640201419890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_5
+      name: WoodSword_Walk_432x680_5
       rect:
         serializedVersion: 2
         x: 108
@@ -283,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3f696a7e1a99be30800000000000000
-      internalID: 4519813156736429882
+      spriteID: 95c0d63844c7f5ba0800000000000000
+      internalID: -6098018736731780007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_6
+      name: WoodSword_Walk_432x680_6
       rect:
         serializedVersion: 2
         x: 216
@@ -305,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94695b013e16214b0800000000000000
-      internalID: -5471202969435924919
+      spriteID: d207c1cfc64181dd0800000000000000
+      internalID: -2515237933567676371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_7
+      name: WoodSword_Walk_432x680_7
       rect:
         serializedVersion: 2
         x: 324
@@ -327,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 159d94aba5d8a3ea0800000000000000
-      internalID: -5892241741648897711
+      spriteID: 539240609c5f82940800000000000000
+      internalID: 5271733607575333173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_8
+      name: WoodSword_Walk_432x680_8
       rect:
         serializedVersion: 2
         x: 0
@@ -349,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9426bc56bfd39c080800000000000000
-      internalID: -9166727416582020535
+      spriteID: 7b9f7388a83d9de40800000000000000
+      internalID: 5681804996848908727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_9
+      name: WoodSword_Walk_432x680_9
       rect:
         serializedVersion: 2
         x: 108
@@ -371,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 659cc2d1263761610800000000000000
-      internalID: 1591586383555512662
+      spriteID: a1358dc57b7468590800000000000000
+      internalID: -7672366062316793062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_10
+      name: WoodSword_Walk_432x680_10
       rect:
         serializedVersion: 2
         x: 216
@@ -393,14 +411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8451cc7757daed630800000000000000
-      internalID: 3953788242910516552
+      spriteID: de69e472a7b9f1570800000000000000
+      internalID: 8439635175663376109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_11
+      name: WoodSword_Walk_432x680_11
       rect:
         serializedVersion: 2
         x: 324
@@ -415,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5acabb6aa4afae400800000000000000
-      internalID: 354370719233846437
+      spriteID: f9e87e66d1dd118f0800000000000000
+      internalID: -571432559349100897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_12
+      name: WoodSword_Walk_432x680_12
       rect:
         serializedVersion: 2
         x: 0
@@ -437,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e188fdd1dd7db66d0800000000000000
-      internalID: -2996063782396000226
+      spriteID: 44f1b929f42dbdef0800000000000000
+      internalID: -82240928972333244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_13
+      name: WoodSword_Walk_432x680_13
       rect:
         serializedVersion: 2
         x: 108
@@ -459,14 +477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fe5fb91b6540a860800000000000000
-      internalID: 7539102102513999603
+      spriteID: 07f5a03fd6918b940800000000000000
+      internalID: 5312023720503172976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_14
+      name: WoodSword_Walk_432x680_14
       rect:
         serializedVersion: 2
         x: 216
@@ -481,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e30033ed9d5229010800000000000000
-      internalID: 1194058468872618046
+      spriteID: f16f09e6e261b34c0800000000000000
+      internalID: -4306824229970446817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wooden_sword_idle_ready_15
+      name: WoodSword_Walk_432x680_15
       rect:
         serializedVersion: 2
         x: 324
@@ -503,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d428cabe1f42d1240800000000000000
-      internalID: 4764004602287522381
+      spriteID: 6972526318df7d4f0800000000000000
+      internalID: -803895277061331050
       vertices: []
       indices: 
       edges: []
@@ -513,7 +531,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c427129538174e9fabbdde2a44b0857
+    spriteID: de0d5763d15bd48fbbeff0eeffd70a0c
     internalID: 0
     vertices: []
     indices: 
@@ -523,24 +541,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      wooden_sword_idle_ready_0: 7206955120337777708
-      wooden_sword_idle_ready_1: 6107086593632541557
-      wooden_sword_idle_ready_10: 3953788242910516552
-      wooden_sword_idle_ready_11: 354370719233846437
-      wooden_sword_idle_ready_12: -2996063782396000226
-      wooden_sword_idle_ready_13: 7539102102513999603
-      wooden_sword_idle_ready_14: 1194058468872618046
-      wooden_sword_idle_ready_15: 4764004602287522381
-      wooden_sword_idle_ready_2: 8095677684162156083
-      wooden_sword_idle_ready_3: 1588056769315647718
-      wooden_sword_idle_ready_4: 4068848311632993913
-      wooden_sword_idle_ready_5: 4519813156736429882
-      wooden_sword_idle_ready_6: -5471202969435924919
-      wooden_sword_idle_ready_7: -5892241741648897711
-      wooden_sword_idle_ready_8: -9166727416582020535
-      wooden_sword_idle_ready_9: 1591586383555512662
+      WoodSword_Walk_432x680_0: -2905253880341240962
+      WoodSword_Walk_432x680_1: 9209594084341330505
+      WoodSword_Walk_432x680_10: 8439635175663376109
+      WoodSword_Walk_432x680_11: -571432559349100897
+      WoodSword_Walk_432x680_12: -82240928972333244
+      WoodSword_Walk_432x680_13: 5312023720503172976
+      WoodSword_Walk_432x680_14: -4306824229970446817
+      WoodSword_Walk_432x680_15: -803895277061331050
+      WoodSword_Walk_432x680_2: -5840243288530246444
+      WoodSword_Walk_432x680_3: -7834448261273423934
+      WoodSword_Walk_432x680_4: 3233679640201419890
+      WoodSword_Walk_432x680_5: -6098018736731780007
+      WoodSword_Walk_432x680_6: -2515237933567676371
+      WoodSword_Walk_432x680_7: 5271733607575333173
+      WoodSword_Walk_432x680_8: 5681804996848908727
+      WoodSword_Walk_432x680_9: -7672366062316793062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
