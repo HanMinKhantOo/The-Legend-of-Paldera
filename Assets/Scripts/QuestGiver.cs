@@ -23,8 +23,19 @@ public class QuestGiver : MonoBehaviour
 {
     public enum QuestType { KillEnemy, GatherItem }
 
+    /// <summary>Read-only snapshot for UI - never mutates quest state.</summary>
+    public struct Snapshot
+    {
+        public string title;
+        public int current;
+        public int required;
+        public bool completed;
+    }
+
     [Header("Quest Definition")]
     public QuestType questType;
+    [Tooltip("Short label shown in the Quest Tracker UI, e.g. \"Wolf Hunt\" or \"Gather Logs\".")]
+    public string questTitle = "Quest";
 
     [Header("Kill Quest Settings")]
     [Tooltip("Must exactly match the target EnemyAI.mobName, e.g. \"Magical Wolf\".")]
@@ -47,18 +58,41 @@ public class QuestGiver : MonoBehaviour
 
     private int killCount;
     private bool completed;
+    private bool accepted;
 
     private void OnEnable()
     {
-        if (questType == QuestType.KillEnemy)
-        {
-            EnemyHealth.OnAnyEnemyDeath += HandleAnyEnemyDeath;
-        }
+        // Deliberately do NOT register with QuestManager or start listening
+        // for kills here - that only happens once the player has actually
+        // talked to this NPC (see Accept(), called from GetDialogueLine()).
+        // Registering here would show every quest in the scene on the
+        // tracker UI from the moment the game starts, before the player
+        // has ever heard about them.
     }
 
     private void OnDisable()
     {
         EnemyHealth.OnAnyEnemyDeath -= HandleAnyEnemyDeath;
+
+        if (QuestManager.Instance != null) QuestManager.Instance.Unregister(this);
+    }
+
+    /// <summary>
+    /// Called once, the first time the player talks to this NPC. Starts
+    /// tracking kills (if relevant) and adds this quest to the tracker UI.
+    /// Safe to call repeatedly - only takes effect the first time.
+    /// </summary>
+    private void Accept()
+    {
+        if (accepted) return;
+        accepted = true;
+
+        if (questType == QuestType.KillEnemy)
+        {
+            EnemyHealth.OnAnyEnemyDeath += HandleAnyEnemyDeath;
+        }
+
+        if (QuestManager.Instance != null) QuestManager.Instance.Register(this);
     }
 
     private void HandleAnyEnemyDeath(string enemyName)
@@ -72,6 +106,8 @@ public class QuestGiver : MonoBehaviour
     /// <summary>Called by NPCInteractable each time this NPC's dialogue opens.</summary>
     public string GetDialogueLine()
     {
+        Accept();
+
         if (completed) return alreadyDoneLine;
 
         bool isDone = questType == QuestType.KillEnemy
@@ -85,6 +121,25 @@ public class QuestGiver : MonoBehaviour
         }
 
         return offerLineTemplate.Replace("{progress}", GetProgressText());
+    }
+
+    /// <summary>
+    /// Read-only progress snapshot for UI (QuestTrackerUI). Never mutates
+    /// state or triggers turn-in - safe to call every frame.
+    /// </summary>
+    public Snapshot GetSnapshot()
+    {
+        int current = questType == QuestType.KillEnemy
+            ? killCount
+            : (inventoryController != null ? inventoryController.GetItemCount(targetItemType) : 0);
+
+        return new Snapshot
+        {
+            title = questTitle,
+            current = Mathf.Min(current, requiredAmount),
+            required = requiredAmount,
+            completed = completed
+        };
     }
 
     private string GetProgressText()
