@@ -29,7 +29,10 @@ public class QuestGiver : MonoBehaviour
         public string title;
         public int current;
         public int required;
-        public bool completed;
+        /// <summary>True once current >= required - the objective itself is done, so the UI can show "Complete!".</summary>
+        public bool objectiveMet;
+        /// <summary>True only once the reward has actually been collected (TurnIn() called) - this is what should tell the UI it's safe to remove the row.</summary>
+        public bool turnedIn;
     }
 
     [Header("Quest Definition")]
@@ -126,6 +129,13 @@ public class QuestGiver : MonoBehaviour
     /// <summary>
     /// Read-only progress snapshot for UI (QuestTrackerUI). Never mutates
     /// state or triggers turn-in - safe to call every frame.
+    ///
+    /// snapshot.completed is true as soon as the objective amount is met,
+    /// even before the player has walked back to the NPC to turn it in -
+    /// this is what lets the Quest Tracker panel remove the row right when
+    /// the bar hits e.g. 10/10, without waiting on the separate turn-in
+    /// step (which still independently gates the actual reward via
+    /// GetDialogueLine()/TurnIn()).
     /// </summary>
     public Snapshot GetSnapshot()
     {
@@ -133,12 +143,21 @@ public class QuestGiver : MonoBehaviour
             ? killCount
             : (inventoryController != null ? inventoryController.GetItemCount(targetItemType) : 0);
 
+        current = Mathf.Min(current, requiredAmount);
+
         return new Snapshot
         {
             title = questTitle,
-            current = Mathf.Min(current, requiredAmount),
+            current = current,
             required = requiredAmount,
-            completed = completed
+            // Sticky once true: after TurnIn() removes the gathered items
+            // from inventory, `current` recalculates back down to 0 on the
+            // very next poll - without the `completed ||` here, the row
+            // would flash back to "0/10" for a frame right as it's meant to
+            // start fading out. `completed` (set once, in TurnIn) keeps
+            // this true forever afterward regardless of live inventory count.
+            objectiveMet = completed || current >= requiredAmount,
+            turnedIn = completed
         };
     }
 
