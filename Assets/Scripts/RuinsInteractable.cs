@@ -32,6 +32,8 @@ public class RuinsInteractable : MonoBehaviour
 
     [Header("Events")]
     public UnityEngine.Events.UnityEvent onInteract;
+    [Tooltip("Fires when the player walks out of range - e.g. wire this to DialogueUI.Close() so a dialogue box opened by this interactable doesn't stay stuck open after the player leaves.")]
+    public UnityEngine.Events.UnityEvent onPlayerExitRange;
 
     [Tooltip("If true, this can only be triggered once (e.g. a one-time lore reveal). Set false for repeatable triggers.")]
     public bool oneShot = false;
@@ -74,6 +76,8 @@ public class RuinsInteractable : MonoBehaviour
 
         playerInRange = false;
         if (promptIndicator != null) promptIndicator.SetActive(false);
+
+        onPlayerExitRange?.Invoke();
     }
 
     private bool IsPlayer(Collider2D other)

@@ -35,12 +35,14 @@ public class NPCInteractable : MonoBehaviour
     private Transform player;
     private NPCWalker walker;
     private Animator animator;
+    private QuestGiver questGiver;
     private bool isTalking;
 
     private void Awake()
     {
         walker = GetComponent<NPCWalker>();
         animator = GetComponent<Animator>();
+        questGiver = GetComponent<QuestGiver>();
 
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null) player = playerObj.transform;
@@ -91,7 +93,12 @@ public class NPCInteractable : MonoBehaviour
 
         if (DialogueUI.Instance != null)
         {
-            DialogueUI.Instance.Show(npcName, dialogueLine);
+            // A QuestGiver on this same NPC (if any) supplies a dynamic line
+            // reflecting quest progress/turn-in instead of the fixed
+            // dialogueLine - everything else about how the dialogue opens
+            // (range check, facing, pausing movement) stays unchanged.
+            string line = questGiver != null ? questGiver.GetDialogueLine() : dialogueLine;
+            DialogueUI.Instance.Show(npcName, line);
         }
         else
         {

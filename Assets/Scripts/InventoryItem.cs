@@ -12,7 +12,12 @@ public enum ItemType
 
     WoodenSword,
     WoodenPickaxe,
-    WoodenAxe
+    WoodenAxe,
+
+    GemRed,
+    GemGreen,
+    GemBlue,
+    GemYellow
 }
 
 public enum ItemCategory
@@ -22,7 +27,8 @@ public enum ItemCategory
     Sword,
     Pickaxe,
     Axe,
-    Armor
+    Armor,
+    Gem
 }
 
 public class InventoryItem : MonoBehaviour

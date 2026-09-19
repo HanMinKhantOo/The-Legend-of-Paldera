@@ -33,6 +33,14 @@ public class EnemyHealth : MonoBehaviour
     /// <summary>Raised whenever HP changes but the enemy survives (for hurt reactions).</summary>
     public event Action OnDamaged;
 
+    /// <summary>
+    /// Fires on every enemy death, scene-wide, carrying the killed enemy's
+    /// EnemyAI.mobName (or gameObject.name as a fallback for enemies with no
+    /// EnemyAI). Used by QuestGiver to track cumulative kill-quest progress
+    /// without EnemyHealth needing to know quests exist at all.
+    /// </summary>
+    public static event Action<string> OnAnyEnemyDeath;
+
     private Collider2D col;
     private SpriteRenderer sr;
 
@@ -77,6 +85,10 @@ public class EnemyHealth : MonoBehaviour
         // a whole new object.
         if (sr != null) sr.enabled = false;
         if (col != null) col.enabled = false;
+
+        EnemyAI ai = GetComponent<EnemyAI>();
+        string killedName = ai != null ? ai.mobName : gameObject.name;
+        OnAnyEnemyDeath?.Invoke(killedName);
 
         OnDeath?.Invoke(this);
     }

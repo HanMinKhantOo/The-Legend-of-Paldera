@@ -21,6 +21,12 @@ public class InventoryController : MonoBehaviour
     public GameObject woodenPickaxeItemPrefab;
     public GameObject woodenAxeItemPrefab;
 
+    [Header("Gem Prefabs (Altar Activation)")]
+    public GameObject gemRedItemPrefab;
+    public GameObject gemGreenItemPrefab;
+    public GameObject gemBlueItemPrefab;
+    public GameObject gemYellowItemPrefab;
+
     private List<Slot> slots = new List<Slot>();
 
     private void Start()
@@ -208,6 +214,18 @@ public class InventoryController : MonoBehaviour
 
             case ItemType.WoodenAxe:
                 return woodenAxeItemPrefab;
+
+            case ItemType.GemRed:
+                return gemRedItemPrefab;
+
+            case ItemType.GemGreen:
+                return gemGreenItemPrefab;
+
+            case ItemType.GemBlue:
+                return gemBlueItemPrefab;
+
+            case ItemType.GemYellow:
+                return gemYellowItemPrefab;
 
             default:
                 Debug.LogError(

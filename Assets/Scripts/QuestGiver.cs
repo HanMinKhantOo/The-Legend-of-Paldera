@@ -1,0 +1,117 @@
+using UnityEngine;
+
+/// <summary>
+/// Attach alongside NPCInteractable to turn any NPC into a quest giver that
+/// rewards a gem on completion. NPCInteractable automatically detects this
+/// component (see its small hook in StartDialogue) and asks it for the
+/// dialogue line instead of using its own fixed one - no other change to
+/// how the NPC is talked to.
+///
+/// Two quest types, both reusing systems that already exist:
+/// - KillEnemy: listens to EnemyHealth.OnAnyEnemyDeath (a scene-wide static
+///   event) and counts kills matching targetEnemyName (EnemyAI.mobName,
+///   e.g. "Magical Wolf").
+/// - GatherItem: checks InventoryController.GetItemCount/TryRemoveItem
+///   directly - no separate tracking needed, since the inventory itself is
+///   already the source of truth for "do you have 30 logs".
+///
+/// The quest auto-starts (no separate accept step) and turns in the moment
+/// its condition is met and you talk to the NPC again - talk once to learn
+/// what's needed, do it, talk again to collect the gem.
+/// </summary>
+public class QuestGiver : MonoBehaviour
+{
+    public enum QuestType { KillEnemy, GatherItem }
+
+    [Header("Quest Definition")]
+    public QuestType questType;
+
+    [Header("Kill Quest Settings")]
+    [Tooltip("Must exactly match the target EnemyAI.mobName, e.g. \"Magical Wolf\".")]
+    public string targetEnemyName = "Magical Wolf";
+
+    [Header("Gather Quest Settings")]
+    public ItemType targetItemType;
+
+    [Header("Shared")]
+    [Tooltip("How many kills or items are required.")]
+    public int requiredAmount = 10;
+    [Tooltip("The gem (or any item) granted on turn-in.")]
+    public ItemType rewardItemType;
+    public InventoryController inventoryController;
+
+    [Header("Dialogue Lines")]
+    [TextArea] public string offerLineTemplate = "I need your help - {progress}. Come back once you have.";
+    [TextArea] public string completeLine = "You did it! Here, take this - you've earned it.";
+    [TextArea] public string alreadyDoneLine = "Thanks again for your help earlier.";
+
+    private int killCount;
+    private bool completed;
+
+    private void OnEnable()
+    {
+        if (questType == QuestType.KillEnemy)
+        {
+            EnemyHealth.OnAnyEnemyDeath += HandleAnyEnemyDeath;
+        }
+    }
+
+    private void OnDisable()
+    {
+        EnemyHealth.OnAnyEnemyDeath -= HandleAnyEnemyDeath;
+    }
+
+    private void HandleAnyEnemyDeath(string enemyName)
+    {
+        if (completed) return;
+        if (enemyName != targetEnemyName) return;
+
+        killCount++;
+    }
+
+    /// <summary>Called by NPCInteractable each time this NPC's dialogue opens.</summary>
+    public string GetDialogueLine()
+    {
+        if (completed) return alreadyDoneLine;
+
+        bool isDone = questType == QuestType.KillEnemy
+            ? killCount >= requiredAmount
+            : inventoryController != null && inventoryController.GetItemCount(targetItemType) >= requiredAmount;
+
+        if (isDone)
+        {
+            TurnIn();
+            return completeLine;
+        }
+
+        return offerLineTemplate.Replace("{progress}", GetProgressText());
+    }
+
+    private string GetProgressText()
+    {
+        if (questType == QuestType.KillEnemy)
+        {
+            return $"kill {requiredAmount} {targetEnemyName}s ({killCount}/{requiredAmount})";
+        }
+        else
+        {
+            int have = inventoryController != null ? inventoryController.GetItemCount(targetItemType) : 0;
+            return $"bring me {requiredAmount} {targetItemType} ({have}/{requiredAmount})";
+        }
+    }
+
+    private void TurnIn()
+    {
+        completed = true;
+
+        if (questType == QuestType.GatherItem && inventoryController != null)
+        {
+            inventoryController.TryRemoveItem(targetItemType, requiredAmount);
+        }
+
+        if (inventoryController != null)
+        {
+            inventoryController.AddItem(rewardItemType, 1);
+        }
+    }
+}

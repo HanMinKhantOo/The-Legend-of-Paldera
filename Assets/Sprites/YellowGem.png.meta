@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 84bdaabf7e0c6456a9016778a67f333a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6296913886081820079
+    second: YellowGem_0
+  - first:
+      213: -3657567336419332044
+    second: YellowGem_1
+  - first:
+      213: 3158902481186228924
+    second: YellowGem_2
+  - first:
+      213: -2882684797202040347
+    second: YellowGem_3
+  - first:
+      213: -1454076359486789236
+    second: YellowGem_4
+  - first:
+      213: 3739624248488938885
+    second: YellowGem_5
+  - first:
+      213: 4436846141171092433
+    second: YellowGem_6
+  - first:
+      213: -734861091938533584
+    second: YellowGem_7
+  - first:
+      213: 5833617618875279618
+    second: YellowGem_8
+  - first:
+      213: -2758226985129060048
+    second: YellowGem_9
+  - first:
+      213: -1322803766038579318
+    second: YellowGem_10
+  - first:
+      213: -1824895379329267563
+    second: YellowGem_11
+  - first:
+      213: -6182620326338725825
+    second: YellowGem_12
+  - first:
+      213: -6394531387699074296
+    second: YellowGem_13
+  - first:
+      213: -7498010084476538013
+    second: YellowGem_14
+  - first:
+      213: 771492768109688397
+    second: YellowGem_15
+  - first:
+      213: 7106031349195163710
+    second: YellowGem_16
+  - first:
+      213: -8021764844777084064
+    second: YellowGem_17
+  - first:
+      213: -5723307609594757066
+    second: YellowGem_18
+  - first:
+      213: -6864376067227990727
+    second: YellowGem_19
+  - first:
+      213: -82323293263358409
+    second: YellowGem_20
+  - first:
+      213: -8106187294280127241
+    second: YellowGem_21
+  - first:
+      213: -5241539018895368226
+    second: YellowGem_22
+  - first:
+      213: -7654577613848891817
+    second: YellowGem_23
+  - first:
+      213: 3676813184072740096
+    second: YellowGem_24
+  - first:
+      213: 2573359360899017434
+    second: YellowGem_25
+  - first:
+      213: 1607274442290434532
+    second: YellowGem_26
+  - first:
+      213: 6126582405618580848
+    second: YellowGem_27
+  - first:
+      213: 1103178361868784663
+    second: YellowGem_28
+  - first:
+      213: -3495927433279289997
+    second: YellowGem_29
+  - first:
+      213: -5151267833809504247
+    second: YellowGem_30
+  - first:
+      213: -8029392563257845620
+    second: YellowGem_31
+  - first:
+      213: -1747760032148676774
+    second: YellowGem_32
+  - first:
+      213: -8732167887095216363
+    second: YellowGem_33
+  - first:
+      213: -2462954176779030557
+    second: YellowGem_34
+  - first:
+      213: 9139314109033894965
+    second: YellowGem_35
+  - first:
+      213: 5873146553049255700
+    second: YellowGem_36
+  - first:
+      213: -5997929970503558432
+    second: YellowGem_37
+  - first:
+      213: -4250777606913682139
+    second: YellowGem_38
+  - first:
+      213: 5964647186707901474
+    second: YellowGem_39
+  - first:
+      213: 2770023159572318065
+    second: YellowGem_40
+  - first:
+      213: 7420818888640544907
+    second: YellowGem_41
+  - first:
+      213: -4620718444130640853
+    second: YellowGem_42
+  - first:
+      213: -1574336518270458554
+    second: YellowGem_43
+  - first:
+      213: 5910287091088331831
+    second: YellowGem_44
+  - first:
+      213: 8428673686691851548
+    second: YellowGem_45
+  - first:
+      213: -4656954437177123548
+    second: YellowGem_46
+  - first:
+      213: -3533663717465901791
+    second: YellowGem_47
+  - first:
+      213: -3514767122380533038
+    second: YellowGem_48
+  - first:
+      213: 356028441752390146
+    second: YellowGem_49
+  - first:
+      213: -4614337729572868005
+    second: YellowGem_50
+  - first:
+      213: 6267968051785434860
+    second: YellowGem_51
+  - first:
+      213: 7431938083741177587
+    second: YellowGem_52
+  - first:
+      213: -4209466617595970156
+    second: YellowGem_53
+  - first:
+      213: 4967881699853692705
+    second: YellowGem_54
+  - first:
+      213: -8782734023226706018
+    second: YellowGem_55
+  - first:
+      213: -5686650874100497455
+    second: YellowGem_56
+  - first:
+      213: -8258068986421493136
+    second: YellowGem_57
+  - first:
+      213: -2438225834064902280
+    second: YellowGem_58
+  - first:
+      213: 5469735939336676000
+    second: YellowGem_59
+  - first:
+      213: 8060990385076198731
+    second: YellowGem_60
+  - first:
+      213: 8452513046076373751
+    second: YellowGem_61
+  - first:
+      213: -3558002868736229425
+    second: YellowGem_62
+  - first:
+      213: -6560318280268453496
+    second: YellowGem_63
+  - first:
+      213: 6843488606689065858
+    second: YellowGem_64
+  - first:
+      213: 4811010374364151637
+    second: YellowGem_65
+  - first:
+      213: -7466251504173615660
+    second: YellowGem_66
+  - first:
+      213: -8616547412825278045
+    second: YellowGem_67
+  - first:
+      213: 7948598987330444621
+    second: YellowGem_68
+  - first:
+      213: 4102540022067325033
+    second: YellowGem_69
+  - first:
+      213: -1962731839362297721
+    second: YellowGem_70
+  - first:
+      213: 4769284725188643791
+    second: YellowGem_71
+  - first:
+      213: -7751183671451658534
+    second: YellowGem_72
+  - first:
+      213: 5871743822622674222
+    second: YellowGem_73
+  - first:
+      213: -2794709167921833761
+    second: YellowGem_74
+  - first:
+      213: -3950450599421890478
+    second: YellowGem_75
+  - first:
+      213: 2473696323561811451
+    second: YellowGem_76
+  - first:
+      213: 1489344464669596496
+    second: YellowGem_77
+  - first:
+      213: 7259333438475735032
+    second: YellowGem_78
+  - first:
+      213: 901000071998768483
+    second: YellowGem_79
+  - first:
+      213: -85714081036881526
+    second: YellowGem_80
+  - first:
+      213: -1704980883951033868
+    second: YellowGem_81
+  - first:
+      213: 844386256241520579
+    second: YellowGem_82
+  - first:
+      213: 4485250606554936149
+    second: YellowGem_83
+  - first:
+      213: -2395194753010195933
+    second: YellowGem_84
+  - first:
+      213: -1569619237742590217
+    second: YellowGem_85
+  - first:
+      213: -2152590754031037408
+    second: YellowGem_86
+  - first:
+      213: -764077584632805118
+    second: YellowGem_87
+  - first:
+      213: 2703352550776514027
+    second: YellowGem_88
+  - first:
+      213: 5307276271791317695
+    second: YellowGem_89
+  - first:
+      213: -8870543635910322454
+    second: YellowGem_90
+  - first:
+      213: -5141298753077782565
+    second: YellowGem_91
+  - first:
+      213: 7483606813251175426
+    second: YellowGem_92
+  - first:
+      213: 2621064424620520746
+    second: YellowGem_93
+  - first:
+      213: 2447701314005798816
+    second: YellowGem_94
+  - first:
+      213: -4605464216368044289
+    second: YellowGem_95
+  - first:
+      213: 3670174570534019968
+    second: YellowGem_96
+  - first:
+      213: 7375469779957392480
+    second: YellowGem_97
+  - first:
+      213: 3306398901809512707
+    second: YellowGem_98
+  - first:
+      213: 4372910088688647181
+    second: YellowGem_99
+  - first:
+      213: 5682778452707055364
+    second: YellowGem_100
+  - first:
+      213: -9102130343642724052
+    second: YellowGem_101
+  - first:
+      213: 299351776196128911
+    second: YellowGem_102
+  - first:
+      213: 2015378254983457681
+    second: YellowGem_103
+  - first:
+      213: -918415913704412449
+    second: YellowGem_104
+  - first:
+      213: 310875510764639033
+    second: YellowGem_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YellowGem_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 363
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5a12121d1236750800000000000000
+      internalID: 6296913886081820079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1020
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43077aad2e5bd3dc0800000000000000
+      internalID: -3657567336419332044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1100
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba843fe11da6db20800000000000000
+      internalID: 3158902481186228924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1181
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e97a573375aef7d0800000000000000
+      internalID: -2882684797202040347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 859
+        width: 254
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c892f7c414512dbe0800000000000000
+      internalID: -1454076359486789236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_5
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1052
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dce9cc070d5e330800000000000000
+      internalID: 3739624248488938885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_6
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1042
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbc097de08d29d30800000000000000
+      internalID: 4436846141171092433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1040
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7fb7fabf3dc5f0800000000000000
+      internalID: -734861091938533584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1022
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2096588015c25f050800000000000000
+      internalID: 5833617618875279618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1034
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0395c75bb2fc8b9d0800000000000000
+      internalID: -2758226985129060048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_10
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 907
+        width: 79
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87b8b9bbf474ade0800000000000000
+      internalID: -1322803766038579318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_11
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1195
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598c3da325baca6e0800000000000000
+      internalID: -1824895379329267563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_12
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1197
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f387873f19be23aa0800000000000000
+      internalID: -6182620326338725825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1197
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b6c13259f0247a0800000000000000
+      internalID: -6394531387699074296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_14
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1084
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363ba78ed87b1f790800000000000000
+      internalID: -7498010084476538013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_15
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 0
+        width: 379
+        height: 1182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f5f5c594e4ba00800000000000000
+      internalID: 771492768109688397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_16
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1205
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38419bdcd1bd9260800000000000000
+      internalID: 7106031349195163710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1218
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b6853ff57fca090800000000000000
+      internalID: -8021764844777084064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_18
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1213
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63080dd6d0ab290b0800000000000000
+      internalID: -5723307609594757066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_19
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1031
+        width: 180
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ce2cf556dcb0a0800000000000000
+      internalID: -6864376067227990727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 996
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7361c44a6678bdef0800000000000000
+      internalID: -82323293263358409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_21
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 978
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fce5a1ba99018f80800000000000000
+      internalID: -8106187294280127241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 994
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf546e78005247b0800000000000000
+      internalID: -5241539018895368226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_23
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 998
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e21e4473a75c590800000000000000
+      internalID: -7654577613848891817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 953
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00de02e3c1aa60330800000000000000
+      internalID: 3676813184072740096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 953
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaefc954b866b320800000000000000
+      internalID: 2573359360899017434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 964
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1194de69f2e4610800000000000000
+      internalID: 1607274442290434532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_27
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 966
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dbd06ec3ef50550800000000000000
+      internalID: 6126582405618580848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_28
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 963
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714161f00e64f4f00800000000000000
+      internalID: 1103178361868784663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_29
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 917
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37548da8588fb7fc0800000000000000
+      internalID: -3495927433279289997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90873ee92350388b0800000000000000
+      internalID: -5151267833809504247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_31
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 887
+        width: 98
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c885ad8510ed19090800000000000000
+      internalID: -8029392563257845620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 927
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f1723c285beb7e0800000000000000
+      internalID: -1747760032148676774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 909
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517cd9a529b11d680800000000000000
+      internalID: -8732167887095216363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 907
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef650bb934d1ddd0800000000000000
+      internalID: -2462954176779030557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 909
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5345eaf82cd55de70800000000000000
+      internalID: 9139314109033894965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 835
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f8f483cab918150800000000000000
+      internalID: 5873146553049255700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 836
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea5770687213cca0800000000000000
+      internalID: -5997929970503558432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 825
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52599b0c9443205c0800000000000000
+      internalID: -4250777606913682139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 835
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ce146a30fa6c250800000000000000
+      internalID: 5964647186707901474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_40
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 439
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177c9ed2369117620800000000000000
+      internalID: 2770023159572318065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_41
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 800
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80cde7467b0cf660800000000000000
+      internalID: 7420818888640544907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 803
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c5f728e09efdfb0800000000000000
+      internalID: -4620718444130640853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645609f1745d62ae0800000000000000
+      internalID: -1574336518270458554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 593
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73495e89bce850250800000000000000
+      internalID: 5910287091088331831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_45
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 763
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d23fe9f0aa8f470800000000000000
+      internalID: 8428673686691851548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_46
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 720
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dd0ecec9c2f5fb0800000000000000
+      internalID: -4656954437177123548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_47
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 745
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12532c43297e5fec0800000000000000
+      internalID: -3533663717465901791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_48
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 546
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2594a9ce9093fc0800000000000000
+      internalID: -3514767122380533038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_49
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 594
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a46904bfdd0f400800000000000000
+      internalID: 356028441752390146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 707
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b507023684496ffb0800000000000000
+      internalID: -4614337729572868005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_51
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 538
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce60b26ebbb4cf650800000000000000
+      internalID: 6267968051785434860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_52
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 626
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f61712af4c832760800000000000000
+      internalID: 7431938083741177587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 704
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49db35cf968f495c0800000000000000
+      internalID: -4209466617595970156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_54
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 674
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f61f5c51671f440800000000000000
+      internalID: 4967881699853692705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_55
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 521
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97b5d450f57d1680800000000000000
+      internalID: -8782734023226706018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_56
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 495
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3439fb825f411b0800000000000000
+      internalID: -5686650874100497455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_57
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 598
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0724dad8202756d80800000000000000
+      internalID: -8258068986421493136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_58
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 467
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877816ea58ea92ed0800000000000000
+      internalID: -2438225834064902280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_59
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 767
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a95f5bd768eb40800000000000000
+      internalID: 5469735939336676000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_60
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 712
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d5e48db046edf60800000000000000
+      internalID: 8060990385076198731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_61
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 777
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fabcb205db5d4570800000000000000
+      internalID: 8452513046076373751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_62
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 483
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcff723fd3f6f9ec0800000000000000
+      internalID: -3558002868736229425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_63
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 682
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889e81b384115f4a0800000000000000
+      internalID: -6560318280268453496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_64
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 642
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b722221a4f8fe50800000000000000
+      internalID: 6843488606689065858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_65
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 577
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fb1b6127424c240800000000000000
+      internalID: 4811010374364151637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_66
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 600
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5710a90db826890800000000000000
+      internalID: -7466251504173615660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_67
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 521
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9fc3cc7cfdb6880800000000000000
+      internalID: -8616547412825278045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_68
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 674
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d5cdd5aa81f4e60800000000000000
+      internalID: 7948598987330444621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_69
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 493
+        width: 100
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9686524f9662fe830800000000000000
+      internalID: 4102540022067325033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 7
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78016758ac9f2c4e0800000000000000
+      internalID: -1962731839362297721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_71
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 419
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbc0955037ef2240800000000000000
+      internalID: 4769284725188643791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_72
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 417
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6d052b4834e6490800000000000000
+      internalID: -7751183671451658534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_73
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 423
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dc48795ef9c7150800000000000000
+      internalID: 5871743822622674222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_74
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 391
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8dd7b91d23739d0800000000000000
+      internalID: -2794709167921833761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_75
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250bab63c1e2d29c0800000000000000
+      internalID: -3950450599421890478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_76
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 361
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd671833b5545220800000000000000
+      internalID: 2473696323561811451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_77
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 347
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b53d456e63ba410800000000000000
+      internalID: 1489344464669596496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_78
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 373
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff067afc455eb460800000000000000
+      internalID: 7259333438475735032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_79
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 369
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3658612bacef08c00800000000000000
+      internalID: 901000071998768483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_80
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 373
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a813c875f7b7fcef0800000000000000
+      internalID: -85714081036881526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 328
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1644f5be0b658e0800000000000000
+      internalID: -1704980883951033868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_82
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 308
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf6f7883dcd7bb00800000000000000
+      internalID: 844386256241520579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_83
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553ff4ca9afce3e30800000000000000
+      internalID: 4485250606554936149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_84
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322a2faff0f82ced0800000000000000
+      internalID: -2395194753010195933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_85
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 274
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6cbb59e97973ae0800000000000000
+      internalID: -1569619237742590217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_86
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02490373d167022e0800000000000000
+      internalID: -2152590754031037408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_87
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 274
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2098f1b2c737565f0800000000000000
+      internalID: -764077584632805118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_88
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 280
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be52eab62dc348520800000000000000
+      internalID: 2703352550776514027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_89
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 250
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb22bf866ab37a940800000000000000
+      internalID: 5307276271791317695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_90
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 224
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae696f0bf8f75e480800000000000000
+      internalID: -8870543635910322454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 254
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7d3aa160076a8b0800000000000000
+      internalID: -5141298753077782565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_92
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204878e2fbc1bd760800000000000000
+      internalID: 7483606813251175426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 227
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a257bea0534ef5420800000000000000
+      internalID: 2621064424620520746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_94
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 200
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af8299606bf7f120800000000000000
+      internalID: 2447701314005798816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_95
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 240
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff62c9d22ba1610c0800000000000000
+      internalID: -4605464216368044289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_96
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 225
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0832a5493541fe230800000000000000
+      internalID: 3670174570534019968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_97
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 186
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0642dfd10beea5660800000000000000
+      internalID: 7375469779957392480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_98
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 158
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301091c7840b2ed20800000000000000
+      internalID: 3306398901809512707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_99
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 89
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c32079e82bfac30800000000000000
+      internalID: 4372910088688647181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 69
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40719d2e4e84dde40800000000000000
+      internalID: 5682778452707055364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_101
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 69
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c290fd77dacbea180800000000000000
+      internalID: -9102130343642724052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_102
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 53
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f807d0bbad2872400800000000000000
+      internalID: 299351776196128911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19be55058df08fb10800000000000000
+      internalID: 2015378254983457681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_104
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 23
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda259ba7912143f0800000000000000
+      internalID: -918415913704412449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGem_105
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9339e7441a3705400800000000000000
+      internalID: 310875510764639033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      YellowGem_0: 6296913886081820079
+      YellowGem_1: -3657567336419332044
+      YellowGem_10: -1322803766038579318
+      YellowGem_100: 5682778452707055364
+      YellowGem_101: -9102130343642724052
+      YellowGem_102: 299351776196128911
+      YellowGem_103: 2015378254983457681
+      YellowGem_104: -918415913704412449
+      YellowGem_105: 310875510764639033
+      YellowGem_11: -1824895379329267563
+      YellowGem_12: -6182620326338725825
+      YellowGem_13: -6394531387699074296
+      YellowGem_14: -7498010084476538013
+      YellowGem_15: 771492768109688397
+      YellowGem_16: 7106031349195163710
+      YellowGem_17: -8021764844777084064
+      YellowGem_18: -5723307609594757066
+      YellowGem_19: -6864376067227990727
+      YellowGem_2: 3158902481186228924
+      YellowGem_20: -82323293263358409
+      YellowGem_21: -8106187294280127241
+      YellowGem_22: -5241539018895368226
+      YellowGem_23: -7654577613848891817
+      YellowGem_24: 3676813184072740096
+      YellowGem_25: 2573359360899017434
+      YellowGem_26: 1607274442290434532
+      YellowGem_27: 6126582405618580848
+      YellowGem_28: 1103178361868784663
+      YellowGem_29: -3495927433279289997
+      YellowGem_3: -2882684797202040347
+      YellowGem_30: -5151267833809504247
+      YellowGem_31: -8029392563257845620
+      YellowGem_32: -1747760032148676774
+      YellowGem_33: -8732167887095216363
+      YellowGem_34: -2462954176779030557
+      YellowGem_35: 9139314109033894965
+      YellowGem_36: 5873146553049255700
+      YellowGem_37: -5997929970503558432
+      YellowGem_38: -4250777606913682139
+      YellowGem_39: 5964647186707901474
+      YellowGem_4: -1454076359486789236
+      YellowGem_40: 2770023159572318065
+      YellowGem_41: 7420818888640544907
+      YellowGem_42: -4620718444130640853
+      YellowGem_43: -1574336518270458554
+      YellowGem_44: 5910287091088331831
+      YellowGem_45: 8428673686691851548
+      YellowGem_46: -4656954437177123548
+      YellowGem_47: -3533663717465901791
+      YellowGem_48: -3514767122380533038
+      YellowGem_49: 356028441752390146
+      YellowGem_5: 3739624248488938885
+      YellowGem_50: -4614337729572868005
+      YellowGem_51: 6267968051785434860
+      YellowGem_52: 7431938083741177587
+      YellowGem_53: -4209466617595970156
+      YellowGem_54: 4967881699853692705
+      YellowGem_55: -8782734023226706018
+      YellowGem_56: -5686650874100497455
+      YellowGem_57: -8258068986421493136
+      YellowGem_58: -2438225834064902280
+      YellowGem_59: 5469735939336676000
+      YellowGem_6: 4436846141171092433
+      YellowGem_60: 8060990385076198731
+      YellowGem_61: 8452513046076373751
+      YellowGem_62: -3558002868736229425
+      YellowGem_63: -6560318280268453496
+      YellowGem_64: 6843488606689065858
+      YellowGem_65: 4811010374364151637
+      YellowGem_66: -7466251504173615660
+      YellowGem_67: -8616547412825278045
+      YellowGem_68: 7948598987330444621
+      YellowGem_69: 4102540022067325033
+      YellowGem_7: -734861091938533584
+      YellowGem_70: -1962731839362297721
+      YellowGem_71: 4769284725188643791
+      YellowGem_72: -7751183671451658534
+      YellowGem_73: 5871743822622674222
+      YellowGem_74: -2794709167921833761
+      YellowGem_75: -3950450599421890478
+      YellowGem_76: 2473696323561811451
+      YellowGem_77: 1489344464669596496
+      YellowGem_78: 7259333438475735032
+      YellowGem_79: 901000071998768483
+      YellowGem_8: 5833617618875279618
+      YellowGem_80: -85714081036881526
+      YellowGem_81: -1704980883951033868
+      YellowGem_82: 844386256241520579
+      YellowGem_83: 4485250606554936149
+      YellowGem_84: -2395194753010195933
+      YellowGem_85: -1569619237742590217
+      YellowGem_86: -2152590754031037408
+      YellowGem_87: -764077584632805118
+      YellowGem_88: 2703352550776514027
+      YellowGem_89: 5307276271791317695
+      YellowGem_9: -2758226985129060048
+      YellowGem_90: -8870543635910322454
+      YellowGem_91: -5141298753077782565
+      YellowGem_92: 7483606813251175426
+      YellowGem_93: 2621064424620520746
+      YellowGem_94: 2447701314005798816
+      YellowGem_95: -4605464216368044289
+      YellowGem_96: 3670174570534019968
+      YellowGem_97: 7375469779957392480
+      YellowGem_98: 3306398901809512707
+      YellowGem_99: 4372910088688647181
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
