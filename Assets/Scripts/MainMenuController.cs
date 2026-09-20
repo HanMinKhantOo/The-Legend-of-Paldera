@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,12 +6,13 @@ public class MainMenuController : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadScene("Scene");
+        // Start the opening story before gameplay.
+        SceneManager.LoadScene("IntroStory");
     }
 
     public void ContinueGame()
     {
-        // Temporary: same behavior as New Game.
+        // Keep the existing Continue behavior.
         SceneManager.LoadScene("Scene");
     }
 
