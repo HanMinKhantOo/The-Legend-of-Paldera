@@ -1,88 +1,70 @@
 fileFormatVersion: 2
-guid: 3bd6c85d184804281b883c17a6c3b7b7
+guid: 860ac1162a1cc4a1791c999d84a16256
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -133712972720176415
-    second: WoodPickaxe_Idle_0
+      213: 58466844659061248
+    second: StoneAxe_Attack_432x680_0
   - first:
-      213: -6925095266359626541
-    second: WoodPickaxe_Idle_1
+      213: -8955080170885687583
+    second: StoneAxe_Attack_432x680_1
   - first:
-      213: 5683633270751603463
-    second: WoodPickaxe_Idle_2
+      213: 5574595794701326568
+    second: StoneAxe_Attack_432x680_2
   - first:
-      213: 3051830120220543460
-    second: WoodPickaxe_Idle_3
+      213: 8210768913785564165
+    second: StoneAxe_Attack_432x680_3
   - first:
-      213: 3769345165768653743
-    second: WoodPickaxe_Idle_4
+      213: 6593991837491093966
+    second: StoneAxe_Attack_432x680_4
   - first:
-      213: 8473631742605800776
-    second: WoodPickaxe_Idle_5
+      213: 9084045784535205609
+    second: StoneAxe_Attack_432x680_5
   - first:
-      213: 44816483447197329
-    second: WoodPickaxe_Idle_6
+      213: -5503741059115036984
+    second: StoneAxe_Attack_432x680_6
   - first:
-      213: -8004870363104870109
-    second: WoodPickaxe_Idle_7
+      213: -4221972787751580829
+    second: StoneAxe_Attack_432x680_7
   - first:
-      213: 3720140097725619530
-    second: WoodPickaxe_Idle_8
+      213: 6493775137153658098
+    second: StoneAxe_Attack_432x680_8
   - first:
-      213: -8471833094771520006
-    second: WoodPickaxe_Idle_9
+      213: 5515254688657851387
+    second: StoneAxe_Attack_432x680_9
   - first:
-      213: -4023524635125817890
-    second: WoodPickaxe_Idle_10
+      213: -5669350225037060136
+    second: StoneAxe_Attack_432x680_10
   - first:
-      213: -3828890812018758539
-    second: WoodPickaxe_Idle_11
+      213: 6108614374045678532
+    second: StoneAxe_Attack_432x680_11
   - first:
-      213: 3778693647554350912
-    second: WoodPickaxe_Idle_12
+      213: -1343254703314950813
+    second: StoneAxe_Attack_432x680_12
   - first:
-      213: -3634964549042108451
-    second: WoodPickaxe_Idle_13
+      213: 3342656136455234022
+    second: StoneAxe_Attack_432x680_13
   - first:
-      213: -5077950036315117200
-    second: WoodPickaxe_Idle_14
+      213: -2888261205684802511
+    second: StoneAxe_Attack_432x680_14
   - first:
-      213: -2698104630476934435
-    second: WoodPickaxe_Idle_15
+      213: -8245146047288032317
+    second: StoneAxe_Attack_432x680_15
   - first:
-      213: -9195011697509703099
-    second: WoodPickaxe_Idle_16
+      213: -8307237127449975524
+    second: StoneAxe_Attack_432x680_16
   - first:
-      213: -6967636662383431853
-    second: WoodPickaxe_Idle_17
+      213: 982417660419689657
+    second: StoneAxe_Attack_432x680_17
   - first:
-      213: -630513855293789773
-    second: WoodPickaxe_Idle_18
+      213: 4801418607503799321
+    second: StoneAxe_Attack_432x680_18
   - first:
-      213: -4102826299709134149
-    second: WoodPickaxe_Idle_19
+      213: 9177987017364049770
+    second: StoneAxe_Attack_432x680_19
   - first:
-      213: 1498118840481912655
-    second: WoodPickaxe_Idle_20
-  - first:
-      213: 2325472374736289258
-    second: WoodPickaxe_Idle_21
-  - first:
-      213: 2158595862064943207
-    second: WoodPickaxe_Idle_22
-  - first:
-      213: 338690345939137770
-    second: WoodPickaxe_Idle_23
-  - first:
-      213: -2438980569912128807
-    second: WoodPickaxe_Idle_24
-  - first:
-      213: 47236529558175623
-    second: WoodPickaxe_Idle_25
-  - first:
-      213: 2497381213200860003
-    second: WoodPickaxe_Idle_26
+      213: 6836895774033916607
+    second: StoneAxe_Attack_432x680_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,10 +108,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -191,13 +173,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_0
+      name: StoneAxe_Attack_432x680_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1180
-        width: 232
-        height: 393
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e2072f72c4f42ef0800000000000000
-      internalID: -133712972720176415
+      spriteID: 0029a031947bfc000800000000000000
+      internalID: 58466844659061248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_1
+      name: StoneAxe_Attack_432x680_1
       rect:
         serializedVersion: 2
-        x: 236
-        y: 1180
-        width: 243
-        height: 393
+        x: 108
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,42 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d435e4cb8e15ef90800000000000000
-      internalID: -6925095266359626541
+      spriteID: 1e6d637d70a29b380800000000000000
+      internalID: -8955080170885687583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_2
+      name: StoneAxe_Attack_432x680_2
       rect:
         serializedVersion: 2
-        x: 476
-        y: 1180
-        width: 257
-        height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 13, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70badb8b85250ee40800000000000000
-      internalID: 5683633270751603463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodPickaxe_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 1180
-        width: 248
-        height: 393
+        x: 216
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e9459633574a5a20800000000000000
-      internalID: 3051830120220543460
+      spriteID: 8e81f8df651fc5d40800000000000000
+      internalID: 5574595794701326568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_4
+      name: StoneAxe_Attack_432x680_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 787
-        width: 250
-        height: 393
+        x: 324
+        y: 510
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fabf97915776f4430800000000000000
-      internalID: 3769345165768653743
+      spriteID: 50c220713d282f170800000000000000
+      internalID: 8210768913785564165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_5
+      name: StoneAxe_Attack_432x680_4
       rect:
         serializedVersion: 2
-        x: 250
-        y: 787
-        width: 250
-        height: 393
+        x: 7
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8453e77bc23689570800000000000000
-      internalID: 8473631742605800776
+      spriteID: ec16b75c3a0928b50800000000000000
+      internalID: 6593991837491093966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_6
+      name: StoneAxe_Attack_432x680_5
       rect:
         serializedVersion: 2
-        x: 500
-        y: 787
-        width: 250
-        height: 393
+        x: 115
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19ec3ffaa583f9000800000000000000
-      internalID: 44816483447197329
+      spriteID: 9e60b9ef283011e70800000000000000
+      internalID: 9084045784535205609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_7
+      name: StoneAxe_Attack_432x680_6
       rect:
         serializedVersion: 2
-        x: 750
-        y: 787
-        width: 250
-        height: 393
+        x: 213
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 321051ef0dcf8e090800000000000000
-      internalID: -8004870363104870109
+      spriteID: 8ce47b3baa8ce93b0800000000000000
+      internalID: -5503741059115036984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_8
+      name: StoneAxe_Attack_432x680_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 394
-        width: 250
-        height: 393
+        x: 324
+        y: 340
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,86 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4d5f9f65b790a330800000000000000
-      internalID: 3720140097725619530
+      spriteID: 36b83b65e1a8865c0800000000000000
+      internalID: -4221972787751580829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_9
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 394
-        width: 250
-        height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: afdcebd9fa00e6a80800000000000000
-      internalID: -8471833094771520006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodPickaxe_Idle_10
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 394
-        width: 250
-        height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eddda4279a19928c0800000000000000
-      internalID: -4023524635125817890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodPickaxe_Idle_11
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 394
-        width: 250
-        height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57c6dd1c71c0ddac0800000000000000
-      internalID: -3828890812018758539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodPickaxe_Idle_12
+      name: StoneAxe_Attack_432x680_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 250
-        height: 393
+        y: 170
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +364,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04f80812add907430800000000000000
-      internalID: 3778693647554350912
+      spriteID: 2fcae4de4168e1a50800000000000000
+      internalID: 6493775137153658098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_13
+      name: StoneAxe_Attack_432x680_9
       rect:
         serializedVersion: 2
-        x: 250
-        y: 1
-        width: 250
-        height: 393
+        x: 102
+        y: 177
+        width: 108
+        height: 163
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,20 +386,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd7053360030e8dc0800000000000000
-      internalID: -3634964549042108451
+      spriteID: bf342431bee1a8c40800000000000000
+      internalID: 5515254688657851387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_14
+      name: StoneAxe_Attack_432x680_10
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1
-        width: 250
-        height: 393
+        x: 211
+        y: 170
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,20 +408,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 079614a985f7789b0800000000000000
-      internalID: -5077950036315117200
+      spriteID: 8d79261020c6251b0800000000000000
+      internalID: -5669350225037060136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodPickaxe_Idle_15
+      name: StoneAxe_Attack_432x680_11
       rect:
         serializedVersion: 2
-        x: 750
-        y: 1
-        width: 250
-        height: 393
+        x: 324
+        y: 170
+        width: 108
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,8 +430,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd2f59d32286e8ad0800000000000000
-      internalID: -2698104630476934435
+      spriteID: 4cb76da886826c450800000000000000
+      internalID: 6108614374045678532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAxe_Attack_432x680_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3652a06d6fccb5de0800000000000000
+      internalID: -1343254703314950813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAxe_Attack_432x680_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 95
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1a1b3cb00836e20800000000000000
+      internalID: 3342656136455234022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAxe_Attack_432x680_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cad907cb5dae7d0800000000000000
+      internalID: -2888261205684802511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAxe_Attack_432x680_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 111
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c34e2aca5b539d80800000000000000
+      internalID: -8245146047288032317
       vertices: []
       indices: 
       edges: []
@@ -546,7 +528,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d35a94fa6c3ae418a9ce0899cd3dbda3
+    spriteID: 44837dad58e02459eb4190c24c3044b1
     internalID: 0
     vertices: []
     indices: 
@@ -556,24 +538,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":250.0,"y":393.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      WoodPickaxe_Idle_0: -133712972720176415
-      WoodPickaxe_Idle_1: -6925095266359626541
-      WoodPickaxe_Idle_10: -4023524635125817890
-      WoodPickaxe_Idle_11: -3828890812018758539
-      WoodPickaxe_Idle_12: 3778693647554350912
-      WoodPickaxe_Idle_13: -3634964549042108451
-      WoodPickaxe_Idle_14: -5077950036315117200
-      WoodPickaxe_Idle_15: -2698104630476934435
-      WoodPickaxe_Idle_2: 5683633270751603463
-      WoodPickaxe_Idle_3: 3051830120220543460
-      WoodPickaxe_Idle_4: 3769345165768653743
-      WoodPickaxe_Idle_5: 8473631742605800776
-      WoodPickaxe_Idle_6: 44816483447197329
-      WoodPickaxe_Idle_7: -8004870363104870109
-      WoodPickaxe_Idle_8: 3720140097725619530
-      WoodPickaxe_Idle_9: -8471833094771520006
+      StoneAxe_Attack_432x680_0: 58466844659061248
+      StoneAxe_Attack_432x680_1: -8955080170885687583
+      StoneAxe_Attack_432x680_10: -5669350225037060136
+      StoneAxe_Attack_432x680_11: 6108614374045678532
+      StoneAxe_Attack_432x680_12: -1343254703314950813
+      StoneAxe_Attack_432x680_13: 3342656136455234022
+      StoneAxe_Attack_432x680_14: -2888261205684802511
+      StoneAxe_Attack_432x680_15: -8245146047288032317
+      StoneAxe_Attack_432x680_2: 5574595794701326568
+      StoneAxe_Attack_432x680_3: 8210768913785564165
+      StoneAxe_Attack_432x680_4: 6593991837491093966
+      StoneAxe_Attack_432x680_5: 9084045784535205609
+      StoneAxe_Attack_432x680_6: -5503741059115036984
+      StoneAxe_Attack_432x680_7: -4221972787751580829
+      StoneAxe_Attack_432x680_8: 6493775137153658098
+      StoneAxe_Attack_432x680_9: 5515254688657851387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

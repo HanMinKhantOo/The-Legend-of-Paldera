@@ -11,6 +11,10 @@ public class PlayerPunch : MonoBehaviour
     [SerializeField] private int damageVsTrees = 1;
     [SerializeField] private int damageVsEnemies = 5;
 
+    [Header("Stone Mining")]
+    [SerializeField] private int damageVsStones = 1;
+    [SerializeField] private AnimatorOverrideController woodenPickaxeOverride;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -30,6 +34,8 @@ public class PlayerPunch : MonoBehaviour
     // Called by an Animation Event at the actual impact frame.
     public void PerformPunchHit()
     {
+        Debug.Log("Attack hit detected!");
+
         Vector2 direction = GetPunchDirection();
 
         Vector2 hitPoint =
@@ -51,6 +57,23 @@ public class PlayerPunch : MonoBehaviour
                 tree.TakeHit(damageVsTrees);
 
                 // Only hit one tree per punch.
+                break;
+            }
+
+            // Stone mining
+            StoneHealth stone = hit.GetComponent<StoneHealth>();
+
+            if (stone == null)
+                stone = hit.GetComponentInParent<StoneHealth>();
+
+            if (stone != null)
+            {
+                // Only the Wooden Pickaxe can mine stone.
+                if (animator.runtimeAnimatorController == woodenPickaxeOverride)
+                {
+                    stone.TakeHit(damageVsStones);
+                }
+
                 break;
             }
 

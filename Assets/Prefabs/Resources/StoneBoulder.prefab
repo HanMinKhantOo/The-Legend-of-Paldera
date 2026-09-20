@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5572906609068717710}
   - component: {fileID: 83551273459878388}
   - component: {fileID: 7427632010329575173}
+  - component: {fileID: 9093141853429321991}
   m_Layer: 6
   m_Name: StoneBoulder
   m_TagString: Untagged
@@ -264,3 +265,19 @@ PolygonCollider2D:
       - {x: 0.645, y: 0.48999998}
       - {x: 0.645, y: 0.64}
   m_UseDelaunayMesh: 1
+--- !u!114 &9093141853429321991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4255536522121050520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5797e0615335446d796036ed684193aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StoneHealth
+  maxHits: 8
+  stonePickupPrefab: {fileID: 2717952924341373684, guid: cf18314a27cfa4297ab02ac081159848, type: 3}
+  stoneDrops: 5
+  dropRadius: 0.7

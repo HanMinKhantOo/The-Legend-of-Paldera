@@ -452,7 +452,7 @@ TextureImporter:
         serializedVersion: 2
         x: 108
         y: 0
-        width: 108
+        width: 102
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -472,9 +472,9 @@ TextureImporter:
       name: WoodAxe_Atk_432x680_14
       rect:
         serializedVersion: 2
-        x: 216
+        x: 213
         y: 0
-        width: 108
+        width: 109
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -494,9 +494,9 @@ TextureImporter:
       name: WoodAxe_Atk_432x680_15
       rect:
         serializedVersion: 2
-        x: 324
+        x: 321
         y: 0
-        width: 108
+        width: 107
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

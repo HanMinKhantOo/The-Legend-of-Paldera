@@ -1,55 +1,67 @@
 fileFormatVersion: 2
-guid: b689e18c91543412fbf3b572857fb351
+guid: 00b4cde9a37e54983a608e78ba32db79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 299991592176128394
-    second: WoodSword_Atk_432x680_0
+      213: 9007181407095234249
+    second: StonePickAxe_Attack_432x680_0
   - first:
-      213: 1360970740400406789
-    second: WoodSword_Atk_432x680_1
+      213: 6288389450544861090
+    second: StonePickAxe_Attack_432x680_1
   - first:
-      213: -1395589677160808735
-    second: WoodSword_Atk_432x680_2
+      213: 1295571804088568146
+    second: StonePickAxe_Attack_432x680_2
   - first:
-      213: -5088792271763260619
-    second: WoodSword_Atk_432x680_3
+      213: 8942656215137006140
+    second: StonePickAxe_Attack_432x680_3
   - first:
-      213: 5780546816005753244
-    second: WoodSword_Atk_432x680_4
+      213: 1539101892388996258
+    second: StonePickAxe_Attack_432x680_4
   - first:
-      213: 5975057605277977177
-    second: WoodSword_Atk_432x680_5
+      213: -5344614213575565436
+    second: StonePickAxe_Attack_432x680_5
   - first:
-      213: 2969619717057894871
-    second: WoodSword_Atk_432x680_6
+      213: 6184780800755296726
+    second: StonePickAxe_Attack_432x680_6
   - first:
-      213: -6611621970424355157
-    second: WoodSword_Atk_432x680_7
+      213: 3871652990469490100
+    second: StonePickAxe_Attack_432x680_7
   - first:
-      213: 5464872570024440050
-    second: WoodSword_Atk_432x680_8
+      213: -7680364537813681031
+    second: StonePickAxe_Attack_432x680_8
   - first:
-      213: 4348237534421722666
-    second: WoodSword_Atk_432x680_9
+      213: 8158567274030855248
+    second: StonePickAxe_Attack_432x680_9
   - first:
-      213: -4879015117869265739
-    second: WoodSword_Atk_432x680_10
+      213: 4924221133325239748
+    second: StonePickAxe_Attack_432x680_10
   - first:
-      213: -4954674594496192642
-    second: WoodSword_Atk_432x680_11
+      213: -914930200344675850
+    second: StonePickAxe_Attack_432x680_11
   - first:
-      213: -6151915631623781258
-    second: WoodSword_Atk_432x680_12
+      213: 1357481916279342882
+    second: StonePickAxe_Attack_432x680_12
   - first:
-      213: 8686549759013110652
-    second: WoodSword_Atk_432x680_13
+      213: 2052381587243488324
+    second: StonePickAxe_Attack_432x680_13
   - first:
-      213: 4720573945880678
-    second: WoodSword_Atk_432x680_14
+      213: 208562298731394291
+    second: StonePickAxe_Attack_432x680_14
   - first:
-      213: -8054403198484068724
-    second: WoodSword_Atk_432x680_15
+      213: 1095273625850834564
+    second: StonePickAxe_Attack_432x680_15
+  - first:
+      213: 6076676780998642048
+    second: StonePickAxe_Attack_432x680_16
+  - first:
+      213: 7858784599478242546
+    second: StonePickAxe_Attack_432x680_17
+  - first:
+      213: -3527518681884937991
+    second: StonePickAxe_Attack_432x680_18
+  - first:
+      213: -1950373235607029475
+    second: StonePickAxe_Attack_432x680_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -158,13 +170,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_0
+      name: StonePickAxe_Attack_432x680_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 502
+        y: 510
         width: 108
-        height: 178
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a81134f73c8c92400800000000000000
-      internalID: 299991592176128394
+      spriteID: 9ce1a6584cfeffc70800000000000000
+      internalID: 9007181407095234249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_1
+      name: StonePickAxe_Attack_432x680_1
       rect:
         serializedVersion: 2
         x: 108
@@ -195,18 +207,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 501444b7da323e210800000000000000
-      internalID: 1360970740400406789
+      spriteID: 2af4a0153e8d44750800000000000000
+      internalID: 6288389450544861090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_2
+      name: StonePickAxe_Attack_432x680_2
       rect:
         serializedVersion: 2
-        x: 216
-        y: 496
+        x: 215
+        y: 504
         width: 108
         height: 170
       alignment: 0
@@ -217,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1eeb0a0359ed1ace0800000000000000
-      internalID: -1395589677160808735
+      spriteID: 25906bb01bbcaf110800000000000000
+      internalID: 1295571804088568146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_3
+      name: StonePickAxe_Attack_432x680_3
       rect:
         serializedVersion: 2
         x: 324
@@ -239,18 +251,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53b3cc1f36af069b0800000000000000
-      internalID: -5088792271763260619
+      spriteID: c323eab8272ba1c70800000000000000
+      internalID: 8942656215137006140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_4
+      name: StonePickAxe_Attack_432x680_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 333
+        x: 5
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a44af0440dfb5510800000000000000
+      internalID: 1539101892388996258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePickAxe_Attack_432x680_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 340
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f135290bd14d5b0800000000000000
+      internalID: -5344614213575565436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePickAxe_Attack_432x680_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 339
         width: 108
         height: 165
       alignment: 0
@@ -261,18 +317,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c99c987d3b0a83050800000000000000
-      internalID: 5780546816005753244
+      spriteID: 6d9eca2be51c4d550800000000000000
+      internalID: 6184780800755296726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_5
+      name: StonePickAxe_Attack_432x680_7
       rect:
         serializedVersion: 2
-        x: 108
-        y: 332
+        x: 324
+        y: 338
         width: 108
         height: 170
       alignment: 0
@@ -283,86 +339,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95a071b1c3babe250800000000000000
-      internalID: 5975057605277977177
+      spriteID: 4b54386c1efdab530800000000000000
+      internalID: 3871652990469490100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_6
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 333
-        width: 108
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d95b312665363920800000000000000
-      internalID: 2969619717057894871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodSword_Atk_432x680_7
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 332
-        width: 108
-        height: 178
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba620b709dcce34a0800000000000000
-      internalID: -6611621970424355157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodSword_Atk_432x680_8
+      name: StonePickAxe_Attack_432x680_8
       rect:
         serializedVersion: 2
         x: 0
+        y: 192
+        width: 108
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cbb1a252dd96590800000000000000
+      internalID: -7680364537813681031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePickAxe_Attack_432x680_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 190
+        width: 97
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0547cb4b5bd093170800000000000000
+      internalID: 8158567274030855248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePickAxe_Attack_432x680_10
+      rect:
+        serializedVersion: 2
+        x: 205
         y: 170
         width: 108
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 2, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f03517f5a027db40800000000000000
-      internalID: 5464872570024440050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodSword_Atk_432x680_9
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 170
-        width: 90
-        height: 161
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,42 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a262a36effa085c30800000000000000
-      internalID: 4348237534421722666
+      spriteID: 4c58257f709565440800000000000000
+      internalID: 4924221133325239748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_10
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 169
-        width: 123
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bc44a5b9914a4cb0800000000000000
-      internalID: -4879015117869265739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodSword_Atk_432x680_11
+      name: StonePickAxe_Attack_432x680_11
       rect:
         serializedVersion: 2
         x: 324
         y: 170
         width: 108
-        height: 161
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +427,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7fd66115b57d3bb0800000000000000
-      internalID: -4954674594496192642
+      spriteID: 6f9bd2e84d38d43f0800000000000000
+      internalID: -914930200344675850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_12
+      name: StonePickAxe_Attack_432x680_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 108
-        height: 170
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,17 +449,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67444e8c35100aaa0800000000000000
-      internalID: -6151915631623781258
+      spriteID: 227c8d05c9eb6d210800000000000000
+      internalID: 1357481916279342882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_13
+      name: StonePickAxe_Attack_432x680_13
       rect:
         serializedVersion: 2
-        x: 108
+        x: 107
+        y: 0
+        width: 108
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 9, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444533bfd268b7c10800000000000000
+      internalID: 2052381587243488324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePickAxe_Attack_432x680_14
+      rect:
+        serializedVersion: 2
+        x: 221
         y: 0
         width: 108
         height: 170
@@ -459,19 +493,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c734bb58bf2dc8870800000000000000
-      internalID: 8686549759013110652
+      spriteID: 3f47c614e46f4e200800000000000000
+      internalID: 208562298731394291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodSword_Atk_432x680_14
+      name: StonePickAxe_Attack_432x680_15
       rect:
         serializedVersion: 2
-        x: 216
+        x: 330
         y: 0
-        width: 125
+        width: 98
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -481,30 +515,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6602e254655c01000800000000000000
-      internalID: 4720573945880678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WoodSword_Atk_432x680_15
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 0
-        width: 91
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c86469c07f2093090800000000000000
-      internalID: -8054403198484068724
+      spriteID: 48e61b84f81333f00800000000000000
+      internalID: 1095273625850834564
       vertices: []
       indices: 
       edges: []
@@ -513,7 +525,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 94f7004ef0a5d4569b7db70c1dccebfe
+    spriteID: b47e04cd9b394403daf329127643f4ee
     internalID: 0
     vertices: []
     indices: 
@@ -525,22 +537,22 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":108.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      WoodSword_Atk_432x680_0: 299991592176128394
-      WoodSword_Atk_432x680_1: 1360970740400406789
-      WoodSword_Atk_432x680_10: -4879015117869265739
-      WoodSword_Atk_432x680_11: -4954674594496192642
-      WoodSword_Atk_432x680_12: -6151915631623781258
-      WoodSword_Atk_432x680_13: 8686549759013110652
-      WoodSword_Atk_432x680_14: 4720573945880678
-      WoodSword_Atk_432x680_15: -8054403198484068724
-      WoodSword_Atk_432x680_2: -1395589677160808735
-      WoodSword_Atk_432x680_3: -5088792271763260619
-      WoodSword_Atk_432x680_4: 5780546816005753244
-      WoodSword_Atk_432x680_5: 5975057605277977177
-      WoodSword_Atk_432x680_6: 2969619717057894871
-      WoodSword_Atk_432x680_7: -6611621970424355157
-      WoodSword_Atk_432x680_8: 5464872570024440050
-      WoodSword_Atk_432x680_9: 4348237534421722666
+      StonePickAxe_Attack_432x680_0: 9007181407095234249
+      StonePickAxe_Attack_432x680_1: 6288389450544861090
+      StonePickAxe_Attack_432x680_10: 4924221133325239748
+      StonePickAxe_Attack_432x680_11: -914930200344675850
+      StonePickAxe_Attack_432x680_12: 1357481916279342882
+      StonePickAxe_Attack_432x680_13: 2052381587243488324
+      StonePickAxe_Attack_432x680_14: 208562298731394291
+      StonePickAxe_Attack_432x680_15: 1095273625850834564
+      StonePickAxe_Attack_432x680_2: 1295571804088568146
+      StonePickAxe_Attack_432x680_3: 8942656215137006140
+      StonePickAxe_Attack_432x680_4: 1539101892388996258
+      StonePickAxe_Attack_432x680_5: -5344614213575565436
+      StonePickAxe_Attack_432x680_6: 6184780800755296726
+      StonePickAxe_Attack_432x680_7: 3871652990469490100
+      StonePickAxe_Attack_432x680_8: -7680364537813681031
+      StonePickAxe_Attack_432x680_9: 8158567274030855248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
