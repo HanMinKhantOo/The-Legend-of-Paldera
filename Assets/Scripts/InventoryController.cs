@@ -27,6 +27,12 @@ public class InventoryController : MonoBehaviour
     public GameObject gemBlueItemPrefab;
     public GameObject gemYellowItemPrefab;
 
+    [Header("Gem Prefabs (Boss Drop / Ending)")]
+    public GameObject gemRainbowItemPrefab;
+
+    [Header("Mining Prefabs")]
+    public GameObject ironBarItemPrefab;
+
     private List<Slot> slots = new List<Slot>();
 
     private void Start()
@@ -226,6 +232,12 @@ public class InventoryController : MonoBehaviour
 
             case ItemType.GemYellow:
                 return gemYellowItemPrefab;
+
+            case ItemType.GemRainbow:
+                return gemRainbowItemPrefab;
+
+            case ItemType.IronBar:
+                return ironBarItemPrefab;
 
             default:
                 Debug.LogError(

@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4950288818791461aadce3557cd7e0d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 80cd5705c4b344e9494adc417e4ae937, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: -835984217918413197}
   - component: {fileID: 6844548216437935766}
   m_Layer: 5
-  m_Name: GemGreen_Item
+  m_Name: GemRainBow_Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4950288818791461aadce3557cd7e0d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 80cd5705c4b344e9494adc417e4ae937, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6d9c94a1ce2047f8a1c12481bcc105c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItem
-  itemType: 10
+  itemType: 13
   itemCategory: 6
   quantity: 1
   maxStack: 99

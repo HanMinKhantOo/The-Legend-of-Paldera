@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: dc7b5f2cde6d14905860d54e30a25fbf
+guid: d3ad62948aa4044d4bbcd43449b4280a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2917557855875510777
-    second: stone_ore_pickup_0
+      213: 2073560362454473819
+    second: tree_branch_0
   - first:
-      213: -7792807698954051616
-    second: stone_ore_pickup_1
+      213: -5693231834456427881
+    second: tree_branch_1
+  - first:
+      213: 8594016251135229874
+    second: tree_branch_2
+  - first:
+      213: 3085062450973278705
+    second: tree_branch_3
+  - first:
+      213: 2437638628210903013
+    second: tree_branch_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,17 +121,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone_ore_pickup_0
+      name: tree_branch_0
       rect:
         serializedVersion: 2
-        x: 209
-        y: 397
-        width: 719
-        height: 626
+        x: 22
+        y: 71
+        width: 1187
+        height: 972
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70ec3e48690c287d0800000000000000
-      internalID: -2917557855875510777
+      spriteID: b5cdd68d924c6cc10800000000000000
+      internalID: 2073560362454473819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone_ore_pickup_1
+      name: tree_branch_1
       rect:
         serializedVersion: 2
-        x: 938
-        y: 441
-        width: 25
-        height: 18
+        x: 520
+        y: 962
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +175,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ef1ae49fa26ad390800000000000000
-      internalID: -7792807698954051616
+      spriteID: 79277438fc39df0b0800000000000000
+      internalID: -5693231834456427881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_branch_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 966
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf79d25f34144770800000000000000
+      internalID: 8594016251135229874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_branch_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 964
+        width: 136
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1882c24f750da20800000000000000
+      internalID: 3085062450973278705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_branch_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 955
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7084dca6b34d120800000000000000
+      internalID: 2437638628210903013
       vertices: []
       indices: 
       edges: []
@@ -163,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stone_ore_pickup_0: -2917557855875510777
-      stone_ore_pickup_1: -7792807698954051616
+      tree_branch_0: 2073560362454473819
+      tree_branch_1: -5693231834456427881
+      tree_branch_2: 8594016251135229874
+      tree_branch_3: 3085062450973278705
+      tree_branch_4: 2437638628210903013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

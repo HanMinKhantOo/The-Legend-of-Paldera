@@ -1,18 +1,23 @@
 using UnityEngine;
 
+/// <summary>
+/// Reworked to be a real drag-and-drop hotbar instead of a fixed readout.
+///
+/// Previously this hardcoded which ItemType lived in each slot
+/// (slotItemTypes[]), so items always landed in the same slot and couldn't
+/// be dragged elsewhere. Now each hotbar slot GameObject just needs a
+/// Slot component (the same one-line class inventory slots already use) -
+/// the existing DragDrop.cs on every item prefab already knows how to find
+/// and drop into any Slot, inventory or hotbar, with zero changes needed
+/// there. This script just reads whatever InventoryItem is currently
+/// sitting in the selected Slot.
+/// </summary>
 public class HotbarController : MonoBehaviour
 {
-    [Header("Inventory")]
-    [SerializeField] private InventoryController inventoryController;
-
     [Header("Hotbar Slots")]
-    [SerializeField] private HotbarSlotUI[] slots;
-
-    [Header("Item Sprites")]
-    [SerializeField] private Sprite woodenSwordSprite;
-    [SerializeField] private Sprite woodenPickaxeSprite;
-    [SerializeField] private Sprite woodenAxeSprite;
-    [SerializeField] private Sprite foodSprite;
+    [Tooltip("Each element needs a Slot component (for drag/drop) alongside its HotbarSlotUI (for the selection tint).")]
+    [SerializeField] private Slot[] slots;
+    [SerializeField] private HotbarSlotUI[] slotVisuals;
 
     [Header("Player Equipment Animation")]
     [SerializeField] private Animator playerAnimator;
@@ -26,14 +31,6 @@ public class HotbarController : MonoBehaviour
 
     private int selectedSlot = 0;
 
-    private readonly ItemType[] slotItemTypes =
-    {
-        ItemType.WoodenSword,
-        ItemType.WoodenPickaxe,
-        ItemType.WoodenAxe,
-        ItemType.Food
-    };
-
     private void Start()
     {
         // Safety fallback.
@@ -45,7 +42,6 @@ public class HotbarController : MonoBehaviour
         }
 
         SelectSlot(0);
-        RefreshHotbar();
         RefreshEquipmentAnimator();
     }
 
@@ -53,52 +49,39 @@ public class HotbarController : MonoBehaviour
     {
         HandleNumberKeys();
 
-        RefreshHotbar();
-
-        // This also catches situations where an item is crafted/removed
-        // while its hotbar slot is already selected.
+        // Slot contents can change any frame (drag/drop, crafting, eating
+        // consuming a stack to 0) - re-check the equipped item every frame,
+        // same as before.
         RefreshEquipmentAnimator();
     }
 
     private void HandleNumberKeys()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-            SelectSlot(0);
-
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-            SelectSlot(1);
-
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-            SelectSlot(2);
-
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-            SelectSlot(3);
-
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-            SelectSlot(4);
-
-        if (Input.GetKeyDown(KeyCode.Alpha6))
-            SelectSlot(5);
-
-        if (Input.GetKeyDown(KeyCode.Alpha7))
-            SelectSlot(6);
-
-        if (Input.GetKeyDown(KeyCode.Alpha8))
-            SelectSlot(7);
+        if (Input.GetKeyDown(KeyCode.Alpha1)) SelectSlot(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) SelectSlot(1);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) SelectSlot(2);
+        if (Input.GetKeyDown(KeyCode.Alpha4)) SelectSlot(3);
+        if (Input.GetKeyDown(KeyCode.Alpha5)) SelectSlot(4);
+        if (Input.GetKeyDown(KeyCode.Alpha6)) SelectSlot(5);
+        if (Input.GetKeyDown(KeyCode.Alpha7)) SelectSlot(6);
+        if (Input.GetKeyDown(KeyCode.Alpha8)) SelectSlot(7);
     }
 
     private void SelectSlot(int index)
     {
-        if (index < 0 || index >= slots.Length)
+        if (slots == null || index < 0 || index >= slots.Length)
             return;
 
         selectedSlot = index;
 
-        for (int i = 0; i < slots.Length; i++)
+        if (slotVisuals != null)
         {
-            if (slots[i] != null)
+            for (int i = 0; i < slotVisuals.Length; i++)
             {
-                slots[i].SetSelected(i == selectedSlot);
+                if (slotVisuals[i] != null)
+                {
+                    slotVisuals[i].SetSelected(i == selectedSlot);
+                }
             }
         }
 
@@ -114,69 +97,13 @@ public class HotbarController : MonoBehaviour
         RefreshEquipmentAnimator();
     }
 
-    private void RefreshHotbar()
-    {
-        if (inventoryController == null)
-            return;
-
-        for (int i = 0; i < slots.Length; i++)
-        {
-            if (slots[i] == null)
-                continue;
-
-            // Slots 5-8 are empty for now.
-            if (i >= slotItemTypes.Length)
-            {
-                slots[i].ClearSlot();
-                continue;
-            }
-
-            ItemType itemType = slotItemTypes[i];
-            int quantity = inventoryController.GetItemCount(itemType);
-
-            if (quantity <= 0)
-            {
-                slots[i].ClearSlot();
-                continue;
-            }
-
-            Sprite sprite = GetSprite(itemType);
-            slots[i].SetItem(sprite, quantity);
-        }
-    }
-
-    private Sprite GetSprite(ItemType itemType)
-    {
-        switch (itemType)
-        {
-            case ItemType.WoodenSword:
-                return woodenSwordSprite;
-
-            case ItemType.WoodenPickaxe:
-                return woodenPickaxeSprite;
-
-            case ItemType.WoodenAxe:
-                return woodenAxeSprite;
-
-            case ItemType.Food:
-                return foodSprite;
-
-            default:
-                return null;
-        }
-    }
-
     private void RefreshEquipmentAnimator()
     {
-        if (playerAnimator == null)
-            return;
-
-        if (defaultPlayerController == null)
+        if (playerAnimator == null || defaultPlayerController == null)
             return;
 
         // Default = player is holding nothing.
-        RuntimeAnimatorController targetController =
-            defaultPlayerController;
+        RuntimeAnimatorController targetController = defaultPlayerController;
 
         if (TryGetSelectedItem(out ItemType itemType))
         {
@@ -211,23 +138,26 @@ public class HotbarController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Reads whatever InventoryItem GameObject is actually sitting in the
+    /// selected Slot right now - no more hardcoded per-slot ItemType.
+    /// </summary>
     public bool TryGetSelectedItem(out ItemType itemType)
     {
         itemType = default;
 
-        if (selectedSlot < 0 ||
-            selectedSlot >= slotItemTypes.Length ||
-            inventoryController == null)
-        {
-            return false;
-        }
-
-        ItemType selectedType = slotItemTypes[selectedSlot];
-
-        if (inventoryController.GetItemCount(selectedType) <= 0)
+        if (slots == null || selectedSlot < 0 || selectedSlot >= slots.Length)
             return false;
 
-        itemType = selectedType;
+        Slot slot = slots[selectedSlot];
+        if (slot == null || slot.currentItem == null)
+            return false;
+
+        InventoryItem item = slot.currentItem.GetComponent<InventoryItem>();
+        if (item == null)
+            return false;
+
+        itemType = item.itemType;
         return true;
     }
 

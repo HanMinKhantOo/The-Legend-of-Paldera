@@ -329,6 +329,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItem
   itemType: 0
+  itemCategory: 0
   quantity: 1
   maxStack: 99
   quantityText: {fileID: 4324161105677356571}
+  hungerRestore: 25
+  hpRestore: 0

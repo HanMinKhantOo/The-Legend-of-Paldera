@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 8447803100919620080}
   - component: {fileID: -835984217918413197}
   - component: {fileID: 6844548216437935766}
-  - component: {fileID: -315884290500954678}
   m_Layer: 5
   m_Name: GemBlue_Item
   m_TagString: Untagged
@@ -334,17 +333,6 @@ MonoBehaviour:
   quantity: 1
   maxStack: 99
   quantityText: {fileID: 4324161105677356571}
+  quantityTextColor: {r: 0.29, g: 0.18, b: 0.09, a: 1}
   hungerRestore: 35
   hpRestore: 15
---- !u!114 &-315884290500954678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8664240452805076949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ada30c774caf74434a32f564b25bcf40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FoodConsumable

@@ -13,7 +13,7 @@ public class PlayerPunch : MonoBehaviour
 
     [Header("Stone Mining")]
     [SerializeField] private int damageVsStones = 1;
-    [SerializeField] private AnimatorOverrideController woodenPickaxeOverride;
+    [SerializeField] private HotbarController hotbarController;
 
     private void Awake()
     {
@@ -60,7 +60,10 @@ public class PlayerPunch : MonoBehaviour
                 break;
             }
 
-            // Stone mining
+            // Stone/Iron mining - reuses the same StoneHealth component
+            // for every mineable resource type (StoneBoulder, IronOre,
+            // and any future ore), so this check never needs to know
+            // which specific rock it's hitting.
             StoneHealth stone = hit.GetComponent<StoneHealth>();
 
             if (stone == null)
@@ -68,8 +71,14 @@ public class PlayerPunch : MonoBehaviour
 
             if (stone != null)
             {
-                // Only the Wooden Pickaxe can mine stone.
-                if (animator.runtimeAnimatorController == woodenPickaxeOverride)
+                // Any pickaxe works, not just one specific tool - checked
+                // via the currently-equipped hotbar item's ItemType rather
+                // than comparing Animator controllers, so adding a new
+                // pickaxe tier later only means updating
+                // InventoryItem.IsPickaxe(), not this file.
+                if (hotbarController != null &&
+                    hotbarController.TryGetSelectedItem(out ItemType equipped) &&
+                    InventoryItem.IsPickaxe(equipped))
                 {
                     stone.TakeHit(damageVsStones);
                 }

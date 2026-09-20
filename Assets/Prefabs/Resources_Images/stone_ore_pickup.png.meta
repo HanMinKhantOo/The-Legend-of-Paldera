@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 64fb8a7aa74a74c0b888c8729c412e83
+guid: dc7b5f2cde6d14905860d54e30a25fbf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5010787112377136037
-    second: wooden_axe_0
+      213: -2917557855875510777
+    second: stone_ore_pickup_0
+  - first:
+      213: -7792807698954051616
+    second: stone_ore_pickup_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +112,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_axe_0
+      name: stone_ore_pickup_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 39
-        width: 1101
-        height: 1163
+        x: 209
+        y: 397
+        width: 719
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a338569454e98540800000000000000
-      internalID: 5010787112377136037
+      spriteID: 70ec3e48690c287d0800000000000000
+      internalID: -2917557855875510777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_ore_pickup_1
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 441
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1ae49fa26ad390800000000000000
+      internalID: -7792807698954051616
       vertices: []
       indices: 
       edges: []
@@ -138,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wooden_axe_0: 5010787112377136037
+      stone_ore_pickup_0: -2917557855875510777
+      stone_ore_pickup_1: -7792807698954051616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

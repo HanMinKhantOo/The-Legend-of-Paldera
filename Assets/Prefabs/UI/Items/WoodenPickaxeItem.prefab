@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5034061168752090764, guid: 39539b2f295e64eec92f167bacc94f35, type: 3}
+  m_Sprite: {fileID: -3867017715014690049, guid: 755b8a733f14f4f9492249c899e48424, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -329,6 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItem
   itemType: 7
+  itemCategory: 0
   quantity: 1
   maxStack: 1
   quantityText: {fileID: 4324161105677356571}

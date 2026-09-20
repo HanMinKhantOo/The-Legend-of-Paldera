@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 755b8a733f14f4f9492249c899e48424
+guid: c8f64aca34ece4105b9139e4963d3eb5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3867017715014690049
-    second: wooden_pickaxe_0
+      213: -306787472437928336
+    second: stick_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_pickaxe_0
+      name: stick_0
       rect:
         serializedVersion: 2
-        x: 96
+        x: 209
         y: 41
-        width: 888
-        height: 1166
+        width: 791
+        height: 982
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffa186460e7955ac0800000000000000
-      internalID: -3867017715014690049
+      spriteID: 07e1cc35b621ebbf0800000000000000
+      internalID: -306787472437928336
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wooden_pickaxe_0: -3867017715014690049
+      stick_0: -306787472437928336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -196,11 +196,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4962fdcc6f43a4b16850664cac67c53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHP: 10
+  maxHP: 30
   currentHP: 0
-  lootPrefab: {fileID: 2717952924341373684, guid: 6885f037fcab543e2b03260119825265, type: 3}
-  minDrops: 2
-  maxDrops: 4
+  lootPrefab: {fileID: 2717952924341373684, guid: 18b02a7117e5b4357a79e39d323bc0d5, type: 3}
+  minDrops: 1
+  maxDrops: 1
   dropRadius: 0.5
   deathHideDelay: 2.5
 --- !u!114 &141824834636552045

@@ -17,7 +17,10 @@ public enum ItemType
     GemRed,
     GemGreen,
     GemBlue,
-    GemYellow
+    GemYellow,
+    GemRainbow,
+
+    IronBar
 }
 
 public enum ItemCategory
@@ -42,6 +45,8 @@ public class InventoryItem : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI quantityText;
+    [Tooltip("Applied to every item's quantity text at runtime, so changing it here (once) updates every item prefab everywhere - inventory, crafting, and hotbar - without editing each prefab individually.")]
+    [SerializeField] private Color quantityTextColor = new Color(0.29f, 0.18f, 0.09f); // dark brown, readable on the cream UI background
 
     [Header("Food Settings (only used when Item Type = Food)")]
     [Tooltip("Hunger restored per item eaten.")]
@@ -52,6 +57,27 @@ public class InventoryItem : MonoBehaviour
     private void Awake()
     {
         UpdateQuantityText();
+    }
+
+    /// <summary>
+    /// Central place to ask "is this ItemType a pickaxe" - used by the
+    /// mining hit-detection (PlayerPunch) so any new pickaxe tier just
+    /// needs one line added here, rather than every place that checks for
+    /// a pickaxe needing its own list of tool types.
+    /// </summary>
+    public static bool IsPickaxe(ItemType type)
+    {
+        switch (type)
+        {
+            case ItemType.WoodenPickaxe:
+                return true;
+
+            // Add future pickaxe tiers here, e.g.:
+            // case ItemType.StonePickaxe: return true;
+
+            default:
+                return false;
+        }
     }
 
     public void SetQuantity(int amount)
@@ -78,6 +104,7 @@ public class InventoryItem : MonoBehaviour
             quantityText.text = quantity > 1
                 ? quantity.ToString()
                 : "";
+            quantityText.color = quantityTextColor;
         }
     }
 }

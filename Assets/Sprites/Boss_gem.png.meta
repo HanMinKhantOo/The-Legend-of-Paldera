@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: 80cd5705c4b344e9494adc417e4ae937
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6919342522239246024
+    second: Boss_gem_0
+  - first:
+      213: -6005607391330491725
+    second: Boss_gem_1
+  - first:
+      213: 5638527093676744118
+    second: Boss_gem_2
+  - first:
+      213: 1971213427284354137
+    second: Boss_gem_3
+  - first:
+      213: 3851525387002872809
+    second: Boss_gem_4
+  - first:
+      213: 4179466898871485553
+    second: Boss_gem_5
+  - first:
+      213: 2542637858512246438
+    second: Boss_gem_6
+  - first:
+      213: -2150159251407667738
+    second: Boss_gem_7
+  - first:
+      213: 6095977947088466671
+    second: Boss_gem_8
+  - first:
+      213: -9141294841680331311
+    second: Boss_gem_9
+  - first:
+      213: 6436265390808271274
+    second: Boss_gem_10
+  - first:
+      213: 4439226456764556008
+    second: Boss_gem_11
+  - first:
+      213: -1956124116407417295
+    second: Boss_gem_12
+  - first:
+      213: -610189889229687627
+    second: Boss_gem_13
+  - first:
+      213: -4547551095217220091
+    second: Boss_gem_14
+  - first:
+      213: 7417489385925565223
+    second: Boss_gem_15
+  - first:
+      213: -3785320430045404003
+    second: Boss_gem_16
+  - first:
+      213: -3367564440765485180
+    second: Boss_gem_17
+  - first:
+      213: -8621959242362442926
+    second: Boss_gem_18
+  - first:
+      213: 8977617194526736576
+    second: Boss_gem_19
+  - first:
+      213: 7016815969174931445
+    second: Boss_gem_20
+  - first:
+      213: 1863732630560848322
+    second: Boss_gem_21
+  - first:
+      213: -9147533197057710500
+    second: Boss_gem_22
+  - first:
+      213: -1691575767006011365
+    second: Boss_gem_23
+  - first:
+      213: 4776522016729756722
+    second: Boss_gem_24
+  - first:
+      213: 1926646832522480305
+    second: Boss_gem_25
+  - first:
+      213: 1350523779838687767
+    second: Boss_gem_26
+  - first:
+      213: -4761065625801736262
+    second: Boss_gem_27
+  - first:
+      213: 6041962787401463422
+    second: Boss_gem_28
+  - first:
+      213: 7225041043091843701
+    second: Boss_gem_29
+  - first:
+      213: -5369887640706528195
+    second: Boss_gem_30
+  - first:
+      213: 6659499243883515891
+    second: Boss_gem_31
+  - first:
+      213: -5412316320074974959
+    second: Boss_gem_32
+  - first:
+      213: -8121591530139345787
+    second: Boss_gem_33
+  - first:
+      213: -6349417554071723766
+    second: Boss_gem_34
+  - first:
+      213: 5099958316683378588
+    second: Boss_gem_35
+  - first:
+      213: -7048817493267254460
+    second: Boss_gem_36
+  - first:
+      213: -8877685275629124832
+    second: Boss_gem_37
+  - first:
+      213: -706170460416934415
+    second: Boss_gem_38
+  - first:
+      213: -3816962065789443429
+    second: Boss_gem_39
+  - first:
+      213: -3069748049677274482
+    second: Boss_gem_40
+  - first:
+      213: 8029070860181506792
+    second: Boss_gem_41
+  - first:
+      213: -1207519104748550162
+    second: Boss_gem_42
+  - first:
+      213: -8219421325740618789
+    second: Boss_gem_43
+  - first:
+      213: 5592314181024389824
+    second: Boss_gem_44
+  - first:
+      213: 4540706665920101300
+    second: Boss_gem_45
+  - first:
+      213: 5095974364761980933
+    second: Boss_gem_46
+  - first:
+      213: 9034758321494981299
+    second: Boss_gem_47
+  - first:
+      213: -7282683201095037393
+    second: Boss_gem_48
+  - first:
+      213: 8368444015900451459
+    second: Boss_gem_49
+  - first:
+      213: 7454100033998943629
+    second: Boss_gem_50
+  - first:
+      213: 8843588142547842119
+    second: Boss_gem_51
+  - first:
+      213: 1517876985122762193
+    second: Boss_gem_52
+  - first:
+      213: 8266095037790531462
+    second: Boss_gem_53
+  - first:
+      213: 3068122024802634063
+    second: Boss_gem_54
+  - first:
+      213: 9039866882682304445
+    second: Boss_gem_55
+  - first:
+      213: -4383088797425880531
+    second: Boss_gem_56
+  - first:
+      213: 5819732850547514740
+    second: Boss_gem_57
+  - first:
+      213: 3762836945312288676
+    second: Boss_gem_58
+  - first:
+      213: -5869175475851929106
+    second: Boss_gem_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_gem_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1243
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce535d1d51760060800000000000000
+      internalID: 6919342522239246024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1221
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2294b85ebc7aca0800000000000000
+      internalID: -6005607391330491725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1142
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd940b7482104e40800000000000000
+      internalID: 5638527093676744118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1173
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954a3cd0b282b5b10800000000000000
+      internalID: 1971213427284354137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1221
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e384b7eeed537530800000000000000
+      internalID: 3851525387002872809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1151
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1740db13003700a30800000000000000
+      internalID: 4179466898871485553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1163
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6151d29a3494320800000000000000
+      internalID: 2542637858512246438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1141
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed73598d891922e0800000000000000
+      internalID: -2150159251407667738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1124
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2b2de15a3499450800000000000000
+      internalID: 6095977947088466671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1173
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd788e26c8932180800000000000000
+      internalID: -9141294841680331311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9844ba545325950800000000000000
+      internalID: 6436265390808271274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1156
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2a7f041fc4b9d30800000000000000
+      internalID: 4439226456764556008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_12
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1152
+        width: 92
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13606f8ea737ad4e0800000000000000
+      internalID: -1956124116407417295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_13
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4fde6578b2887f0800000000000000
+      internalID: -610189889229687627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50693a37f5ad3e0c0800000000000000
+      internalID: -4547551095217220091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1205
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bd2550c4730f660800000000000000
+      internalID: 7417489385925565223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_16
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1140
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d946d16df17d77bc0800000000000000
+      internalID: -3785320430045404003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1104
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fafe5bbf10441d0800000000000000
+      internalID: -3367564440765485180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_18
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1148
+        width: 158
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b271b00c5a85880800000000000000
+      internalID: -8621959242362442926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1123
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c08431e547e69c70800000000000000
+      internalID: 8977617194526736576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_20
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1113
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7c5f082fcb06160800000000000000
+      internalID: 7016815969174931445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_21
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1119
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c932e8f3fe4dd910800000000000000
+      internalID: 1863732630560848322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1108
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c562842e50f6d0180800000000000000
+      internalID: -9147533197057710500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_23
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1109
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10a2f06dc05688e0800000000000000
+      internalID: -1691575767006011365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_24
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1108
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347205977d994240800000000000000
+      internalID: 4776522016729756722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_25
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1116
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba422c1613dcba10800000000000000
+      internalID: 1926646832522480305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_26
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1076
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ab00ee8360eb210800000000000000
+      internalID: 1350523779838687767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1074
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfb3cdd90c4dedb0800000000000000
+      internalID: -4761065625801736262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_28
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1092
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e767139b42d59d350800000000000000
+      internalID: 6041962787401463422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 963
+        width: 21
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a6b1d7c80844460800000000000000
+      internalID: 7225041043091843701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1020
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c4de344a35a75b0800000000000000
+      internalID: -5369887640706528195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 939
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffc8ad574b4b6c50800000000000000
+      internalID: 6659499243883515891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_32
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 883
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119b1e98bf693e4b0800000000000000
+      internalID: -5412316320074974959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 915
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c193b888f4a4f80800000000000000
+      internalID: -8121591530139345787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 905
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01ecee006652e7a0800000000000000
+      internalID: -6349417554071723766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_35
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 843
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f363b7111b6c640800000000000000
+      internalID: 5099958316683378588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_36
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 794
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443fe3b06d19d2e90800000000000000
+      internalID: -7048817493267254460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_37
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 803
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023096e17402cc480800000000000000
+      internalID: -8877685275629124832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_38
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 794
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd79fb25bd2336f0800000000000000
+      internalID: -706170460416934415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_39
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 773
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92aa7b693d670bc0800000000000000
+      internalID: -3816962065789443429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_40
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 674
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82b90db9601665d0800000000000000
+      internalID: -3069748049677274482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_41
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 618
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea0f81586dfc6f60800000000000000
+      internalID: 8029070860181506792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_42
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 612
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee707fd95c70e3fe0800000000000000
+      internalID: -1207519104748550162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_43
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbc5f34adfbeed80800000000000000
+      internalID: -8219421325740618789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_44
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 578
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca96584e14eb9d40800000000000000
+      internalID: 5592314181024389824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_45
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 471
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb7a6ba7a4d30f30800000000000000
+      internalID: 4540706665920101300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_46
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 475
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50082246fa988b640800000000000000
+      internalID: 5095974364761980933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_47
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 473
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba763043d8e16d70800000000000000
+      internalID: 9034758321494981299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_48
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 431
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e8603c636beea90800000000000000
+      internalID: -7282683201095037393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_49
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 433
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3826d7a9e7fa22470800000000000000
+      internalID: 8368444015900451459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_50
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 426
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85fbb6cc78427760800000000000000
+      internalID: 7454100033998943629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_51
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 377
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744bb607f8cbaba70800000000000000
+      internalID: 8843588142547842119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_52
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 325
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddabfe6315901510800000000000000
+      internalID: 1517876985122762193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 308
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68faf1724a117b270800000000000000
+      internalID: 8266095037790531462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_54
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 200
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49c9e7d9b8249a20800000000000000
+      internalID: 3068122024802634063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 167
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7b817d80f047d70800000000000000
+      internalID: 9039866882682304445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_56
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22bf6a16f32c23c0800000000000000
+      internalID: -4383088797425880531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_57
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 106
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d5e8c7138d3c050800000000000000
+      internalID: 5819732850547514740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_58
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 69
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af0e01f348483430800000000000000
+      internalID: 3762836945312288676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_gem_59
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 47
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9596d30008c8ea0800000000000000
+      internalID: -5869175475851929106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_gem_0: 6919342522239246024
+      Boss_gem_1: -6005607391330491725
+      Boss_gem_10: 6436265390808271274
+      Boss_gem_11: 4439226456764556008
+      Boss_gem_12: -1956124116407417295
+      Boss_gem_13: -610189889229687627
+      Boss_gem_14: -4547551095217220091
+      Boss_gem_15: 7417489385925565223
+      Boss_gem_16: -3785320430045404003
+      Boss_gem_17: -3367564440765485180
+      Boss_gem_18: -8621959242362442926
+      Boss_gem_19: 8977617194526736576
+      Boss_gem_2: 5638527093676744118
+      Boss_gem_20: 7016815969174931445
+      Boss_gem_21: 1863732630560848322
+      Boss_gem_22: -9147533197057710500
+      Boss_gem_23: -1691575767006011365
+      Boss_gem_24: 4776522016729756722
+      Boss_gem_25: 1926646832522480305
+      Boss_gem_26: 1350523779838687767
+      Boss_gem_27: -4761065625801736262
+      Boss_gem_28: 6041962787401463422
+      Boss_gem_29: 7225041043091843701
+      Boss_gem_3: 1971213427284354137
+      Boss_gem_30: -5369887640706528195
+      Boss_gem_31: 6659499243883515891
+      Boss_gem_32: -5412316320074974959
+      Boss_gem_33: -8121591530139345787
+      Boss_gem_34: -6349417554071723766
+      Boss_gem_35: 5099958316683378588
+      Boss_gem_36: -7048817493267254460
+      Boss_gem_37: -8877685275629124832
+      Boss_gem_38: -706170460416934415
+      Boss_gem_39: -3816962065789443429
+      Boss_gem_4: 3851525387002872809
+      Boss_gem_40: -3069748049677274482
+      Boss_gem_41: 8029070860181506792
+      Boss_gem_42: -1207519104748550162
+      Boss_gem_43: -8219421325740618789
+      Boss_gem_44: 5592314181024389824
+      Boss_gem_45: 4540706665920101300
+      Boss_gem_46: 5095974364761980933
+      Boss_gem_47: 9034758321494981299
+      Boss_gem_48: -7282683201095037393
+      Boss_gem_49: 8368444015900451459
+      Boss_gem_5: 4179466898871485553
+      Boss_gem_50: 7454100033998943629
+      Boss_gem_51: 8843588142547842119
+      Boss_gem_52: 1517876985122762193
+      Boss_gem_53: 8266095037790531462
+      Boss_gem_54: 3068122024802634063
+      Boss_gem_55: 9039866882682304445
+      Boss_gem_56: -4383088797425880531
+      Boss_gem_57: 5819732850547514740
+      Boss_gem_58: 3762836945312288676
+      Boss_gem_59: -5869175475851929106
+      Boss_gem_6: 2542637858512246438
+      Boss_gem_7: -2150159251407667738
+      Boss_gem_8: 6095977947088466671
+      Boss_gem_9: -9141294841680331311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

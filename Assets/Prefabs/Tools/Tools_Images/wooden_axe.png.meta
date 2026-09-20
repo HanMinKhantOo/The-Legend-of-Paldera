@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 36b99786091a04d63873aa8874c514a5
+guid: 64fb8a7aa74a74c0b888c8729c412e83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -468005412369829907
-    second: stone_for_inventory_0
-  - first:
-      213: 354772535866899024
-    second: stone_for_inventory_1
+      213: 5010787112377136037
+    second: wooden_axe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone_for_inventory_0
+      name: wooden_axe_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 41
-        width: 1211
-        height: 1190
+        x: 110
+        y: 39
+        width: 1101
+        height: 1163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: def6cba9e8f4189f0800000000000000
-      internalID: -468005412369829907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stone_for_inventory_1
-      rect:
-        serializedVersion: 2
-        x: 1051
-        y: 180
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05a3960edb76ce400800000000000000
-      internalID: 354772535866899024
+      spriteID: 5a338569454e98540800000000000000
+      internalID: 5010787112377136037
       vertices: []
       indices: 
       edges: []
@@ -173,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stone_for_inventory_0: -468005412369829907
-      stone_for_inventory_1: 354772535866899024
+      wooden_axe_0: 5010787112377136037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

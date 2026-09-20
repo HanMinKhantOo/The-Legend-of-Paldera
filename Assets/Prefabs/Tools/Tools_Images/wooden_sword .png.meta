@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c4a4b41e7c10942c6a918682ed5683e6
+guid: eaf765e19347a4fc99b06f441a80a432
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -358881589869762687
-    second: wooden_plank_0
+      213: 524506271610129507
+    second: wooden_sword _0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wooden_plank_0
+      name: wooden_sword _0
       rect:
         serializedVersion: 2
-        x: 145
-        y: 103
-        width: 757
-        height: 1099
+        x: 96
+        y: 55
+        width: 984
+        height: 1179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 187a26f681ff40bf0800000000000000
-      internalID: -358881589869762687
+      spriteID: 36c49c1dcab674700800000000000000
+      internalID: 524506271610129507
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wooden_plank_0: -358881589869762687
+      wooden_sword _0: 524506271610129507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
