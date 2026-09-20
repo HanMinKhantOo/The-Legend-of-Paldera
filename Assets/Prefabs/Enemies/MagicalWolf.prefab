@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4962fdcc6f43a4b16850664cac67c53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHP: 20
+  maxHP: 30
   currentHP: 0
   lootPrefab: {fileID: 2717952924341373684, guid: 6885f037fcab543e2b03260119825265, type: 3}
   minDrops: 2
@@ -216,14 +216,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   mobName: Magical Wolf
-  moveSpeed: 2.6
+  moveSpeed: 3
   roamRadius: 3
   roamPauseMin: 1
   roamPauseMax: 3
   detectionRange: 4.5
   leashRange: 7
   attackRange: 0.9
-  attackDamage: 8
+  attackDamage: 5
   attackSpeed: 1.8
   useAbility: 0
   abilityCooldown: 8
