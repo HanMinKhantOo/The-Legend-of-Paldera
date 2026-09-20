@@ -3,6 +3,11 @@
 
 A 2D pixel-art survival RPG developed using Unity and C#.
 
+Team Members
+- Phone Khant Aung (6712096)
+- Thar Htet Zaw (6712149)
+- Han Min Khant Oo (6712157)
+
 ## 1. About the Game
 
 The Legend of Paldera is a top-down survival role-playing game set on a mysterious island filled with ancient ruins, magical creatures, valuable resources, and unexplored territories.
