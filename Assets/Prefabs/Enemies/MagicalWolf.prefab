@@ -202,6 +202,7 @@ MonoBehaviour:
   minDrops: 2
   maxDrops: 4
   dropRadius: 0.5
+  deathHideDelay: 0.3
 --- !u!114 &141824834636552045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +225,10 @@ MonoBehaviour:
   attackRange: 0.9
   attackDamage: 8
   attackSpeed: 1.8
+  useAbility: 0
+  abilityCooldown: 8
+  abilityDamage: 25
+  abilityRange: 2
   obstacleMask:
     serializedVersion: 2
     m_Bits: 64

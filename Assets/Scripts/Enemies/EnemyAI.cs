@@ -43,6 +43,17 @@ public class EnemyAI : MonoBehaviour
     [Tooltip("Attacks per second.")]
     public float attackSpeed = 1f;
 
+    [Header("Special Ability (optional - for bosses)")]
+    [Tooltip("Enable to give this enemy a second, stronger attack on its own cooldown (e.g. a boss AoE slam). Leave off for normal enemies like the Wolf/Boar.")]
+    public bool useAbility = false;
+    [Tooltip("Seconds between Ability uses. Independent of normal attack speed.")]
+    public float abilityCooldown = 8f;
+    public float abilityDamage = 25f;
+    [Tooltip("How close the player needs to be for the Ability to trigger. Can be larger than attackRange for an AoE move.")]
+    public float abilityRange = 2f;
+
+    private float abilityCooldownTimer;
+
     [Header("Obstacle Avoidance")]
     [Tooltip("Layers that block movement (ground obstacles, trees, rocks, etc). Leave empty to disable avoidance.")]
     public LayerMask obstacleMask;
@@ -111,6 +122,9 @@ public class EnemyAI : MonoBehaviour
         if (attackCooldownTimer > 0f)
             attackCooldownTimer -= Time.deltaTime;
 
+        if (abilityCooldownTimer > 0f)
+            abilityCooldownTimer -= Time.deltaTime;
+
         Transform player = PlayerVitals.Instance != null ? PlayerVitals.Instance.transform : null;
         float distanceToPlayer = player != null
             ? Vector2.Distance(transform.position, player.position)
@@ -164,7 +178,20 @@ public class EnemyAI : MonoBehaviour
                 SetMoving(false);
                 FacePoint(player.position);
 
-                if (attackCooldownTimer <= 0f)
+                // Prefer the Ability whenever it's off cooldown and the
+                // player is within its (usually larger, AoE-style) range -
+                // this is what makes a boss occasionally break from its
+                // normal attack rhythm to do its special move instead.
+                // Falls back to the regular attack otherwise, so a boss
+                // with useAbility=false behaves exactly like a Wolf/Boar.
+                if (useAbility && abilityCooldownTimer <= 0f && distanceToPlayer <= abilityRange)
+                {
+                    abilityCooldownTimer = abilityCooldown;
+                    attackCooldownTimer = 1f / Mathf.Max(0.01f, attackSpeed); // also resets normal attack rhythm so it doesn't double-hit immediately after
+                    if (animator != null) animator.SetTrigger("Ability");
+                    PlayerVitals.Instance.TakeDamage(abilityDamage, mobName);
+                }
+                else if (attackCooldownTimer <= 0f)
                 {
                     attackCooldownTimer = 1f / Mathf.Max(0.01f, attackSpeed);
                     if (animator != null) animator.SetTrigger("Attack");

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -25,6 +26,10 @@ public class EnemyHealth : MonoBehaviour
     [Tooltip("How far from the death position drops can scatter.")]
     public float dropRadius = 0.5f;
 
+    [Header("Death")]
+    [Tooltip("Seconds to keep the sprite visible after death before hiding it, so a Death animation actually has time to play. Set higher for enemies with a longer death clip (like a boss), lower/0 for enemies whose death frames already fade to invisible on their own (like the Wolf).")]
+    public float deathHideDelay = 1f;
+
     public float CurrentHP => currentHP;
     public bool IsDead { get; private set; }
 
@@ -32,23 +37,25 @@ public class EnemyHealth : MonoBehaviour
     public event Action<EnemyHealth> OnDeath;
     /// <summary>Raised whenever HP changes but the enemy survives (for hurt reactions).</summary>
     public event Action OnDamaged;
-
     /// <summary>
-    /// Fires on every enemy death, scene-wide, carrying the killed enemy's
-    /// EnemyAI.mobName (or gameObject.name as a fallback for enemies with no
-    /// EnemyAI). Used by QuestGiver to track cumulative kill-quest progress
-    /// without EnemyHealth needing to know quests exist at all.
+    /// Scene-wide static event fired whenever ANY enemy dies, passing its
+    /// display name (EnemyAI.mobName, e.g. "Magical Wolf"). Used by
+    /// QuestGiver for KillEnemy-type quests - kept as a static event rather
+    /// than per-instance so a QuestGiver doesn't need a reference to every
+    /// enemy in the scene, just this one class.
     /// </summary>
     public static event Action<string> OnAnyEnemyDeath;
 
     private Collider2D col;
     private SpriteRenderer sr;
+    private EnemyAI ai;
 
     private void Awake()
     {
         currentHP = maxHP;
         col = GetComponent<Collider2D>();
         sr = GetComponentInChildren<SpriteRenderer>();
+        ai = GetComponent<EnemyAI>();
     }
 
     /// <summary>
@@ -79,18 +86,25 @@ public class EnemyHealth : MonoBehaviour
 
         DropLoot();
 
-        // Hide and disable rather than Destroy - EnemySpawner keeps this
-        // instance around and reactivates/repositions it on respawn, the
-        // same way ResourceNode hides+shows itself instead of respawning
-        // a whole new object.
-        if (sr != null) sr.enabled = false;
+        // Collider disabled immediately so a dying enemy stops blocking
+        // movement/being hittable right away. The sprite, however, stays
+        // visible for deathHideDelay seconds so the Death animation
+        // (triggered by EnemyAI in response to OnDeath below) actually has
+        // time to play before EnemySpawner reuses/hides this instance -
+        // previously the sprite was hidden in this same frame, before the
+        // Death trigger even reached the Animator, so nothing ever showed.
         if (col != null) col.enabled = false;
 
-        EnemyAI ai = GetComponent<EnemyAI>();
-        string killedName = ai != null ? ai.mobName : gameObject.name;
-        OnAnyEnemyDeath?.Invoke(killedName);
-
         OnDeath?.Invoke(this);
+        OnAnyEnemyDeath?.Invoke(ai != null ? ai.mobName : gameObject.name);
+
+        StartCoroutine(HideAfterDelay());
+    }
+
+    private IEnumerator HideAfterDelay()
+    {
+        yield return new WaitForSeconds(deathHideDelay);
+        if (sr != null) sr.enabled = false;
     }
 
     private void DropLoot()

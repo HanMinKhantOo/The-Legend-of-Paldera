@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 27d4ccd6ae8e04eeb9aae6819324cc2c, type: 3}
+  m_Sprite: {fileID: -5100120550573919780, guid: 69629f08bf9f04334805549c0188104a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108,7 +108,7 @@ Animator:
   m_GameObject: {fileID: 932263447434998177}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fc5425d5816164a4784087c4a82f2b59, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1220e0f5f6919492ab87f53a1f5c3362, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -196,12 +196,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4962fdcc6f43a4b16850664cac67c53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHP: 200
+  maxHP: 10
   currentHP: 0
   lootPrefab: {fileID: 2717952924341373684, guid: 6885f037fcab543e2b03260119825265, type: 3}
   minDrops: 2
   maxDrops: 4
   dropRadius: 0.5
+  deathHideDelay: 2.5
 --- !u!114 &141824834636552045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,15 +216,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   mobName: Stone Golem
-  moveSpeed: 2.6
+  moveSpeed: 1.5
   roamRadius: 3
   roamPauseMin: 1
   roamPauseMax: 3
   detectionRange: 4.5
   leashRange: 7
   attackRange: 0.9
-  attackDamage: 8
-  attackSpeed: 1.8
+  attackDamage: 10
+  attackSpeed: 0.6
+  useAbility: 1
+  abilityCooldown: 8
+  abilityDamage: 20
+  abilityRange: 2
   obstacleMask:
     serializedVersion: 2
     m_Bits: 64

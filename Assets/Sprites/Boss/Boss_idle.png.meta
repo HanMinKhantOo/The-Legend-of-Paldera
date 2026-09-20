@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 69629f08bf9f04334805549c0188104a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5100120550573919780
+    second: Boss_idle_0
+  - first:
+      213: -1399601623187779255
+    second: Boss_idle_1
+  - first:
+      213: 7755866159424499840
+    second: Boss_idle_2
+  - first:
+      213: -923624157603757574
+    second: Boss_idle_3
+  - first:
+      213: 287802287003233561
+    second: Boss_idle_4
+  - first:
+      213: 6356266969646760511
+    second: Boss_idle_5
+  - first:
+      213: 5447198055000443554
+    second: Boss_idle_6
+  - first:
+      213: -2737084980986554114
+    second: Boss_idle_7
+  - first:
+      213: -614639398791798814
+    second: Boss_idle_8
+  - first:
+      213: -2377712722143174295
+    second: Boss_idle_9
+  - first:
+      213: 8510200742292253074
+    second: Boss_idle_10
+  - first:
+      213: 494020032696046558
+    second: Boss_idle_11
+  - first:
+      213: -4817212842696194683
+    second: Boss_idle_12
+  - first:
+      213: -6142490050189237139
+    second: Boss_idle_13
+  - first:
+      213: -6784170521494413339
+    second: Boss_idle_14
+  - first:
+      213: 685508939110612159
+    second: Boss_idle_15
+  - first:
+      213: -4367921971202641492
+    second: Boss_idle_16
+  - first:
+      213: 7386923418427830190
+    second: Boss_idle_17
+  - first:
+      213: 930030146823637821
+    second: Boss_idle_18
+  - first:
+      213: -6545029053855156910
+    second: Boss_idle_19
+  - first:
+      213: -3575197444449731014
+    second: Boss_idle_20
+  - first:
+      213: -6550198617571633464
+    second: Boss_idle_21
+  - first:
+      213: -3546598327836210725
+    second: Boss_idle_22
+  - first:
+      213: -6390162683616732833
+    second: Boss_idle_23
+  - first:
+      213: 5215237958758102435
+    second: Boss_idle_24
+  - first:
+      213: 4264977901828151669
+    second: Boss_idle_25
+  - first:
+      213: 8383262641091609353
+    second: Boss_idle_26
+  - first:
+      213: 7140981801961472692
+    second: Boss_idle_27
+  - first:
+      213: 5178752570978530348
+    second: Boss_idle_28
+  - first:
+      213: 3464896443520440341
+    second: Boss_idle_29
+  - first:
+      213: 1037808529496913352
+    second: Boss_idle_30
+  - first:
+      213: 1688621546517137027
+    second: Boss_idle_31
+  - first:
+      213: -8274237362646662455
+    second: Boss_idle_32
+  - first:
+      213: 2086224623643578252
+    second: Boss_idle_33
+  - first:
+      213: -8579336662124658505
+    second: Boss_idle_34
+  - first:
+      213: 1234126621278441599
+    second: Boss_idle_35
+  - first:
+      213: -5754444649253806096
+    second: Boss_idle_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_idle_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 947
+        width: 260
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd13f5f716bb839b0800000000000000
+      internalID: -5100120550573919780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 947
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94115d63dbd939ce0800000000000000
+      internalID: -1399601623187779255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 947
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08078fdfd2f52ab60800000000000000
+      internalID: 7755866159424499840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 947
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af10f04e8b0ae23f0800000000000000
+      internalID: -923624157603757574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 623
+        width: 265
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d6f5ab7aa7ef300800000000000000
+      internalID: 287802287003233561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 623
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f320857c12ff53850800000000000000
+      internalID: 6356266969646760511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 620
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa008145c5589b40800000000000000
+      internalID: 5447198055000443554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 618
+        width: 307
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef85d3426bbe30ad0800000000000000
+      internalID: -2737084980986554114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 318
+        width: 151
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef1e0a29bc5877f0800000000000000
+      internalID: -614639398791798814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 314
+        width: 162
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961aaba70eaa00fd0800000000000000
+      internalID: -2377712722143174295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 315
+        width: 167
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29968937c7e4a1670800000000000000
+      internalID: 8510200742292253074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_11
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 312
+        width: 148
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed356c03a9c1bd600800000000000000
+      internalID: 494020032696046558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2
+        width: 149
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585c4a73172d52db0800000000000000
+      internalID: -4817212842696194683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 166
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64691af7dd71caa0800000000000000
+      internalID: -6142490050189237139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2
+        width: 161
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef16a2dad8c9d1a0800000000000000
+      internalID: -6784170521494413339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_idle_15
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2
+        width: 157
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcfa068fba638900800000000000000
+      internalID: 685508939110612159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6cc74f39fd5ea4074a41980ddbcab0fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":307.0,"y":319.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Boss_idle_0: -5100120550573919780
+      Boss_idle_1: -1399601623187779255
+      Boss_idle_10: 8510200742292253074
+      Boss_idle_11: 494020032696046558
+      Boss_idle_12: -4817212842696194683
+      Boss_idle_13: -6142490050189237139
+      Boss_idle_14: -6784170521494413339
+      Boss_idle_15: 685508939110612159
+      Boss_idle_2: 7755866159424499840
+      Boss_idle_3: -923624157603757574
+      Boss_idle_4: 287802287003233561
+      Boss_idle_5: 6356266969646760511
+      Boss_idle_6: 5447198055000443554
+      Boss_idle_7: -2737084980986554114
+      Boss_idle_8: -614639398791798814
+      Boss_idle_9: -2377712722143174295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
