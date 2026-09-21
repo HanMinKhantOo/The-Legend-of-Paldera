@@ -601,8 +601,15 @@ For a first-time player or project evaluator:
 The stone mining and stone crafting features are still undergoing development and should not be relied upon for the current gameplay demonstration.
 
 ---
+## 17. Credit to Owner for Main Menu & Background Musics
 
-## 17. Development Repository
+Main Menu: https://opengameart.org/content/rpgvillageexplorationmusic
+
+Gameplay Background Music: https://opengameart.org/content/rpg-the-secret-within-the-woods
+
+---
+
+## 18. Development Repository
 
 GitHub Repository:
 
